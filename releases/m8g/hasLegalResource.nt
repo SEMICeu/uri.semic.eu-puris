@@ -1,0 +1,4 @@
+<http://data.europa.eu/m8g/hasLegalResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.europa.eu/m8g/hasLegalResource> <http://www.w3.org/2000/01/rdf-schema#comment> "Cardinality [0..n]. The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."@en .
+<http://data.europa.eu/m8g/hasLegalResource> <http://www.w3.org/2000/01/rdf-schema#label> "hasLegalResource"@en .
+<http://data.europa.eu/m8g/hasLegalResource> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResource> .

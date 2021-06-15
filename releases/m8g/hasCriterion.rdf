@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasCriterion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasCriterion">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Cardinality [0..n]. Links a Public Service to a class that describes the criteria for needing or using the service, such as residency in a given location, being over a certain age etc. The Criterion class is defined in the Core Criterion and Core Evidence Vocabulary.</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasCriterion">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">hasCriterion</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasCriterion">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+  </rdf:Description>
+</rdf:RDF>

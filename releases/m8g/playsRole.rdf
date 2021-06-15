@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/playsRole">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/playsRole">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Cardinality [0..n]. This property links an Agent to the Participation class. The Participation class facilitates the detailed description of how an Agent participates in or interacts with a Public Service and may include temporal and spatial constraints on that participation.</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/playsRole">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">playsRole</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/playsRole">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g/Participation"/>
+  </rdf:Description>
+</rdf:RDF>

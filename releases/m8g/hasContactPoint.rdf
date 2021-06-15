@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasContactPoint">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasContactPoint">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Cardinality [0..n]. A contact point for the service is almost always helpful. The value of this property, the contact information itself, should be provided using VCard. Note that the contact information should be relevant to the Public Service which may not be the same as contact information for the Competent Authority or any Participant.</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasContactPoint">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">hasContactPoint</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasContactPoint">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://schema.org/ContactPoint"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/PublicOrganisation">
+    <ns0:usageNote xmlns:ns0="http://purl.org/vocab/vann/" xml:lang="en">Mandatory class. The CPSV-AP reuses the Core Public Organisation Vocabulary that defines the concept of a Public Organisation and associated properties and relationships. It is largely based on the W3C Organization Ontology.</ns0:usageNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/PublicOrganisation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/PublicOrganisation">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g/cpov"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/PublicOrganisation">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">PublicOrganisation</ns0:label>
+  </rdf:Description>
+</rdf:RDF>

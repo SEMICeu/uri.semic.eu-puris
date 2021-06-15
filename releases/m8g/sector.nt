@@ -1,0 +1,5 @@
+<http://data.europa.eu/m8g/sector> <http://purl.org/vocab/vann/usageNote> "The CPSV-AP v2.0 recommends to use as controlled vocabulary the List of NACE codes (http://ec.europa.eu/competition/mergers/cases/index/nace_all.html)."@en .
+<http://data.europa.eu/m8g/sector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.europa.eu/m8g/sector> <http://www.w3.org/2000/01/rdf-schema#comment> "Cardinality [0..n]. This property represents the industry or sector a Public Service relates to, or is intended for. For example: environment, safety, housing. Note that a single Public Service may relate to multiple sectors. The possible values for this property are provided as a controlled vocabulary."@en .
+<http://data.europa.eu/m8g/sector> <http://www.w3.org/2000/01/rdf-schema#label> "sector"@en .
+<http://data.europa.eu/m8g/sector> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .

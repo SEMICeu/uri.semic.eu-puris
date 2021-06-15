@@ -1,0 +1,9 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://data.europa.eu/m8g/bias>
+    a rdf:Property, <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+    <http://www.w3.org/2000/01/rdf-schema#domain> _:genid1 ;
+    <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> ;
+    <http://www.w3.org/2000/01/rdf-schema#range> _:genid2 ;
+    <http://www.w3.org/2004/02/skos/core#scopeNote> "In neural networks, the bias is equivalent to an intercept added in a linear equation used to shift the activation function to either right or left. It can be also used to manually adjust the pass/fail calculation of a weighted criterion."@en .
+

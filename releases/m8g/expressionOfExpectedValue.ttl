@@ -1,0 +1,9 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://data.europa.eu/m8g/expressionOfExpectedValue>
+    a rdf:Property, <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+    <http://www.w3.org/2000/01/rdf-schema#domain> _:genid7 ;
+    <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> ;
+    <http://www.w3.org/2000/01/rdf-schema#range> _:genid8 ;
+    <http://www.w3.org/2004/02/skos/core#scopeNote> "Common example languages include XPath, Object Constraint Language (OCL), JavaScript and Rule Interchange Format (RIF). Using a Literal datatype, it is possible to annotate the expression language used, e.g. \"today.getDate() - birthDate.getDate()\"^^ex:JavaScript\"."@en .
+

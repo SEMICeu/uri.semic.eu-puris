@@ -1,0 +1,8 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://data.europa.eu/m8g/hasCriterion>
+    a <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Cardinality [0..n]. Links a Public Service to a class that describes the criteria for needing or using the service, such as residency in a given location, being over a certain age etc. The Criterion class is defined in the Core Criterion and Core Evidence Vocabulary."@en ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "hasCriterion"@en ;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/CriterionRequirement> .
+

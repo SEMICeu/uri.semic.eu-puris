@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/sector">
+    <ns0:usageNote xmlns:ns0="http://purl.org/vocab/vann/" xml:lang="en">The CPSV-AP v2.0 recommends to use as controlled vocabulary the List of NACE codes (http://ec.europa.eu/competition/mergers/cases/index/nace_all.html).</ns0:usageNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/sector">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/sector">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Cardinality [0..n]. This property represents the industry or sector a Public Service relates to, or is intended for. For example: environment, safety, housing. Note that a single Public Service may relate to multiple sectors. The possible values for this property are provided as a controlled vocabulary.</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/sector">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">sector</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/sector">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+</rdf:RDF>

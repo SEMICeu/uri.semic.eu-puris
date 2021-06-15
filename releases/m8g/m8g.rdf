@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/bias">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/bias">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/bias">
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/bias">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/bias">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/bias">
+    <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">In neural networks, the bias is equivalent to an intercept added in a linear equation used to shift the activation function to either right or left. It can be also used to manually adjust the pass/fail calculation of a weighted criterion.</ns0:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/BusinessEvent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/BusinessEvent">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Optional class. This class represents a Business Event, which specialises Event. A Business Event is a specific situation or event in the lifecycle of a business that fulfils one or more needs or (legal) obligations of that business at this specific point in time. A Business Event requires a set of public services to be delivered and consumed in order for the associated business need(s) or obligation(s) to be fulfilled. Business Events are defined within the context of a particular Member State. In other words, a Business Event groups together a number of public services that need to be delivered for completing that particular event.</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/BusinessEvent">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">BusinessEvent</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Channel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Channel">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Optional class. The Channel class represents the medium through which an Agent provides, uses or interacts in another way with a Public Service. Typical examples include online services, phone, walk-in centres etc.</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Channel">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g/cpsvap"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Channel">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Channel</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/confidentialityLevelType">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/confidentialityLevelType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/confidentialityLevelType">
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/confidentialityLevelType">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/confidentialityLevelType">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Constraint">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Constraint">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Constraint">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Constraint">
+    <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g/Requirement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Constraint">
+    <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Constraints are requirements in themselves, since they impose prerequisites which influence the definition, use and/or fulfilment of the requirement.
+They represent hard conditions such as minimum or maximum expressions which can be used to evaluate pieces of information, the required age, income, involvement in activities, etc. 
+
+An example from the eProcurement domain is a threshold as the minimum turnover required by the buying organisation to select the candidates. 
+
+Note that CCCEV does not provide any specific guidance on when which kind of Requirement should be used. Users of this vocabulary should make decisions on this topic in their specific context.</ns0:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Cost">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Cost">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Optional class. The Cost class represents any costs related to the execution of a Public Service that the Agent consuming it needs to pay.</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Cost">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g/cpsvap"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Cost">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Cost</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/cpsvap">
+    <ns0:created xmlns:ns0="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-07-09</ns0:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/cpsvap">
+    <ns0:creator xmlns:ns0="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/DIGIT"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/cpsvap">
+    <ns0:description xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">The original CPSV-AP was prepared in the context of Action 1.3 – Accessing Member State information resources at European level – Catalogue of Services  of the European Commission’s Interoperability for European Public Administrations (ISA) programme. The CPSV-AP has been seen as a first step for creating a model for describing public services related to business events, to facilitate the set-up of catalogues of services in the context of the Services Directive. Update to version 2.2 finds its motivation in the experience of implementing version 2.1 of the CPSV-AP by different MSs and stakeholders and consequent requests received from them, as detailed in https://github.com/catalogue-of-services-isa/CPSV-AP/issues.</ns0:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/cpsvap">
+    <ns0:publisher xmlns:ns0="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/DIGIT"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/cpsvap">
+    <ns0:status xmlns:ns0="http://purl.org/dc/terms/" rdf:resource="http://purl.org/adms/status/Completed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/cpsvap">
+    <ns0:title xmlns:ns0="http://purl.org/dc/terms/" xml:lang="en">Core Public Service Vocabulary Application Profile</ns0:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/cpsvap">
+    <ns0:type xmlns:ns0="http://purl.org/dc/terms/" rdf:resource="http://purl.org/adms/assettype/Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/cpsvap">
+    <ns0:preferredNamespacePrefix xmlns:ns0="http://purl.org/vocab/vann/">cpsvap</ns0:preferredNamespacePrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/cpsvap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/cpsvap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/cpsvap">
+    <rdf:type rdf:resource="http://www.w3.org/ns/adms#Asset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/cpsvap">
+    <ns0:homepage xmlns:ns0="http://xmlns.com/foaf/0.1/" rdf:resource="https://joinup.ec.europa.eu/asset/cpsv-ap/home"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Criterion">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Criterion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Criterion">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Criterion">
+    <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g/Requirement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Criterion">
+    <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">In general, Criteria are used for comparison, filtering or selection purposes. Criteria usually set minimum conditions (e.g. limits, intervals, thresholds, etc.) that need to be met in order to pass the requirements or to fulfil them to a certain degree or quality. The concept of Criteria is broader than the concept of Constraint since it covers more usages. The evaluation of the fulfilment is usually supported by the provision of Evidence. 
+In the eProcurement domain, the eProcurement Ontology defines different subclasses of Criterion such as exclusion grounds, selection criteria or award criteria. 
+
+A concrete example of a Criterion is 'participation in a criminal organisation' which could also be considered as an exclusion ground criterion in the procurement domain or for requiring a public service.</ns0:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/CriterionRequirement">
+    <ns0:usageNote xmlns:ns0="http://purl.org/vocab/vann/" xml:lang="en">Optional class. Not all public services are needed or usable by everyone. For example, the visa service operated by European countries is not needed by European citizens but is needed by some citizens from elsewhere, or public services offering unemployment benefits and grants are targeting specific societal groups. The CPSV reuses the Core Criterion and Core Evidence Vocabulary  for this class. The CCCEV provides more details but the CriterionRequirement class has three mandatory properties.</ns0:usageNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/CriterionRequirement">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/CriterionRequirement">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g/cccev"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/CriterionRequirement">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">CriterionRequirement</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/currency">
+    <ns0:usageNote xmlns:ns0="http://purl.org/vocab/vann/" xml:lang="en">The CPSV-AP v2.0 recommends to use as controlled vocabulary the European Publications Office's Currencies Named Authority List (NAL) (http://publications.europa.eu/mdr/authority/currency/index.html).</ns0:usageNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/currency">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/currency">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Cardinality [0..1]. This property represents the currency in which the Cost needs to be paid and the value of the Cost is expressed. The possible values for this property are described in a controlled vocabulary.</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/currency">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">currency</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/currency">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Event">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Event">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Optional class. This class represents an event that can be of any type that triggers, makes use of, or in some way is related to, a Public Service.  It is not expected to be used directly, rather, one or other of its subclasses should be used. The properties of the class are, of course, inherited by those subclasses.</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Event">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g/cpsvap"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Event">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Event</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Evidence">
+    <ns0:usageNote xmlns:ns0="http://purl.org/vocab/vann/" xml:lang="en">Optional class. Evidence can be any resource - document, artefact – anything needed for executing the Public Service. In the context of Public Services, Evidence is usually administrative documents or completed application forms. A specific Public Service may require the presence of certain Evidence or combinations of Evidence in order to be delivered. In some cases, the Output of one service will be Evidence for another service. Such relationships should be described in the associated Rule(s).</ns0:usageNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Evidence">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Evidence">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g/cccev"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Evidence">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Evidence</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/evidenceTypeClassification">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/evidenceTypeClassification">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/evidenceTypeClassification">
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/evidenceTypeClassification">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/evidenceTypeClassification">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/evidenceTypeClassification">
+    <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">This classification could be used for example for providing a common list of Evidence Types accepted within a specific domain.</ns0:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/EvidenceTypeList">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/EvidenceTypeList">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/EvidenceTypeList">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/EvidenceTypeList">
+    <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">An Evidence Type List is satisfied if and only if for all included Evidence Types a corresponding conformant Evidence is supporting the Requirement having this List. The Evidence Type List describes thus an AND condition on the different Evidence Types within the list and an OR condition between two or more Evidence Type Lists. Combinations of alternative Lists can be provided for a respondent of a Requirement to choose amongst them.&#xD;
+</ns0:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/EvidenceType">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/EvidenceType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/EvidenceType">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/EvidenceType">
+    <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Examples of Evidence Types include birth certificates, marriage evidences, university diploma's, etc. These are not concrete individual responses to a Requirement (Evidences), but descriptions about the desired form, content, source and/or other characteristics that an actual response should have and provide. For a specific Requirement, the requester can define the List of Evidence Types which would be accepted and, for each Evidence Type in this list, the specific information and form that should be part of the Evidence actually provided in order to answer the Requirement. Evidence Types can express conditions for an acceptable response at two levels: the concrete information that is being requested, and the metadata about how this concrete information is being obtained. This way, the Evidence Type can capture specific characteristics such as a specific format or source of the Evidence, as such characteristics may be strictly required depending on the Requirement. Implementations are free, however, to set the level of detail (i.e. number of characteristics) they want to specify for Evidence Types.&#xD;
+</ns0:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/expressionOfExpectedValue">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/expressionOfExpectedValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/expressionOfExpectedValue">
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/expressionOfExpectedValue">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/expressionOfExpectedValue">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/expressionOfExpectedValue">
+    <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Common example languages include XPath, Object Constraint Language (OCL), JavaScript and Rule Interchange Format (RIF). Using a Literal datatype, it is possible to annotate the expression language used, e.g. "today.getDate() - birthDate.getDate()"^^ex:JavaScript".</ns0:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasAddress">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasAddress">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Cardinality [0..1]. This property represents an Address related to an Agent. Asserting the address relationship implies that the Agent has an Address.</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasAddress">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">hasAddress</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasAddress">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/ns/locn#Address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasChannel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasChannel">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Cardinality [0..n]. This property links the Public Service to any Channel through which an Agent provides, uses or otherwise interacts with the Public Service, such as an online service, phone number or office.</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasChannel">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">hasChannel</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasChannel">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g/Channel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasCompetentAuthority">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasCompetentAuthority">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Cardinality [1..1]. This property links a Public Service to a Public Organisation, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organisation provides the public service directly or outsources it is not relevant. The Public Organisation that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service.</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasCompetentAuthority">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">hasCompetentAuthority</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasCompetentAuthority">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasContactPoint">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasContactPoint">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Cardinality [0..n]. A contact point for the service is almost always helpful. The value of this property, the contact information itself, should be provided using VCard. Note that the contact information should be relevant to the Public Service which may not be the same as contact information for the Competent Authority or any Participant.</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasContactPoint">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">hasContactPoint</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasContactPoint">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="https://schema.org/ContactPoint"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasCost">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasCost">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Cardinality [0..n]. The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship.</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasCost">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">hasCost</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasCost">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g/Cost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasCriterion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasCriterion">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Cardinality [0..n]. Links a Public Service to a class that describes the criteria for needing or using the service, such as residency in a given location, being over a certain age etc. The Criterion class is defined in the Core Criterion and Core Evidence Vocabulary.</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasCriterion">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">hasCriterion</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasCriterion">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasLegalResource">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasLegalResource">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Cardinality [0..n]. The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis.</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasLegalResource">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">hasLegalResource</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasLegalResource">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasParticipation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasParticipation">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Cardinality [0..n]. The CPSV-AP defines the three basic roles of Competent Authority, Service Provider and Service User but this simple model can be extended if required using the Has Participation property that links to the Participation class .</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasParticipation">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">hasParticipation</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasParticipation">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g/Participation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasQualifiedRelation">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasQualifiedRelation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasQualifiedRelation">
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasQualifiedRelation">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasQualifiedRelation">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasRequirement">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasRequirement">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasRequirement">
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasRequirement">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasRequirement">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid12"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/ifAccessedThrough">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/ifAccessedThrough">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Cardinality [0..1]. Where the cost varies depending on the channel used, for example, if accessed through an online service cf. accessed at a physical location, the cost can be linked to the channel using the If Accessed Through property.</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/ifAccessedThrough">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">ifAccesseThrough</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/ifAccessedThrough">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g/Channel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/InformationConcept">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/InformationConcept">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/InformationConcept">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/InformationConcept">
+    <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">An Information Concept is a piece of information that the Evidence provides in the context of a Requirement (or from the perspective of a Requirement: a piece of information that a Requirement needs), e.g. a person's age. The CCCEV modeling of Information Concepts and Supported Values exists, however, to provide a machine-processable way to connect information that an Evidence provides with the information a Requirement requires to make a decision.</ns0:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/InformationRequirement">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/InformationRequirement">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/InformationRequirement">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/InformationRequirement">
+    <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g/Requirement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/InformationRequirement">
+    <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Information Requirements are the most neutral kind of Requirements. They aim to request information in any form, e.g. a person's date of birth or a company's turnover.&#xD;
+They represent requests for data that prove one or more facts of the real world in a formal manner, or that leads to the source of such a proof. They can be understood as 'requests for Evidences'. &#xD;
+&#xD;
+The response to an Information Requirement is an Evidence when the issuer of the response is an authoritative source (e.g. a Civil Registry providing data about a natural person for the provision of public service through the Single Digital Gateway). In other cases, the responses might not be issued by an authoritative source, but the issuer supports the responses with Evidences (or commits to support them timely, e.g. a self-declaration or a declaration of oath). &#xD;
+&#xD;
+The Information Requirement can require structured data or documents of any form. For structured data, the Requirement can use 'Concepts' to specify the structure and type of the data expected in the response. For both structured and unstructured data, the Information Requirement can indicate the expected Type of Evidence, its format, source, and other properties related to the Evidence.&#xD;
+</ns0:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/isClassifiedBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/isClassifiedBy">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Cardinality [0..n]. The Is Classified By property allows to classify the Public Service with any Concept, other than those already foreseen and defined explicitely in the CPSV-AP (Thematic Area, Sector, …). It is a generic property which can be further specialised to make the classification explicit, for instance for classifying public services according level of digitisation, type of audience … The Concept is at its turn related to a Collection, which groups the different concepts into a controlled vocabulary.</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/isClassifiedBy">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">isClassifiedBy</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/isClassifiedBy">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/isDefinedBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/isDefinedBy">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Cardinality [0..n]. This property links the Cost class with one or more instances of the Public Organisation class. This property indicates which Public Organisation is the Competent Authority for defining the costs associated with the delivery of a particular Public Service.</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/isDefinedBy">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">isDefinedBy</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/isDefinedBy">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/isDescribedAt">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/isDescribedAt">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Cardinality [0..n]. The Is Described At property links a Public Service to the dataset where it belongs to. It is used to track the metadata of the origin of the public service descriptions.</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/isDescribedAt">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">isDescribedAt</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/isDescribedAt">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g/PublicServiceDataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/isGroupedBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/isGroupedBy">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Cardinality [0..n]. This property links the Public Service to the Event class. Several Public Services may be associated with a particular Event and, likewise, the same Public Service may be associated with several different Events.</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/isGroupedBy">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">isGroupedBy</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/isGroupedBy">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g/Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/isRequirementOf">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/isRequirementOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/isRequirementOf">
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/isRequirementOf">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/isRequirementOf">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/isRequirementOf">
+    <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Inverse relation from hasRequirement. If there is no hierarchy then this relationship is not needed.</ns0:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/isSpecifiedIn">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/isSpecifiedIn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/isSpecifiedIn">
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/isSpecifiedIn">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/isSpecifiedIn">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid16"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/LifeEvent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/LifeEvent">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Optional class. The Life Event class represents an important event or situations in a citizen's life where public services may be required. Note the scope: an individual will encounter any number of 'events' in the general sense of the word. In the context of the CPSV-AP, the Life Event class only represents an event for which a Public Service is related. For example, a couple becoming engaged is not a CPSV-AP Life Event, getting married is, since only the latter has any relevance to public services.</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/LifeEvent">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">LifeEvent</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Output">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Output">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Optional class. Outputs can be any resource - document, artefact – anything produced by the Public Service. In the context of a Public Service, the output provides an official document or other artefact of the Competent Authority (Public Organisation) that permits/authorises/entitles an Agent to (do) something.</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Output">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g/cpsvap"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Output">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Output</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/ownedBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/ownedBy">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Cardinality [0..n]. This property links the Channel class with one or more instances of the Public Organisation class. This property indicates the owner of a specific Channel through which a Public Service is being delivered.</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/ownedBy">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">ownedBy</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/ownedBy">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Participation">
+    <ns0:usageNote xmlns:ns0="http://purl.org/vocab/vann/" xml:lang="en">Optional class. The CPSV-AP recognises a common role  connected with public services, i.e. the Competent Authority. However, this simple structure does not allow statements to be made about those participants, such the start and end date of a contract, nor does it support the inclusion of other roles. The Participation class supports this extra complexity if required, for instance, the description of a service user or a service provider. The model is consistent with the CPOV which in turn is based on the W3C Organization Ontology that supports the common cases simply but allows the complex cases where necessary. The Participation class can be mapped to the Organization Ontology’s Membership class that allows more complex relationships and richer metadata to be applied to a role filled by a given Agent.</ns0:usageNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Participation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Participation">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g/cpov"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Participation">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Participation</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/playsRole">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/playsRole">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Cardinality [0..n]. This property links an Agent to the Participation class. The Participation class facilitates the detailed description of how an Agent participates in or interacts with a Public Service and may include temporal and spatial constraints on that participation.</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/playsRole">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">playsRole</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/playsRole">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g/Participation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/processingTime">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/processingTime">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Cardinality [0..1]. The value of this property is the (estimated) time needed for executing a Public Service. The actual information is provided using the ISO8601 syntax for durations.</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/processingTime">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">processingTime</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/processingTime">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/providesValueFor">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/providesValueFor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/providesValueFor">
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid17"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/providesValueFor">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/providesValueFor">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid18"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/PublicOrganisation">
+    <ns0:usageNote xmlns:ns0="http://purl.org/vocab/vann/" xml:lang="en">Mandatory class. The CPSV-AP reuses the Core Public Organisation Vocabulary that defines the concept of a Public Organisation and associated properties and relationships. It is largely based on the W3C Organization Ontology.</ns0:usageNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/PublicOrganisation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/PublicOrganisation">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g/cpov"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/PublicOrganisation">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">PublicOrganisation</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/PublicServiceDataset">
+    <ns0:usageNote xmlns:ns0="http://purl.org/vocab/vann/" xml:lang="en">Optional class. The CPSV-AP reuses the Data Catalog Vocabulary (DCAT) for the creation of the Public Service Dataset class. The Public Service Dataset, is a specialisation of the Dataset class of the Data Catalog Vocabulary (DCAT) and inherits all its properties. The class describes the metadata of where the dataset is being described, for instance on a regional public service portal or a national eGovernment portal.</ns0:usageNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/PublicServiceDataset">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/PublicServiceDataset">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">PublicServiceDataset</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/query">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/query">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/query">
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid19"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/query">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/query">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid20"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/ReferenceFramework">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/ReferenceFramework">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/ReferenceFramework">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/ReferenceFramework">
+    <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Usual Reference Frameworks are legal and non-legal specifications. Examples include procedures, tendering legislation, etc.</ns0:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Requirement">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Requirement">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Requirement">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/Requirement">
+    <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Requirement is a generic class representing any type of prerequisite that may be desired, needed or imposed as an obligation. 
+
+CCCEV recommends to not use the Requirement class directly, but rather a more semantically-enriched subclass such as Criterion, Information Requirement or Constraint. Also note that the Requirement class is specified at a more abstract level and is not to be used as the instantiation of a Requirement for a specific Agent.</ns0:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/role">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/role">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Cardinality [1..n]. Provides the role played. This should be provided using a controlled vocabulary. Since this is an extension mechanism for the CPSV-AP, the controlled vocabulary should be decided to suit local implementations.</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/role">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">role</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/role">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/sector">
+    <ns0:usageNote xmlns:ns0="http://purl.org/vocab/vann/" xml:lang="en">The CPSV-AP v2.0 recommends to use as controlled vocabulary the List of NACE codes (http://ec.europa.eu/competition/mergers/cases/index/nace_all.html).</ns0:usageNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/sector">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/sector">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Cardinality [0..n]. This property represents the industry or sector a Public Service relates to, or is intended for. For example: environment, safety, housing. Note that a single Public Service may relate to multiple sectors. The possible values for this property are provided as a controlled vocabulary.</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/sector">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">sector</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/sector">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/specifiesEvidenceType">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/specifiesEvidenceType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/specifiesEvidenceType">
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid21"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/specifiesEvidenceType">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/specifiesEvidenceType">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid22"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/SupportedValue">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/SupportedValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/SupportedValue">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/SupportedValue">
+    <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">The notion of Supported Value is closely related to actual data exchange between two parties: (a) the Requirement processor, i.e. the Agent setting out Requirements for an objective and processing the supplied Evidences in the context of the Requirements, and (b) the Evidence provider, i.e. the Agent supplying information to an information request expressed as Requirements.
+
+Obtaining the actual Value for an Information Concept carried by an Evidence is the result of an information retrieval process on the business information of the Evidence. This process can be executed by the Evidence provider. In that case the Evidence provider can supply the Value as is. But it can also be executed by the Requirement processor. If the Requirement processor can process the business information of the supplied Evidence then the Requirement processor can query for the information itself. In CCCEV, the latter case is supported by the query attribute for a Supported Value. So instead of providing a Value, a query on the data is supplied.
+
+As described in the Evidence class, CCCEV does not impose how the actual information contained in an Evidence must be exchanged and processed in order to fulfill a Requirement. The combination of Supported Value and Information Concept, is one of the approaches that CCCEV supports.</ns0:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/supportsRequirement">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/supportsRequirement">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/supportsRequirement">
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/supportsRequirement">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/supportsRequirement">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid24"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/supportsValue">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/supportsValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/supportsValue">
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid25"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/supportsValue">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/supportsValue">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid26"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/thematicArea">
+    <ns0:usageNote xmlns:ns0="http://purl.org/vocab/vann/" xml:lang="en">Cardinality [0..n]. This property represents the Thematic Area of a Public Service as described in a controlled vocabulary, for instance social protection, health, recreation, culture and religion, family, traveling economic affairs, tax, staff, environment...</ns0:usageNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/thematicArea">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/thematicArea">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">thematicArea</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/thematicArea">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/validityPeriodConstraint">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/validityPeriodConstraint">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/validityPeriodConstraint">
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/validityPeriodConstraint">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/validityPeriodConstraint">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/validityPeriodConstraint">
+    <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">E.g. A Belgian birth evidence is valid for X months after emission. To express constraints on the validity period that must hold when assessing the evidence (e.g. the certificate of good conduct cannot be issued more than 3 months ago), we refer to the Constraint class.&#xD;
+</ns0:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/validityPeriod">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/validityPeriod">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/validityPeriod">
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid27"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/validityPeriod">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/validityPeriod">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid28"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/value">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/value">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Cardinality [0..1]. This property represents a numeric value indicating the amount of the Cost.</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/value">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">value</ns0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/value">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/weightingConsiderationDescription">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/weightingConsiderationDescription">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/weightingConsiderationDescription">
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid35"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/weightingConsiderationDescription">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/weightingConsiderationDescription">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid36"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/weightingType">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/weightingType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/weightingType">
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid37"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/weightingType">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/weightingType">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid38"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/weight">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/weight">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/weight">
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid33"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/weight">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/weight">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid34"/>
+  </rdf:Description>
+</rdf:RDF>

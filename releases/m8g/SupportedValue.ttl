@@ -1,0 +1,11 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://data.europa.eu/m8g/SupportedValue>
+    a <http://www.w3.org/2000/01/rdf-schema#Class>, <http://www.w3.org/2002/07/owl#Class> ;
+    <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> ;
+    <http://www.w3.org/2004/02/skos/core#scopeNote> """The notion of Supported Value is closely related to actual data exchange between two parties: (a) the Requirement processor, i.e. the Agent setting out Requirements for an objective and processing the supplied Evidences in the context of the Requirements, and (b) the Evidence provider, i.e. the Agent supplying information to an information request expressed as Requirements.
+
+Obtaining the actual Value for an Information Concept carried by an Evidence is the result of an information retrieval process on the business information of the Evidence. This process can be executed by the Evidence provider. In that case the Evidence provider can supply the Value as is. But it can also be executed by the Requirement processor. If the Requirement processor can process the business information of the supplied Evidence then the Requirement processor can query for the information itself. In CCCEV, the latter case is supported by the query attribute for a Supported Value. So instead of providing a Value, a query on the data is supplied.
+
+As described in the Evidence class, CCCEV does not impose how the actual information contained in an Evidence must be exchanged and processed in order to fulfill a Requirement. The combination of Supported Value and Information Concept, is one of the approaches that CCCEV supports."""@en .
+

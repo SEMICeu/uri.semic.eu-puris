@@ -1,0 +1,4 @@
+<http://data.europa.eu/m8g/hasParticipation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.europa.eu/m8g/hasParticipation> <http://www.w3.org/2000/01/rdf-schema#comment> "Cardinality [0..n]. The CPSV-AP defines the three basic roles of Competent Authority, Service Provider and Service User but this simple model can be extended if required using the Has Participation property that links to the Participation class ."@en .
+<http://data.europa.eu/m8g/hasParticipation> <http://www.w3.org/2000/01/rdf-schema#label> "hasParticipation"@en .
+<http://data.europa.eu/m8g/hasParticipation> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/Participation> .

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/PublicServiceDataset">
+    <ns0:usageNote xmlns:ns0="http://purl.org/vocab/vann/" xml:lang="en">Optional class. The CPSV-AP reuses the Data Catalog Vocabulary (DCAT) for the creation of the Public Service Dataset class. The Public Service Dataset, is a specialisation of the Dataset class of the Data Catalog Vocabulary (DCAT) and inherits all its properties. The class describes the metadata of where the dataset is being described, for instance on a regional public service portal or a national eGovernment portal.</ns0:usageNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/PublicServiceDataset">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/PublicServiceDataset">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">PublicServiceDataset</ns0:label>
+  </rdf:Description>
+</rdf:RDF>

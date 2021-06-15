@@ -1,0 +1,14 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://data.europa.eu/m8g/cpsvap>
+    <http://purl.org/dc/terms/created> "2018-07-09"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    <http://purl.org/dc/terms/creator> <http://publications.europa.eu/resource/authority/corporate-body/DIGIT> ;
+    <http://purl.org/dc/terms/description> "The original CPSV-AP was prepared in the context of Action 1.3 – Accessing Member State information resources at European level – Catalogue of Services  of the European Commission’s Interoperability for European Public Administrations (ISA) programme. The CPSV-AP has been seen as a first step for creating a model for describing public services related to business events, to facilitate the set-up of catalogues of services in the context of the Services Directive. Update to version 2.2 finds its motivation in the experience of implementing version 2.1 of the CPSV-AP by different MSs and stakeholders and consequent requests received from them, as detailed in https://github.com/catalogue-of-services-isa/CPSV-AP/issues."@en ;
+    <http://purl.org/dc/terms/publisher> <http://publications.europa.eu/resource/authority/corporate-body/DIGIT> ;
+    <http://purl.org/dc/terms/status> <http://purl.org/adms/status/Completed> ;
+    <http://purl.org/dc/terms/title> "Core Public Service Vocabulary Application Profile"@en ;
+    <http://purl.org/dc/terms/type> <http://purl.org/adms/assettype/Ontology> ;
+    <http://purl.org/vocab/vann/preferredNamespacePrefix> "cpsvap" ;
+    a <http://www.w3.org/2002/07/owl#NamedIndividual>, <http://www.w3.org/2002/07/owl#Ontology>, <http://www.w3.org/ns/adms#Asset> ;
+    <http://xmlns.com/foaf/0.1/homepage> <https://joinup.ec.europa.eu/asset/cpsv-ap/home> .
+

@@ -1,0 +1,8 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://data.europa.eu/m8g/ifAccessedThrough>
+    a <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Cardinality [0..1]. Where the cost varies depending on the channel used, for example, if accessed through an online service cf. accessed at a physical location, the cost can be linked to the channel using the If Accessed Through property."@en ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "ifAccesseThrough"@en ;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/Channel> .
+

@@ -1,0 +1,4 @@
+<http://data.europa.eu/m8g/Requirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://data.europa.eu/m8g/Requirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.europa.eu/m8g/Requirement> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
+<http://data.europa.eu/m8g/Requirement> <http://www.w3.org/2004/02/skos/core#scopeNote> "Requirement is a generic class representing any type of prerequisite that may be desired, needed or imposed as an obligation. \n\nCCCEV recommends to not use the Requirement class directly, but rather a more semantically-enriched subclass such as Criterion, Information Requirement or Constraint. Also note that the Requirement class is specified at a more abstract level and is not to be used as the instantiation of a Requirement for a specific Agent."@en .

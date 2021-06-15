@@ -1,0 +1,8 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://data.europa.eu/m8g/isDescribedAt>
+    a <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Cardinality [0..n]. The Is Described At property links a Public Service to the dataset where it belongs to. It is used to track the metadata of the origin of the public service descriptions."@en ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "isDescribedAt"@en ;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/PublicServiceDataset> .
+

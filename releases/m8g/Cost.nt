@@ -1,0 +1,4 @@
+<http://data.europa.eu/m8g/Cost> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.europa.eu/m8g/Cost> <http://www.w3.org/2000/01/rdf-schema#comment> "Optional class. The Cost class represents any costs related to the execution of a Public Service that the Agent consuming it needs to pay."@en .
+<http://data.europa.eu/m8g/Cost> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g/cpsvap> .
+<http://data.europa.eu/m8g/Cost> <http://www.w3.org/2000/01/rdf-schema#label> "Cost"@en .

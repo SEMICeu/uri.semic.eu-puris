@@ -1,0 +1,4 @@
+<http://data.europa.eu/m8g/ReferenceFramework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://data.europa.eu/m8g/ReferenceFramework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.europa.eu/m8g/ReferenceFramework> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
+<http://data.europa.eu/m8g/ReferenceFramework> <http://www.w3.org/2004/02/skos/core#scopeNote> "Usual Reference Frameworks are legal and non-legal specifications. Examples include procedures, tendering legislation, etc."@en .

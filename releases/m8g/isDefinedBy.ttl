@@ -1,0 +1,8 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://data.europa.eu/m8g/isDefinedBy>
+    a <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Cardinality [0..n]. This property links the Cost class with one or more instances of the Public Organisation class. This property indicates which Public Organisation is the Competent Authority for defining the costs associated with the delivery of a particular Public Service."@en ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "isDefinedBy"@en ;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/PublicOrganisation> .
+

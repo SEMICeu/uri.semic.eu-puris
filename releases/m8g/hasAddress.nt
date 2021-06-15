@@ -1,0 +1,4 @@
+<http://data.europa.eu/m8g/hasAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.europa.eu/m8g/hasAddress> <http://www.w3.org/2000/01/rdf-schema#comment> "Cardinality [0..1]. This property represents an Address related to an Agent. Asserting the address relationship implies that the Agent has an Address."@en .
+<http://data.europa.eu/m8g/hasAddress> <http://www.w3.org/2000/01/rdf-schema#label> "hasAddress"@en .
+<http://data.europa.eu/m8g/hasAddress> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/locn#Address> .

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/CriterionRequirement">
+    <ns0:usageNote xmlns:ns0="http://purl.org/vocab/vann/" xml:lang="en">Optional class. Not all public services are needed or usable by everyone. For example, the visa service operated by European countries is not needed by European citizens but is needed by some citizens from elsewhere, or public services offering unemployment benefits and grants are targeting specific societal groups. The CPSV reuses the Core Criterion and Core Evidence Vocabulary  for this class. The CCCEV provides more details but the CriterionRequirement class has three mandatory properties.</ns0:usageNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/CriterionRequirement">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/CriterionRequirement">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g/cccev"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/CriterionRequirement">
+    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">CriterionRequirement</ns0:label>
+  </rdf:Description>
+</rdf:RDF>

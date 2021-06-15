@@ -1,0 +1,3 @@
+<http://data.europa.eu/m8g/PublicServiceDataset> <http://purl.org/vocab/vann/usageNote> "Optional class. The CPSV-AP reuses the Data Catalog Vocabulary (DCAT) for the creation of the Public Service Dataset class. The Public Service Dataset, is a specialisation of the Dataset class of the Data Catalog Vocabulary (DCAT) and inherits all its properties. The class describes the metadata of where the dataset is being described, for instance on a regional public service portal or a national eGovernment portal."@en .
+<http://data.europa.eu/m8g/PublicServiceDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.europa.eu/m8g/PublicServiceDataset> <http://www.w3.org/2000/01/rdf-schema#label> "PublicServiceDataset"@en .

@@ -1,0 +1,8 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://data.europa.eu/m8g/role>
+    a <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Cardinality [1..n]. Provides the role played. This should be provided using a controlled vocabulary. Since this is an extension mechanism for the CPSV-AP, the controlled vocabulary should be decided to suit local implementations."@en ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "role"@en ;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+
