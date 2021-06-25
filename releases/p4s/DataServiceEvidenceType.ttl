@@ -1,0 +1,1 @@
+<http://data.europa.eu/p4s/DataServiceEvidenceType> a <http://www.w3.org/ns/dcat#Dataset>.
