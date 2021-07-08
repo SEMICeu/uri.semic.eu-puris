@@ -1,0 +1,9 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://data.europa.eu/r5r/availability/temporary>
+    <http://purl.org/dc/terms/identifier> "temporary" ;
+    a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    <http://www.w3.org/2004/02/skos/core#definition> "Data can disappear at any time, no planning."@en ;
+    <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.europa.eu/r5r/availability/1.0> ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "temporary"@en .
+
