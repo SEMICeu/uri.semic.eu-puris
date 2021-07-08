@@ -1,0 +1,5 @@
+<http://data.europa.eu/r5r/availability/temporary> <http://purl.org/dc/terms/identifier> "temporary" .
+<http://data.europa.eu/r5r/availability/temporary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.europa.eu/r5r/availability/temporary> <http://www.w3.org/2004/02/skos/core#definition> "Data can disappear at any time, no planning."@en .
+<http://data.europa.eu/r5r/availability/temporary> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.europa.eu/r5r/availability/1.0> .
+<http://data.europa.eu/r5r/availability/temporary> <http://www.w3.org/2004/02/skos/core#prefLabel> "temporary"@en .
