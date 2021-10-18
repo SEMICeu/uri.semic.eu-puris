@@ -1,0 +1,5 @@
+<http://data.europa.eu/r5r/availability> <http://purl.org/vocab/vann/usageNote> "Recommended property. This property indicates how long it is planned to keep the Distribution of the Dataset available . "@en .
+<http://data.europa.eu/r5r/availability> <http://purl.org/dc/terms/identifier> "dcatap:availability" .
+<http://data.europa.eu/r5r/availability> <http://www.w3.org/2000/01/rdf-schema#label> "Distribution - availability"@en .
+<http://data.europa.eu/r5r/availability> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/r5r/availability> .
+<http://data.europa.eu/r5r/availability> <http://www.w3.org/2000/01/rdf-schema#comment> "This property indicates how long it is planned to keep the Distribution of the Dataset available."@en .

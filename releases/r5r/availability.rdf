@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcatap="http://data.europa.eu/r5r/" xmlns:dct="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:vann="http://purl.org/vocab/vann/">
+  <rdf:Description rdf:about="http://data.europa.eu/r5r/availability">
+    <dct:identifier>dcatap:availability</dct:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/r5r/availability">
+    <vann:usageNote xml:lang="en">Recommended property. This property indicates how long it is planned to keep the Distribution of the Dataset available . </vann:usageNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/r5r/availability">
+    <rdfs:comment xml:lang="en">This property indicates how long it is planned to keep the Distribution of the Dataset available.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/r5r/availability">
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/r5r/availability"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/r5r/availability">
+    <rdfs:label xml:lang="en">Distribution - availability</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>
