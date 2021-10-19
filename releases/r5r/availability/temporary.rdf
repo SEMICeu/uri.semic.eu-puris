@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="http://data.europa.eu/r5r/availability/temporary">
+    <ns0:identifier xmlns:ns0="http://purl.org/dc/terms/">temporary</ns0:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/r5r/availability/temporary">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/r5r/availability/temporary">
+    <ns0:definition xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Data can disappear at any time, no planning.</ns0:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/r5r/availability/temporary">
+    <ns0:inScheme xmlns:ns0="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://data.europa.eu/r5r/availability/1.0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/r5r/availability/temporary">
+    <ns0:prefLabel xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">temporary</ns0:prefLabel>
+  </rdf:Description>
+</rdf:RDF>
