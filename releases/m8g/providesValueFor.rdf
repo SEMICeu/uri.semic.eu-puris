@@ -7,12 +7,12 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/providesValueFor">
-    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid17"/>
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid19"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/providesValueFor">
     <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/providesValueFor">
-    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid18"/>
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid20"/>
   </rdf:Description>
 </rdf:RDF>

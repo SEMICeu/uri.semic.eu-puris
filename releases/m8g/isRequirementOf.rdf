@@ -7,13 +7,13 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/isRequirementOf">
-    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid13"/>
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid15"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/isRequirementOf">
     <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/isRequirementOf">
-    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid14"/>
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid16"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/isRequirementOf">
     <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">The relation between a parent Requirement and a sub-Requirement can be complex. Therefore, qualified relations (see hasQualifiedRelation) can be used to represent this relationship on its own and qualify it with additional information such as a date, a place. This is left to implementers.

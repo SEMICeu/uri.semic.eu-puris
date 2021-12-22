@@ -2,8 +2,8 @@
 
 <http://data.europa.eu/m8g/weight>
     a rdf:Property, <http://www.w3.org/2002/07/owl#ObjectProperty> ;
-    <http://www.w3.org/2000/01/rdf-schema#domain> _:genid33 ;
+    <http://www.w3.org/2000/01/rdf-schema#domain> _:genid35 ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> ;
-    <http://www.w3.org/2000/01/rdf-schema#range> _:genid34 ;
+    <http://www.w3.org/2000/01/rdf-schema#range> _:genid36 ;
     <http://www.w3.org/2004/02/skos/core#scopeNote> "The weight must be between 0 and 1. Usually, all Criteria can be integrated within a weighted sum equal to 1."@en .
 

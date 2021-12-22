@@ -1,0 +1,9 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://data.europa.eu/m8g/isProvidedBy>
+    a rdf:Property, <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+    <http://www.w3.org/2000/01/rdf-schema#domain> _:genid13 ;
+    <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> ;
+    <http://www.w3.org/2000/01/rdf-schema#range> _:genid14 ;
+    <http://www.w3.org/2004/02/skos/core#scopeNote> "Agents transmitting Evidence are usually the Agents requesting the Evidence or service providers acting on behalf of the requesting Agents such as software developer companies."@en .
+

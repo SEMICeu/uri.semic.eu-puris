@@ -253,11 +253,8 @@ This may range from representational expectations such as the type (e.g. the val
 Other usage could be to harmonise the supplied values (e.g. rounding, turning to percentages) to facilitate further processing.
 
 Implementers are free to use their own approach for defining the expected values in more details. For instance, this can be by defining their own datatypes extending or encapsulating common xsd datatypes. But also by using more complex languages such as XPath, Object Constraint Language (OCL), JavaScript and Rule Interchange Format (RIF).
+
 Because of this freedom, implementers are recommended to well-document their usage of this property (and related information). 
-
-
-  
-
 </ns0:scopeNote>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/hasAddress">
@@ -476,6 +473,24 @@ Because of this freedom, implementers are recommended to well-document their usa
   <rdf:Description rdf:about="http://data.europa.eu/m8g/isGroupedBy">
     <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g/Event"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/isProvidedBy">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/isProvidedBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/isProvidedBy">
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/isProvidedBy">
+    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/isProvidedBy">
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/isProvidedBy">
+    <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Agents transmitting Evidence are usually the Agents requesting the Evidence or service providers acting on behalf of the requesting Agents such as software developer companies.</ns0:scopeNote>
+  </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/isRequirementOf">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
@@ -483,13 +498,13 @@ Because of this freedom, implementers are recommended to well-document their usa
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/isRequirementOf">
-    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid13"/>
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid15"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/isRequirementOf">
     <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/isRequirementOf">
-    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid14"/>
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid16"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/isRequirementOf">
     <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">The relation between a parent Requirement and a sub-Requirement can be complex. Therefore, qualified relations (see hasQualifiedRelation) can be used to represent this relationship on its own and qualify it with additional information such as a date, a place. This is left to implementers.
@@ -503,13 +518,13 @@ In the case where the purpose is to link the two Requirements without additional
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/isSpecifiedIn">
-    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid15"/>
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid17"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/isSpecifiedIn">
     <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/isSpecifiedIn">
-    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid16"/>
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid18"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/LifeEvent">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -587,13 +602,13 @@ In the case where the purpose is to link the two Requirements without additional
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/providesValueFor">
-    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid17"/>
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid19"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/providesValueFor">
     <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/providesValueFor">
-    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid18"/>
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid20"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/PublicOrganisation">
     <ns0:usageNote xmlns:ns0="http://purl.org/vocab/vann/" xml:lang="en">Mandatory class. The CPSV-AP reuses the Core Public Organisation Vocabulary that defines the concept of a Public Organisation and associated properties and relationships. It is largely based on the W3C Organization Ontology.</ns0:usageNote>
@@ -623,13 +638,13 @@ In the case where the purpose is to link the two Requirements without additional
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/query">
-    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid19"/>
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid21"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/query">
     <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/query">
-    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid20"/>
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid22"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/query">
     <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">The query must be executed on the business data provided by the supporting Evidence. In order to be able to evaluate the query on the provided data, the format of the provided data must be aligned with the query expression. For instance if the provided data is XML, a query in XPath could be expected. This alignment is part of the implementation agreements that implementors must make.</ns0:scopeNote>
@@ -656,7 +671,7 @@ In the case where the purpose is to link the two Requirements without additional
     <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/Requirement">
-    <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Requirement is a generic class representing any type of prerequisite that may be desired, needed or imposed as an obligation. CCCEV recommends to not use the Requirement class directly, but rather a more semantically-enriched subclass such as Criterion, Information Requirement or Constraint. Also note that the Requirement class is specified at a more abstract level and is not to be used as the instantiation of a Requirement for a specific Agent.   The European Directive on services in the internal market  defines requirement as any obligation, prohibition, condition or limit provided for in the laws, regulations or administrative provisions of the Member States or in consequence of case-law, administrative practice, the rules of professional bodies, or the collective rules of professional associations or other professional organisations, adopted in the exercise of their legal autonomy [..].</ns0:scopeNote>
+    <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Requirement is a generic class representing any type of prerequisite that may be desired, needed or imposed as an obligation. CCCEV recommends to not use the Requirement class directly, but rather a more semantically-enriched subclass such as Criterion, Information Requirement or Constraint. Also note that the Requirement class is specified at a more abstract level and is not to be used as the instantiation of a Requirement for a specific Agent.   The European Directive on services in the internal market  defines requirement as any obligation, prohibition, condition or limit provided for in the laws, regulations or administrative provisions of the Member States or in consequence of case-law, administrative practice, the rules of professional bodies, or the collective rules of professional associations or other professional organisations, adopted in the exercise of their legal autonomy.</ns0:scopeNote>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/role">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -692,13 +707,13 @@ In the case where the purpose is to link the two Requirements without additional
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/specifiesEvidenceType">
-    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid21"/>
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid23"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/specifiesEvidenceType">
     <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/specifiesEvidenceType">
-    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid22"/>
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid24"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/SupportedValue">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
@@ -728,13 +743,13 @@ Implementers are free to choose their language. It is recommended to document th
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/supportsRequirement">
-    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid23"/>
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid25"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/supportsRequirement">
     <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/supportsRequirement">
-    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid24"/>
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid26"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/supportsValue">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
@@ -743,13 +758,13 @@ Implementers are free to choose their language. It is recommended to document th
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/supportsValue">
-    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid25"/>
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid27"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/supportsValue">
     <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/supportsValue">
-    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid26"/>
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid28"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/thematicArea">
     <ns0:usageNote xmlns:ns0="http://purl.org/vocab/vann/" xml:lang="en">Cardinality [0..n]. This property represents the Thematic Area of a Public Service as described in a controlled vocabulary, for instance social protection, health, recreation, culture and religion, family, traveling economic affairs, tax, staff, environment...</ns0:usageNote>
@@ -770,13 +785,13 @@ Implementers are free to choose their language. It is recommended to document th
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/validityPeriodConstraint">
-    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid29"/>
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid31"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/validityPeriodConstraint">
     <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/validityPeriodConstraint">
-    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid30"/>
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid32"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/validityPeriodConstraint">
     <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">E.g. A Belgian birth evidence is valid for X months after emission. To express constraints on the validity period that must hold when assessing the evidence (e.g. the certificate of good conduct cannot be issued more than 3 months ago), we refer to the Constraint class.</ns0:scopeNote>
@@ -788,13 +803,13 @@ Implementers are free to choose their language. It is recommended to document th
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/validityPeriod">
-    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid27"/>
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid29"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/validityPeriod">
     <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/validityPeriod">
-    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid28"/>
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid30"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/value">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
@@ -815,13 +830,13 @@ Implementers are free to choose their language. It is recommended to document th
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/weightingConsiderationDescription">
-    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid35"/>
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid37"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/weightingConsiderationDescription">
     <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/weightingConsiderationDescription">
-    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid36"/>
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid38"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/weightingConsiderationDescription">
     <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">This description gives the view of the creator of the Criterion weights on how to interpret and use them during the evaluation process.</ns0:scopeNote>
@@ -833,13 +848,13 @@ Implementers are free to choose their language. It is recommended to document th
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/weightingType">
-    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid37"/>
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid39"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/weightingType">
     <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/weightingType">
-    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid38"/>
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid40"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/weightingType">
     <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">An existing codelist http://publications.europa.eu/resource/authority/number-weight
@@ -852,13 +867,13 @@ Example see: https://docs.ted.europa.eu/eforms/0.3.0/index.html#awardCriteriaSec
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/weight">
-    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid33"/>
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid35"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/weight">
     <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/weight">
-    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid34"/>
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid36"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/weight">
     <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">The weight must be between 0 and 1. Usually, all Criteria can be integrated within a weighted sum equal to 1.</ns0:scopeNote>

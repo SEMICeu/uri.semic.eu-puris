@@ -79,7 +79,7 @@
 <http://data.europa.eu/m8g/expressionOfExpectedValue> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid7 .
 <http://data.europa.eu/m8g/expressionOfExpectedValue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
 <http://data.europa.eu/m8g/expressionOfExpectedValue> <http://www.w3.org/2000/01/rdf-schema#range> _:genid8 .
-<http://data.europa.eu/m8g/expressionOfExpectedValue> <http://www.w3.org/2004/02/skos/core#scopeNote> "The property encapsulates all kind of expectations on the required and provided values one could have. \nThis may range from representational expectations such as the type (e.g. the value is expected to be a xsd:decimal) to expectations that reduce the allowed value range. Commonly this is done using min or max bounderary expressions (e.g. the maximum value is 1 Million Euro).\nOther usage could be to harmonise the supplied values (e.g. rounding, turning to percentages) to facilitate further processing.\n\nImplementers are free to use their own approach for defining the expected values in more details. For instance, this can be by defining their own datatypes extending or encapsulating common xsd datatypes. But also by using more complex languages such as XPath, Object Constraint Language (OCL), JavaScript and Rule Interchange Format (RIF).\nBecause of this freedom, implementers are recommended to well-document their usage of this property (and related information). \n\n\n  \n\n"@en .
+<http://data.europa.eu/m8g/expressionOfExpectedValue> <http://www.w3.org/2004/02/skos/core#scopeNote> "The property encapsulates all kind of expectations on the required and provided values one could have. \nThis may range from representational expectations such as the type (e.g. the value is expected to be a xsd:decimal) to expectations that reduce the allowed value range. Commonly this is done using min or max bounderary expressions (e.g. the maximum value is 1 Million Euro).\nOther usage could be to harmonise the supplied values (e.g. rounding, turning to percentages) to facilitate further processing.\n\nImplementers are free to use their own approach for defining the expected values in more details. For instance, this can be by defining their own datatypes extending or encapsulating common xsd datatypes. But also by using more complex languages such as XPath, Object Constraint Language (OCL), JavaScript and Rule Interchange Format (RIF).\n\nBecause of this freedom, implementers are recommended to well-document their usage of this property (and related information). \n"@en .
 <http://data.europa.eu/m8g/hasAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://data.europa.eu/m8g/hasAddress> <http://www.w3.org/2000/01/rdf-schema#comment> "Cardinality [0..1]. This property represents an Address related to an Agent. Asserting the address relationship implies that the Agent has an Address."@en .
 <http://data.europa.eu/m8g/hasAddress> <http://www.w3.org/2000/01/rdf-schema#label> "hasAddress"@en .
@@ -152,17 +152,23 @@
 <http://data.europa.eu/m8g/isGroupedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Cardinality [0..n]. This property links the Public Service to the Event class. Several Public Services may be associated with a particular Event and, likewise, the same Public Service may be associated with several different Events."@en .
 <http://data.europa.eu/m8g/isGroupedBy> <http://www.w3.org/2000/01/rdf-schema#label> "isGroupedBy"@en .
 <http://data.europa.eu/m8g/isGroupedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/Event> .
+<http://data.europa.eu/m8g/isProvidedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.europa.eu/m8g/isProvidedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.europa.eu/m8g/isProvidedBy> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid13 .
+<http://data.europa.eu/m8g/isProvidedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
+<http://data.europa.eu/m8g/isProvidedBy> <http://www.w3.org/2000/01/rdf-schema#range> _:genid14 .
+<http://data.europa.eu/m8g/isProvidedBy> <http://www.w3.org/2004/02/skos/core#scopeNote> "Agents transmitting Evidence are usually the Agents requesting the Evidence or service providers acting on behalf of the requesting Agents such as software developer companies."@en .
 <http://data.europa.eu/m8g/isRequirementOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://data.europa.eu/m8g/isRequirementOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.europa.eu/m8g/isRequirementOf> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid13 .
+<http://data.europa.eu/m8g/isRequirementOf> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid15 .
 <http://data.europa.eu/m8g/isRequirementOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
-<http://data.europa.eu/m8g/isRequirementOf> <http://www.w3.org/2000/01/rdf-schema#range> _:genid14 .
+<http://data.europa.eu/m8g/isRequirementOf> <http://www.w3.org/2000/01/rdf-schema#range> _:genid16 .
 <http://data.europa.eu/m8g/isRequirementOf> <http://www.w3.org/2004/02/skos/core#scopeNote> "The relation between a parent Requirement and a sub-Requirement can be complex. Therefore, qualified relations (see hasQualifiedRelation) can be used to represent this relationship on its own and qualify it with additional information such as a date, a place. This is left to implementers.\n\nIn the case where the purpose is to link the two Requirements without additional information, the simple relationship as proposed here can be directly used."@en .
 <http://data.europa.eu/m8g/isSpecifiedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://data.europa.eu/m8g/isSpecifiedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.europa.eu/m8g/isSpecifiedIn> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid15 .
+<http://data.europa.eu/m8g/isSpecifiedIn> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid17 .
 <http://data.europa.eu/m8g/isSpecifiedIn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
-<http://data.europa.eu/m8g/isSpecifiedIn> <http://www.w3.org/2000/01/rdf-schema#range> _:genid16 .
+<http://data.europa.eu/m8g/isSpecifiedIn> <http://www.w3.org/2000/01/rdf-schema#range> _:genid18 .
 <http://data.europa.eu/m8g/LifeEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://data.europa.eu/m8g/LifeEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Optional class. The Life Event class represents an important event or situations in a citizen's life where public services may be required. Note the scope: an individual will encounter any number of 'events' in the general sense of the word. In the context of the CPSV-AP, the Life Event class only represents an event for which a Public Service is related. For example, a couple becoming engaged is not a CPSV-AP Life Event, getting married is, since only the latter has any relevance to public services."@en .
 <http://data.europa.eu/m8g/LifeEvent> <http://www.w3.org/2000/01/rdf-schema#label> "LifeEvent"@en .
@@ -188,9 +194,9 @@
 <http://data.europa.eu/m8g/processingTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
 <http://data.europa.eu/m8g/providesValueFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://data.europa.eu/m8g/providesValueFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.europa.eu/m8g/providesValueFor> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid17 .
+<http://data.europa.eu/m8g/providesValueFor> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid19 .
 <http://data.europa.eu/m8g/providesValueFor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
-<http://data.europa.eu/m8g/providesValueFor> <http://www.w3.org/2000/01/rdf-schema#range> _:genid18 .
+<http://data.europa.eu/m8g/providesValueFor> <http://www.w3.org/2000/01/rdf-schema#range> _:genid20 .
 <http://data.europa.eu/m8g/PublicOrganisation> <http://purl.org/vocab/vann/usageNote> "Mandatory class. The CPSV-AP reuses the Core Public Organisation Vocabulary that defines the concept of a Public Organisation and associated properties and relationships. It is largely based on the W3C Organization Ontology."@en .
 <http://data.europa.eu/m8g/PublicOrganisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://data.europa.eu/m8g/PublicOrganisation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g/cpov> .
@@ -200,9 +206,9 @@
 <http://data.europa.eu/m8g/PublicServiceDataset> <http://www.w3.org/2000/01/rdf-schema#label> "PublicServiceDataset"@en .
 <http://data.europa.eu/m8g/query> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://data.europa.eu/m8g/query> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/m8g/query> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid19 .
+<http://data.europa.eu/m8g/query> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid21 .
 <http://data.europa.eu/m8g/query> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
-<http://data.europa.eu/m8g/query> <http://www.w3.org/2000/01/rdf-schema#range> _:genid20 .
+<http://data.europa.eu/m8g/query> <http://www.w3.org/2000/01/rdf-schema#range> _:genid22 .
 <http://data.europa.eu/m8g/query> <http://www.w3.org/2004/02/skos/core#scopeNote> "The query must be executed on the business data provided by the supporting Evidence. In order to be able to evaluate the query on the provided data, the format of the provided data must be aligned with the query expression. For instance if the provided data is XML, a query in XPath could be expected. This alignment is part of the implementation agreements that implementors must make."@en .
 <http://data.europa.eu/m8g/ReferenceFramework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <http://data.europa.eu/m8g/ReferenceFramework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -211,7 +217,7 @@
 <http://data.europa.eu/m8g/Requirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <http://data.europa.eu/m8g/Requirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://data.europa.eu/m8g/Requirement> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
-<http://data.europa.eu/m8g/Requirement> <http://www.w3.org/2004/02/skos/core#scopeNote> "Requirement is a generic class representing any type of prerequisite that may be desired, needed or imposed as an obligation. CCCEV recommends to not use the Requirement class directly, but rather a more semantically-enriched subclass such as Criterion, Information Requirement or Constraint. Also note that the Requirement class is specified at a more abstract level and is not to be used as the instantiation of a Requirement for a specific Agent.   The European Directive on services in the internal market  defines requirement as any obligation, prohibition, condition or limit provided for in the laws, regulations or administrative provisions of the Member States or in consequence of case-law, administrative practice, the rules of professional bodies, or the collective rules of professional associations or other professional organisations, adopted in the exercise of their legal autonomy [..]\u0094."@en .
+<http://data.europa.eu/m8g/Requirement> <http://www.w3.org/2004/02/skos/core#scopeNote> "Requirement is a generic class representing any type of prerequisite that may be desired, needed or imposed as an obligation. CCCEV recommends to not use the Requirement class directly, but rather a more semantically-enriched subclass such as Criterion, Information Requirement or Constraint. Also note that the Requirement class is specified at a more abstract level and is not to be used as the instantiation of a Requirement for a specific Agent.   The European Directive on services in the internal market  defines requirement as any obligation, prohibition, condition or limit provided for in the laws, regulations or administrative provisions of the Member States or in consequence of case-law, administrative practice, the rules of professional bodies, or the collective rules of professional associations or other professional organisations, adopted in the exercise of their legal autonomy."@en .
 <http://data.europa.eu/m8g/role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://data.europa.eu/m8g/role> <http://www.w3.org/2000/01/rdf-schema#comment> "Cardinality [1..n]. Provides the role played. This should be provided using a controlled vocabulary. Since this is an extension mechanism for the CPSV-AP, the controlled vocabulary should be decided to suit local implementations."@en .
 <http://data.europa.eu/m8g/role> <http://www.w3.org/2000/01/rdf-schema#label> "role"@en .
@@ -223,57 +229,57 @@
 <http://data.europa.eu/m8g/sector> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://data.europa.eu/m8g/specifiesEvidenceType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://data.europa.eu/m8g/specifiesEvidenceType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.europa.eu/m8g/specifiesEvidenceType> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid21 .
+<http://data.europa.eu/m8g/specifiesEvidenceType> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid23 .
 <http://data.europa.eu/m8g/specifiesEvidenceType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
-<http://data.europa.eu/m8g/specifiesEvidenceType> <http://www.w3.org/2000/01/rdf-schema#range> _:genid22 .
+<http://data.europa.eu/m8g/specifiesEvidenceType> <http://www.w3.org/2000/01/rdf-schema#range> _:genid24 .
 <http://data.europa.eu/m8g/SupportedValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <http://data.europa.eu/m8g/SupportedValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://data.europa.eu/m8g/SupportedValue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
 <http://data.europa.eu/m8g/SupportedValue> <http://www.w3.org/2004/02/skos/core#scopeNote> "The notion of Supported Value is closely related to actual data exchange between two parties: \n(a) the Requirement processor, i.e. the Agent setting out Requirements for an objective and processing the supplied Evidences in the context of the Requirements, and \n(b) the Evidence provider, i.e. the Agent supplying information to an information request expressed as Requirements.\n\nThe Requirement processor has expressed its expectations (both business as technical) for the information it wants to recieve as an Information Concept. The Evidence provider is able to supply information for that Information Concept, but its native data representation might not be coherent with the expectations set by the Requirement processor. The Supported Value is bridging both. \n\nThe Evidence provider can either provide a derived value (fact) from its native data representation that complies with the Information Concept expectations. Or it can provide a query in an agreed language between Evidence provider and Requirement processor that allows the Requirement processor to retrieve the value from the native data representation.\n\nImplementers are free to choose their language. It is recommended to document the made agreements well.\n"@en .
 <http://data.europa.eu/m8g/supportsRequirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://data.europa.eu/m8g/supportsRequirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.europa.eu/m8g/supportsRequirement> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid23 .
+<http://data.europa.eu/m8g/supportsRequirement> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid25 .
 <http://data.europa.eu/m8g/supportsRequirement> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
-<http://data.europa.eu/m8g/supportsRequirement> <http://www.w3.org/2000/01/rdf-schema#range> _:genid24 .
+<http://data.europa.eu/m8g/supportsRequirement> <http://www.w3.org/2000/01/rdf-schema#range> _:genid26 .
 <http://data.europa.eu/m8g/supportsValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://data.europa.eu/m8g/supportsValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.europa.eu/m8g/supportsValue> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid25 .
+<http://data.europa.eu/m8g/supportsValue> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid27 .
 <http://data.europa.eu/m8g/supportsValue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
-<http://data.europa.eu/m8g/supportsValue> <http://www.w3.org/2000/01/rdf-schema#range> _:genid26 .
+<http://data.europa.eu/m8g/supportsValue> <http://www.w3.org/2000/01/rdf-schema#range> _:genid28 .
 <http://data.europa.eu/m8g/thematicArea> <http://purl.org/vocab/vann/usageNote> "Cardinality [0..n]. This property represents the Thematic Area of a Public Service as described in a controlled vocabulary, for instance social protection, health, recreation, culture and religion, family, traveling economic affairs, tax, staff, environment..."@en .
 <http://data.europa.eu/m8g/thematicArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://data.europa.eu/m8g/thematicArea> <http://www.w3.org/2000/01/rdf-schema#label> "thematicArea"@en .
 <http://data.europa.eu/m8g/thematicArea> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://data.europa.eu/m8g/validityPeriodConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://data.europa.eu/m8g/validityPeriodConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.europa.eu/m8g/validityPeriodConstraint> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid29 .
+<http://data.europa.eu/m8g/validityPeriodConstraint> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid31 .
 <http://data.europa.eu/m8g/validityPeriodConstraint> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
-<http://data.europa.eu/m8g/validityPeriodConstraint> <http://www.w3.org/2000/01/rdf-schema#range> _:genid30 .
+<http://data.europa.eu/m8g/validityPeriodConstraint> <http://www.w3.org/2000/01/rdf-schema#range> _:genid32 .
 <http://data.europa.eu/m8g/validityPeriodConstraint> <http://www.w3.org/2004/02/skos/core#scopeNote> "E.g. A Belgian birth evidence is valid for X months after emission. To express constraints on the validity period that must hold when assessing the evidence (e.g. the certificate of good conduct cannot be issued more than 3 months ago), we refer to the Constraint class."@en .
 <http://data.europa.eu/m8g/validityPeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://data.europa.eu/m8g/validityPeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.europa.eu/m8g/validityPeriod> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid27 .
+<http://data.europa.eu/m8g/validityPeriod> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid29 .
 <http://data.europa.eu/m8g/validityPeriod> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
-<http://data.europa.eu/m8g/validityPeriod> <http://www.w3.org/2000/01/rdf-schema#range> _:genid28 .
+<http://data.europa.eu/m8g/validityPeriod> <http://www.w3.org/2000/01/rdf-schema#range> _:genid30 .
 <http://data.europa.eu/m8g/value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://data.europa.eu/m8g/value> <http://www.w3.org/2000/01/rdf-schema#comment> "Cardinality [0..1]. This property represents a numeric value indicating the amount of the Cost."@en .
 <http://data.europa.eu/m8g/value> <http://www.w3.org/2000/01/rdf-schema#label> "value"@en .
 <http://data.europa.eu/m8g/value> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
 <http://data.europa.eu/m8g/weightingConsiderationDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://data.europa.eu/m8g/weightingConsiderationDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/m8g/weightingConsiderationDescription> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid35 .
+<http://data.europa.eu/m8g/weightingConsiderationDescription> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid37 .
 <http://data.europa.eu/m8g/weightingConsiderationDescription> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
-<http://data.europa.eu/m8g/weightingConsiderationDescription> <http://www.w3.org/2000/01/rdf-schema#range> _:genid36 .
+<http://data.europa.eu/m8g/weightingConsiderationDescription> <http://www.w3.org/2000/01/rdf-schema#range> _:genid38 .
 <http://data.europa.eu/m8g/weightingConsiderationDescription> <http://www.w3.org/2004/02/skos/core#scopeNote> "This description gives the view of the creator of the Criterion weights on how to interpret and use them during the evaluation process."@en .
 <http://data.europa.eu/m8g/weightingType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://data.europa.eu/m8g/weightingType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.europa.eu/m8g/weightingType> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid37 .
+<http://data.europa.eu/m8g/weightingType> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid39 .
 <http://data.europa.eu/m8g/weightingType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
-<http://data.europa.eu/m8g/weightingType> <http://www.w3.org/2000/01/rdf-schema#range> _:genid38 .
+<http://data.europa.eu/m8g/weightingType> <http://www.w3.org/2000/01/rdf-schema#range> _:genid40 .
 <http://data.europa.eu/m8g/weightingType> <http://www.w3.org/2004/02/skos/core#scopeNote> "An existing codelist http://publications.europa.eu/resource/authority/number-weight\nExample see: https://docs.ted.europa.eu/eforms/0.3.0/index.html#awardCriteriaSection"@en .
 <http://data.europa.eu/m8g/weight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://data.europa.eu/m8g/weight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.europa.eu/m8g/weight> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid33 .
+<http://data.europa.eu/m8g/weight> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid35 .
 <http://data.europa.eu/m8g/weight> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
-<http://data.europa.eu/m8g/weight> <http://www.w3.org/2000/01/rdf-schema#range> _:genid34 .
+<http://data.europa.eu/m8g/weight> <http://www.w3.org/2000/01/rdf-schema#range> _:genid36 .
 <http://data.europa.eu/m8g/weight> <http://www.w3.org/2004/02/skos/core#scopeNote> "The weight must be between 0 and 1. Usually, all Criteria can be integrated within a weighted sum equal to 1."@en .

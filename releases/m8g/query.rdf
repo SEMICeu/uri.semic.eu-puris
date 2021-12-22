@@ -7,13 +7,13 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/query">
-    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid19"/>
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid21"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/query">
     <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/query">
-    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid20"/>
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid22"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/query">
     <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">The query must be executed on the business data provided by the supporting Evidence. In order to be able to evaluate the query on the provided data, the format of the provided data must be aligned with the query expression. For instance if the provided data is XML, a query in XPath could be expected. This alignment is part of the implementation agreements that implementors must make.</ns0:scopeNote>

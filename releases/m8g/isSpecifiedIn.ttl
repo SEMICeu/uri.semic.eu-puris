@@ -2,7 +2,7 @@
 
 <http://data.europa.eu/m8g/isSpecifiedIn>
     a rdf:Property, <http://www.w3.org/2002/07/owl#ObjectProperty> ;
-    <http://www.w3.org/2000/01/rdf-schema#domain> _:genid15 ;
+    <http://www.w3.org/2000/01/rdf-schema#domain> _:genid17 ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> ;
-    <http://www.w3.org/2000/01/rdf-schema#range> _:genid16 .
+    <http://www.w3.org/2000/01/rdf-schema#range> _:genid18 .
 

@@ -7,13 +7,13 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/weightingType">
-    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid37"/>
+    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid39"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/weightingType">
     <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/weightingType">
-    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid38"/>
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid40"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/weightingType">
     <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">An existing codelist http://publications.europa.eu/resource/authority/number-weight
