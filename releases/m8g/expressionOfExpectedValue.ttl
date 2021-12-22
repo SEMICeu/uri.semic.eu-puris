@@ -5,5 +5,15 @@
     <http://www.w3.org/2000/01/rdf-schema#domain> _:genid7 ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> ;
     <http://www.w3.org/2000/01/rdf-schema#range> _:genid8 ;
-    <http://www.w3.org/2004/02/skos/core#scopeNote> "Common example languages include XPath, Object Constraint Language (OCL), JavaScript and Rule Interchange Format (RIF). Using a Literal datatype, it is possible to annotate the expression language used, e.g. \"today.getDate() - birthDate.getDate()\"^^ex:JavaScript\"."@en .
+    <http://www.w3.org/2004/02/skos/core#scopeNote> """The property encapsulates all kind of expectations on the required and provided values one could have. 
+This may range from representational expectations such as the type (e.g. the value is expected to be a xsd:decimal) to expectations that reduce the allowed value range. Commonly this is done using min or max bounderary expressions (e.g. the maximum value is 1 Million Euro).
+Other usage could be to harmonise the supplied values (e.g. rounding, turning to percentages) to facilitate further processing.
+
+Implementers are free to use their own approach for defining the expected values in more details. For instance, this can be by defining their own datatypes extending or encapsulating common xsd datatypes. But also by using more complex languages such as XPath, Object Constraint Language (OCL), JavaScript and Rule Interchange Format (RIF).
+Because of this freedom, implementers are recommended to well-document their usage of this property (and related information). 
+
+
+  
+
+"""@en .
 

@@ -3,3 +3,4 @@
 <http://data.europa.eu/m8g/weightingConsiderationDescription> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid35 .
 <http://data.europa.eu/m8g/weightingConsiderationDescription> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
 <http://data.europa.eu/m8g/weightingConsiderationDescription> <http://www.w3.org/2000/01/rdf-schema#range> _:genid36 .
+<http://data.europa.eu/m8g/weightingConsiderationDescription> <http://www.w3.org/2004/02/skos/core#scopeNote> "This description gives the view of the creator of the Criterion weights on how to interpret and use them during the evaluation process."@en .

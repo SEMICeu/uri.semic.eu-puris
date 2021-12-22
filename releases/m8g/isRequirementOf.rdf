@@ -16,6 +16,8 @@
     <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid14"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/isRequirementOf">
-    <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Inverse relation from hasRequirement. If there is no hierarchy then this relationship is not needed.</ns0:scopeNote>
+    <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">The relation between a parent Requirement and a sub-Requirement can be complex. Therefore, qualified relations (see hasQualifiedRelation) can be used to represent this relationship on its own and qualify it with additional information such as a date, a place. This is left to implementers.
+
+In the case where the purpose is to link the two Requirements without additional information, the simple relationship as proposed here can be directly used.</ns0:scopeNote>
   </rdf:Description>
 </rdf:RDF>

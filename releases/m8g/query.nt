@@ -3,3 +3,4 @@
 <http://data.europa.eu/m8g/query> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid19 .
 <http://data.europa.eu/m8g/query> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
 <http://data.europa.eu/m8g/query> <http://www.w3.org/2000/01/rdf-schema#range> _:genid20 .
+<http://data.europa.eu/m8g/query> <http://www.w3.org/2004/02/skos/core#scopeNote> "The query must be executed on the business data provided by the supporting Evidence. In order to be able to evaluate the query on the provided data, the format of the provided data must be aligned with the query expression. For instance if the provided data is XML, a query in XPath could be expected. This alignment is part of the implementation agreements that implementors must make."@en .

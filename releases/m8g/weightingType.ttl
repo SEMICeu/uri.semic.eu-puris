@@ -4,5 +4,7 @@
     a rdf:Property, <http://www.w3.org/2002/07/owl#ObjectProperty> ;
     <http://www.w3.org/2000/01/rdf-schema#domain> _:genid37 ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> ;
-    <http://www.w3.org/2000/01/rdf-schema#range> _:genid38 .
+    <http://www.w3.org/2000/01/rdf-schema#range> _:genid38 ;
+    <http://www.w3.org/2004/02/skos/core#scopeNote> """An existing codelist http://publications.europa.eu/resource/authority/number-weight
+Example see: https://docs.ted.europa.eu/eforms/0.3.0/index.html#awardCriteriaSection"""@en .
 

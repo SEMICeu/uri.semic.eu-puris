@@ -5,5 +5,5 @@
     <http://www.w3.org/2000/01/rdf-schema#domain> _:genid5 ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> ;
     <http://www.w3.org/2000/01/rdf-schema#range> _:genid6 ;
-    <http://www.w3.org/2004/02/skos/core#scopeNote> "This classification could be used for example for providing a common list of Evidence Types accepted within a specific domain."@en .
+    <http://www.w3.org/2004/02/skos/core#scopeNote> "The categories agreed are left open but could for example specify the layout and content expected for an Evidence."@en .
 

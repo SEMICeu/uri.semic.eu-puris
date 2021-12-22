@@ -16,6 +16,7 @@
     <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid2"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/bias">
-    <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">In neural networks, the bias is equivalent to an intercept added in a linear equation used to shift the activation function to either right or left. It can be also used to manually adjust the pass/fail calculation of a weighted criterion.</ns0:scopeNote>
+    <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">The bias parameter tries to correct a systematic error. For example in procurement, a home bias corresponds to the "presence of local preferences distorting international specialisation and resource allocation". [https://trade.ec.europa.eu/doclib/docs/2018/september/tradoc_157319.pdf]
+When quantified, this systematic error can be removed.</ns0:scopeNote>
   </rdf:Description>
 </rdf:RDF>

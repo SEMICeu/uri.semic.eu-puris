@@ -3,6 +3,7 @@
 <http://data.europa.eu/m8g/EvidenceTypeList>
     a <http://www.w3.org/2000/01/rdf-schema#Class>, <http://www.w3.org/2002/07/owl#Class> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> ;
-    <http://www.w3.org/2004/02/skos/core#scopeNote> """An Evidence Type List is satisfied if and only if for all included Evidence Types a corresponding conformant Evidence is supporting the Requirement having this List. The Evidence Type List describes thus an AND condition on the different Evidence Types within the list and an OR condition between two or more Evidence Type Lists. Combinations of alternative Lists can be provided for a respondent of a Requirement to choose amongst them.
-"""@en .
+    <http://www.w3.org/2004/02/skos/core#scopeNote> """An Evidence Type List is satisfied, if and only if, for all included Evidence Types in this List, corresponding conformant Evidence(s) are supporting the Requirement having this List. 
+
+The Evidence Type List describes thus an AND condition on the different Evidence Types within the list and an OR condition between two or more Evidence Type Lists. Combinations of alternative Lists can be provided for a respondent of a Requirement to choose amongst them."""@en .
 

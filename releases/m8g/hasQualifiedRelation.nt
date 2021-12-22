@@ -3,3 +3,4 @@
 <http://data.europa.eu/m8g/hasQualifiedRelation> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid9 .
 <http://data.europa.eu/m8g/hasQualifiedRelation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
 <http://data.europa.eu/m8g/hasQualifiedRelation> <http://www.w3.org/2000/01/rdf-schema#range> _:genid10 .
+<http://data.europa.eu/m8g/hasQualifiedRelation> <http://www.w3.org/2004/02/skos/core#scopeNote> "This property leaves the possiblity to define a qualified relation from Requirement to Information Requirement or Constraint as well as a qualified relation from Requirement to Requirement.  A use case would be to specialize an EU requirement in Member States' specific requirements."@en .

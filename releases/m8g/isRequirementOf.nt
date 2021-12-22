@@ -3,4 +3,4 @@
 <http://data.europa.eu/m8g/isRequirementOf> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid13 .
 <http://data.europa.eu/m8g/isRequirementOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
 <http://data.europa.eu/m8g/isRequirementOf> <http://www.w3.org/2000/01/rdf-schema#range> _:genid14 .
-<http://data.europa.eu/m8g/isRequirementOf> <http://www.w3.org/2004/02/skos/core#scopeNote> "Inverse relation from hasRequirement. If there is no hierarchy then this relationship is not needed."@en .
+<http://data.europa.eu/m8g/isRequirementOf> <http://www.w3.org/2004/02/skos/core#scopeNote> "The relation between a parent Requirement and a sub-Requirement can be complex. Therefore, qualified relations (see hasQualifiedRelation) can be used to represent this relationship on its own and qualify it with additional information such as a date, a place. This is left to implementers.\n\nIn the case where the purpose is to link the two Requirements without additional information, the simple relationship as proposed here can be directly used."@en .

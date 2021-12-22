@@ -15,4 +15,7 @@
   <rdf:Description rdf:about="http://data.europa.eu/m8g/weightingConsiderationDescription">
     <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid36"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/weightingConsiderationDescription">
+    <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">This description gives the view of the creator of the Criterion weights on how to interpret and use them during the evaluation process.</ns0:scopeNote>
+  </rdf:Description>
 </rdf:RDF>

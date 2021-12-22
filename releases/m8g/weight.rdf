@@ -15,4 +15,7 @@
   <rdf:Description rdf:about="http://data.europa.eu/m8g/weight">
     <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid34"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/m8g/weight">
+    <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">The weight must be between 0 and 1. Usually, all Criteria can be integrated within a weighted sum equal to 1.</ns0:scopeNote>
+  </rdf:Description>
 </rdf:RDF>

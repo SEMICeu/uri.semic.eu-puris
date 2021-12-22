@@ -16,7 +16,6 @@
     <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid30"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/validityPeriodConstraint">
-    <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">E.g. A Belgian birth evidence is valid for X months after emission. To express constraints on the validity period that must hold when assessing the evidence (e.g. the certificate of good conduct cannot be issued more than 3 months ago), we refer to the Constraint class.&#xD;
-</ns0:scopeNote>
+    <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">E.g. A Belgian birth evidence is valid for X months after emission. To express constraints on the validity period that must hold when assessing the evidence (e.g. the certificate of good conduct cannot be issued more than 3 months ago), we refer to the Constraint class.</ns0:scopeNote>
   </rdf:Description>
 </rdf:RDF>

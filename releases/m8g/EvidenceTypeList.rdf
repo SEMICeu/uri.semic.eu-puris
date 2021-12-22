@@ -10,7 +10,8 @@
     <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/EvidenceTypeList">
-    <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">An Evidence Type List is satisfied if and only if for all included Evidence Types a corresponding conformant Evidence is supporting the Requirement having this List. The Evidence Type List describes thus an AND condition on the different Evidence Types within the list and an OR condition between two or more Evidence Type Lists. Combinations of alternative Lists can be provided for a respondent of a Requirement to choose amongst them.&#xD;
-</ns0:scopeNote>
+    <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">An Evidence Type List is satisfied, if and only if, for all included Evidence Types in this List, corresponding conformant Evidence(s) are supporting the Requirement having this List. 
+
+The Evidence Type List describes thus an AND condition on the different Evidence Types within the list and an OR condition between two or more Evidence Type Lists. Combinations of alternative Lists can be provided for a respondent of a Requirement to choose amongst them.</ns0:scopeNote>
   </rdf:Description>
 </rdf:RDF>
