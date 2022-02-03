@@ -10,6 +10,6 @@
     <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">isDescribedAt</ns0:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/isDescribedAt">
-    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g/PublicServiceDataset"/>
+    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
   </rdf:Description>
 </rdf:RDF>
