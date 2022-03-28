@@ -17,7 +17,7 @@ URIs with extended paths are also supported. For instance, a URI `http://data.eu
 
 Any further restriction/expectations on the path representations are found in the https://github.com/SEMICeu/uri.semic.eu-proxy. 
 
-The PURI service can support any format, but to limit the effort of the editors 3 common RDF serialisations (RDF/XML, Turtle, ntriples)[https://github.com/SEMICeu/uri.semic.eu-proxy/blob/main/urisemic.lua#L42] are active in the proxy service. This means that editors should provide the content in at least these serialisations.
+The PURI service can support any format, but to limit the effort of the editors 3 common RDF serialisations [RDF/XML, Turtle, ntriples](https://github.com/SEMICeu/uri.semic.eu-proxy/blob/main/urisemic.lua#L42) are active in the proxy service. This means that editors should provide the content in at least these serialisations.
 
 
 
@@ -31,11 +31,11 @@ For now this has not been included.
 
 
 ## creation of the structure 
-In `/scripts` there are scripts that create a base version based on the master content of the machine-readible specification.
+In `/scripts` there are scripts that support to create content according to the expected layout based on the master content of the machine-readible specification (an RDF file).
 
 These scripts are in an experimental stage, sufficient to bootstrap this content. In the future an integration in the creation process of the vocabulary associated wih the PURI's can replace these.
 
-For the m8g domain, the script `process.sh` will create the expected structure and content. In addition, the script `listuris.sh` supports the creation of a mapping table for forwarding the requests having a html response to the right place. To be used the updated mapping table has to be included in (the proxy)[https://github.com/SEMICeu/uri.semic.eu-proxy/blob/main/htmlmap.lua].
+For the m8g domain, the script `process.sh` will create the expected structure and content. In addition, the script `listuris.sh` supports the creation of a mapping table for forwarding the requests having a html response to the right place. To be used the updated mapping table has to be included in [the proxy](https://github.com/SEMICeu/uri.semic.eu-proxy/blob/main/htmlmap.lua).
 
 
 ## management.
@@ -49,11 +49,9 @@ In addition to the RDF content also the mapping on the html target URL must be d
 
 Providing information on the wrong path or not providing all the serializations will not lead to execution failure of proxies. End users will get a proper 404 HTTP error. Resolving is by correcting the provided content.
 
-### Supportive scripts notes
 
-As the master repositories of the Core Vocabularies normally contain an RDF file describing the Core Vocabulary, bash scripts have been made to transform a RDF file into a directory structure with RDF files according to the rules of this repository. The script [process.sh](https://github.com/SEMICeu/uri.semic.eu-puris/blob/main/scripts/process.sh) transforms the content for the m8g domain.
-
-When executed in the scripts directory a subdirectory `dir` will be created. This content can then be copied to the target directory releases in this repository.
+### access
+This repository is also made available through github pages. This facilitates the implementation of the PURI proxy, because then the PURI handling proxy can redirect to the latest content of the repository. 
 
 
 
