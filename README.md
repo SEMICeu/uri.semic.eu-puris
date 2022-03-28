@@ -30,13 +30,13 @@ For now this has not been included.
 
 
 
-## creation of the structure
+## creation of the structure 
 In `/scripts` there are scripts that create a base version based on the master content of the machine-readible specification.
-The processing for the m8g domain is initiated from the script `process.sh` 
 
-The script `listuris.sh` supports the creation of a mapping table for forwarding the requests having a html response to the right place.
-The reason for this existance is that nog all m8g puris are published as html on one place.
-When this would be realized then the proxy and this mapping can be avoided. 
+These scripts are in an experimental stage, sufficient to bootstrap this content. In the future an integration in the creation process of the vocabulary associated wih the PURI's can replace these.
+
+For the m8g domain, the script `process.sh` will create the expected structure and content. In addition, the script `listuris.sh` supports the creation of a mapping table for forwarding the requests having a html response to the right place. To be used the updated mapping table has to be included in (the proxy)[https://github.com/SEMICeu/uri.semic.eu-proxy/blob/main/htmlmap.lua].
+
 
 
 ## management.
@@ -48,7 +48,9 @@ Ideally there is an automation between both repositories, but this has not been 
 For a URI create a file in the directory that corresponds with the path in the URI in the [releases](https://github.com/SEMICeu/uri.semic.eu-puris/tree/main/releases/) directory. For each RDF serialization a file has to be created. To adapt the content returned for a URI adapt the content of each corresponding file.
 In addition to the RDF content also the mapping on the html target URL must be done. This is part of the [proxy configuration](https://github.com/SEMICeu/uri.semic.eu-proxy#adding-a-new-puri).
 
-### Supportive scripts
+Providing information on the wrong path or not providing all the serializations will not lead to execution failure of proxies. End users will get a proper 404 HTTP error. Resolving is by correcting the provided content.
+
+### Supportive scripts notes
 As the master repositories of the Core Vocabularies normally contain an RDF file describing the Core Vocabulary, bash scripts have been made to transform a RDF file into a directory structure with RDF files according to the rules of this repository. The script [process.sh](https://github.com/SEMICeu/uri.semic.eu-puris/blob/main/scripts/process.sh) transforms the content for the m8g domain.
 
 When executed in the scripts directory a subdirectory `dir` will be created. This content can then be copied to the target directory releases in this repository.
