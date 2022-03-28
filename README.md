@@ -38,7 +38,6 @@ These scripts are in an experimental stage, sufficient to bootstrap this content
 For the m8g domain, the script `process.sh` will create the expected structure and content. In addition, the script `listuris.sh` supports the creation of a mapping table for forwarding the requests having a html response to the right place. To be used the updated mapping table has to be included in (the proxy)[https://github.com/SEMICeu/uri.semic.eu-proxy/blob/main/htmlmap.lua].
 
 
-
 ## management.
 This is not the master repository of the URIs. Any URI that is minted and maintained by SEMIC has a master repository containing the term's definition and core content.
 In this repository that information is stored in a form that is optimal for the proxy serving the URI's.
@@ -51,6 +50,7 @@ In addition to the RDF content also the mapping on the html target URL must be d
 Providing information on the wrong path or not providing all the serializations will not lead to execution failure of proxies. End users will get a proper 404 HTTP error. Resolving is by correcting the provided content.
 
 ### Supportive scripts notes
+
 As the master repositories of the Core Vocabularies normally contain an RDF file describing the Core Vocabulary, bash scripts have been made to transform a RDF file into a directory structure with RDF files according to the rules of this repository. The script [process.sh](https://github.com/SEMICeu/uri.semic.eu-puris/blob/main/scripts/process.sh) transforms the content for the m8g domain.
 
 When executed in the scripts directory a subdirectory `dir` will be created. This content can then be copied to the target directory releases in this repository.
