@@ -30,7 +30,7 @@ For now this has not been included.
 
 
 
-## creation of the structure 
+## Initialising content  
 In `/scripts` there are scripts that support to create content according to the expected layout based on the master content of the machine-readible specification (an RDF file).
 
 These scripts are in an experimental stage, sufficient to bootstrap this content. In the future an integration in the creation process of the vocabulary associated wih the PURI's can replace these.
@@ -38,7 +38,7 @@ These scripts are in an experimental stage, sufficient to bootstrap this content
 For the m8g domain, the script `process.sh` will create the expected structure and content. In addition, the script `listuris.sh` supports the creation of a mapping table for forwarding the requests having a html response to the right place. To be used the updated mapping table has to be included in [the proxy](https://github.com/SEMICeu/uri.semic.eu-proxy/blob/main/htmlmap.lua).
 
 
-## management.
+## Management.
 This is not the master repository of the URIs. Any URI that is minted and maintained by SEMIC has a master repository containing the term's definition and core content.
 In this repository that information is stored in a form that is optimal for the proxy serving the URI's.
 Ideally there is an automation between both repositories, but this has not been established yet.
@@ -50,10 +50,10 @@ In addition to the RDF content also the mapping on the html target URL must be d
 Providing information on the wrong path or not providing all the serializations will not lead to execution failure of proxies. End users will get a proper 404 HTTP error. Resolving is by correcting the provided content.
 
 
-### access
+### Access to the repository
 This repository is also made available through github pages. This facilitates the implementation of the PURI proxy, because then the PURI handling proxy can redirect to the latest content of the repository. 
 
-
+Operational dependency note: if github is down, then the PURI service is unable to provide content.
 
 
 
