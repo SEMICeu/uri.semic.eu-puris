@@ -33,9 +33,9 @@ For now this has not been included.
 ## Initialising content  
 In `/scripts` there are scripts that support to create content according to the expected layout based on the master content of the machine-readible specification (an RDF file).
 
-These scripts are in an experimental stage, sufficient to bootstrap this content. In the future an integration in the creation process of the vocabulary associated wih the PURI's can replace these.
+These scripts are in an **experimental** stage, sufficient to bootstrap this content. In the future an integration in the creation process of the vocabulary associated wih the PURI's can replace these.
 
-For the m8g domain, the script `process.sh` will create the expected structure and content. In addition, the script `listuris.sh` supports the creation of a mapping table for forwarding the requests having a html response to the right place. To be used the updated mapping table has to be included in [the proxy](https://github.com/SEMICeu/uri.semic.eu-proxy/blob/main/htmlmap.lua).
+For the m8g domain, the script `process.sh` will create the expected structure and content. In addition, the script `listuris.sh` supports the creation of a mapping table for forwarding the requests having a html response to the right place. The to be used updated mapping table has to be included in [the proxy](https://github.com/SEMICeu/uri.semic.eu-proxy/blob/main/htmlmap.lua).
 
 
 ## Management.

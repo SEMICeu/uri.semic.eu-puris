@@ -1,5 +1,5 @@
 #!/bin/bash
-# aggretate the domain in one file
+# aggregate the domain in one file
 
 # arg1 = PURI
 
