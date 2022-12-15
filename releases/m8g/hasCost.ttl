@@ -1,8 +1,10 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://data.europa.eu/m8g/hasCost>
-    a <http://www.w3.org/2002/07/owl#ObjectProperty> ;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Cardinality [0..n]. The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."@en ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "hasCost"@en ;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/Cost> .
+<http://data.europa.eu/m8g/hasCost> a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label "has cost"@en ;
+    rdfs:comment "It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service."@en ;
+    rdfs:isDefinedBy <http://data.europa.eu/m8g> .
 

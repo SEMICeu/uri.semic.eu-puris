@@ -1,4 +1,6 @@
+<http://data.europa.eu/m8g/hasCompetentAuthority> <http://www.w3.org/2000/01/rdf-schema#label> "has competent authority"@en .
+<http://data.europa.eu/m8g/hasCompetentAuthority> <http://www.w3.org/2000/01/rdf-schema#comment> "It links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service."@en .
 <http://data.europa.eu/m8g/hasCompetentAuthority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.europa.eu/m8g/hasCompetentAuthority> <http://www.w3.org/2000/01/rdf-schema#comment> "Cardinality [1..1]. This property links a Public Service to a Public Organisation, which is the responsible Agent for the delivery of the Public Service. Whether the particular Public Organisation provides the public service directly or outsources it is not relevant. The Public Organisation that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service."@en .
-<http://data.europa.eu/m8g/hasCompetentAuthority> <http://www.w3.org/2000/01/rdf-schema#label> "hasCompetentAuthority"@en .
-<http://data.europa.eu/m8g/hasCompetentAuthority> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/PublicOrganisation> .
+<http://data.europa.eu/m8g/hasCompetentAuthority> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
+<http://data.europa.eu/m8g/hasCompetentAuthority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+

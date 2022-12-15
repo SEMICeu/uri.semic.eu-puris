@@ -1,8 +1,10 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://data.europa.eu/m8g/hasLegalResource>
-    a <http://www.w3.org/2002/07/owl#ObjectProperty> ;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Cardinality [0..n]. The Has Legal Resource property links a Public Service to a Legal Resource. It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis."@en ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "hasLegalResource"@en ;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResource> .
+<http://data.europa.eu/m8g/hasLegalResource> a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label "has legal resource"@en ;
+    rdfs:comment "It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis.\r"@en ;
+    rdfs:isDefinedBy <http://data.europa.eu/m8g> .
 

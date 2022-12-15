@@ -1,8 +1,10 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://data.europa.eu/m8g/hasParticipation>
-    a <http://www.w3.org/2002/07/owl#ObjectProperty> ;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Cardinality [0..n]. The CPSV-AP defines the three basic roles of Competent Authority, Service Provider and Service User but this simple model can be extended if required using the Has Participation property that links to the Participation class ."@en ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "hasParticipation"@en ;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/Participation> .
+<http://data.europa.eu/m8g/hasParticipation> a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label "has participation"@en ;
+    rdfs:comment "The way how a resource is organized."@en ;
+    rdfs:isDefinedBy <http://data.europa.eu/m8g> .
 

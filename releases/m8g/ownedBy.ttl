@@ -1,8 +1,10 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://data.europa.eu/m8g/ownedBy>
-    a <http://www.w3.org/2002/07/owl#ObjectProperty> ;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Cardinality [0..n]. This property links the Channel class with one or more instances of the Public Organisation class. This property indicates the owner of a specific Channel through which a Public Service is being delivered."@en ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "ownedBy"@en ;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/PublicOrganisation> .
+<http://data.europa.eu/m8g/ownedBy> a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label "owned by"@en ;
+    rdfs:comment "The owner of a specific Channel through which a Public Service is being delivered."@en ;
+    rdfs:isDefinedBy <http://data.europa.eu/m8g> .
 

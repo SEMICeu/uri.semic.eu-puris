@@ -1,0 +1,6 @@
+<http://data.europa.eu/m8g/participates> <http://www.w3.org/2000/01/rdf-schema#comment> "The participation in which an Agent is involved."@en .
+<http://data.europa.eu/m8g/participates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.europa.eu/m8g/participates> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
+<http://data.europa.eu/m8g/participates> <http://www.w3.org/2000/01/rdf-schema#label> "participates"@en .
+<http://data.europa.eu/m8g/participates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+

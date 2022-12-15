@@ -1,8 +1,10 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://data.europa.eu/m8g/thematicArea>
-    <http://purl.org/vocab/vann/usageNote> "Cardinality [0..n]. This property represents the Thematic Area of a Public Service as described in a controlled vocabulary, for instance social protection, health, recreation, culture and religion, family, traveling economic affairs, tax, staff, environment..."@en ;
-    a <http://www.w3.org/2002/07/owl#ObjectProperty> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "thematicArea"@en ;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.europa.eu/m8g/thematicArea> a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label "thematic area"@en ;
+    rdfs:comment "The Thematic Area of a Public Service"@en ;
+    rdfs:isDefinedBy <http://data.europa.eu/m8g> .
 

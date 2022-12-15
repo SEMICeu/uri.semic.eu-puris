@@ -1,8 +1,10 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://data.europa.eu/m8g/isGroupedBy>
-    a <http://www.w3.org/2002/07/owl#ObjectProperty> ;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Cardinality [0..n]. This property links the Public Service to the Event class. Several Public Services may be associated with a particular Event and, likewise, the same Public Service may be associated with several different Events."@en ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "isGroupedBy"@en ;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/Event> .
+<http://data.europa.eu/m8g/isGroupedBy> a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label "is grouped by"@en ;
+    rdfs:comment "It links the Public Service to the Event class."@en ;
+    rdfs:isDefinedBy <http://data.europa.eu/m8g> .
 

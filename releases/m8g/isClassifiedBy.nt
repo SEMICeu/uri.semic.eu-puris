@@ -1,4 +1,6 @@
+<http://data.europa.eu/m8g/isClassifiedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.europa.eu/m8g/isClassifiedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is classified by"@en .
 <http://data.europa.eu/m8g/isClassifiedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.europa.eu/m8g/isClassifiedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Cardinality [0..n]. The Is Classified By property allows to classify the Public Service with any Concept, other than those already foreseen and defined explicitely in the CPSV-AP (Thematic Area, Sector, \u2026). It is a generic property which can be further specialised to make the classification explicit, for instance for classifying public services according level of digitisation, type of audience \u2026 The Concept is at its turn related to a Collection, which groups the different concepts into a controlled vocabulary."@en .
-<http://data.europa.eu/m8g/isClassifiedBy> <http://www.w3.org/2000/01/rdf-schema#label> "isClassifiedBy"@en .
-<http://data.europa.eu/m8g/isClassifiedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.europa.eu/m8g/isClassifiedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
+<http://data.europa.eu/m8g/isClassifiedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "It allows to classify the Public Service with any Concept other than those already foreseen and defined explicitly in  the CPSV-AP (Thematic Area, Sector, etc.)."@en .
+

@@ -1,0 +1,6 @@
+<http://data.europa.eu/m8g/telephone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.europa.eu/m8g/telephone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/m8g/telephone> <http://www.w3.org/2000/01/rdf-schema#label> "has telephone"@en .
+<http://data.europa.eu/m8g/telephone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
+<http://data.europa.eu/m8g/telephone> <http://www.w3.org/2000/01/rdf-schema#comment> "A telephone number through which the Contact Point can be contacted."@en .
+

@@ -1,0 +1,6 @@
+<http://data.europa.eu/m8g/establishedUnder> <http://www.w3.org/2000/01/rdf-schema#label> "established under"@en .
+<http://data.europa.eu/m8g/establishedUnder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.europa.eu/m8g/establishedUnder> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
+<http://data.europa.eu/m8g/establishedUnder> <http://www.w3.org/2000/01/rdf-schema#comment> "It links a Service Concession Contract to relevant legislation or policy documents i.e.\r\nthe Legal Resource under which the Service Concession Contracts are being defined."@en .
+<http://data.europa.eu/m8g/establishedUnder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+

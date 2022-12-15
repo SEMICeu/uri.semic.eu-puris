@@ -1,8 +1,10 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://data.europa.eu/m8g/hasChannel>
-    a <http://www.w3.org/2002/07/owl#ObjectProperty> ;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Cardinality [0..n]. This property links the Public Service to any Channel through which an Agent provides, uses or otherwise interacts with the Public Service, such as an online service, phone number or office."@en ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "hasChannel"@en ;
-    <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/Channel> .
+<http://data.europa.eu/m8g/hasChannel> a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label "has channel"@en ;
+    rdfs:comment "It links the Public Service to any Channel through which an Agent provides, uses or otherwise interacts with the Public Service, such as an online service, phone number or office."@en ;
+    rdfs:isDefinedBy <http://data.europa.eu/m8g> .
 

@@ -1,8 +1,10 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://data.europa.eu/m8g/supportsRequirement>
-    a rdf:Property, <http://www.w3.org/2002/07/owl#ObjectProperty> ;
-    <http://www.w3.org/2000/01/rdf-schema#domain> _:genid25 ;
-    <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> ;
-    <http://www.w3.org/2000/01/rdf-schema#range> _:genid26 .
+<http://data.europa.eu/m8g/supportsRequirement> a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label "supports requirement"@en ;
+    rdfs:comment "Requirement for which the Evidence provides proof."@en ;
+    rdfs:isDefinedBy <http://data.europa.eu/m8g> .
 

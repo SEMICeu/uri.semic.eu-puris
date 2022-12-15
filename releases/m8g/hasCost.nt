@@ -1,4 +1,6 @@
+<http://data.europa.eu/m8g/hasCost> <http://www.w3.org/2000/01/rdf-schema#comment> "It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service."@en .
+<http://data.europa.eu/m8g/hasCost> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
 <http://data.europa.eu/m8g/hasCost> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.europa.eu/m8g/hasCost> <http://www.w3.org/2000/01/rdf-schema#comment> "Cardinality [0..n]. The Has Cost property links a Public Service to one or more instances of the Cost class. It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service. Where the cost varies depending on the channel through which the service is accessed, it can be linked to the channel using the If Accessed Through relationship."@en .
-<http://data.europa.eu/m8g/hasCost> <http://www.w3.org/2000/01/rdf-schema#label> "hasCost"@en .
-<http://data.europa.eu/m8g/hasCost> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/Cost> .
+<http://data.europa.eu/m8g/hasCost> <http://www.w3.org/2000/01/rdf-schema#label> "has cost"@en .
+<http://data.europa.eu/m8g/hasCost> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+

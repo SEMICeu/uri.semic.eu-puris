@@ -1,0 +1,6 @@
+<http://data.europa.eu/m8g/registrationPage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.europa.eu/m8g/registrationPage> <http://www.w3.org/2000/01/rdf-schema#label> "registration page"@en .
+<http://data.europa.eu/m8g/registrationPage> <http://www.w3.org/2000/01/rdf-schema#comment> "A web page that provides means to attend the Public Event."@en .
+<http://data.europa.eu/m8g/registrationPage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
+<http://data.europa.eu/m8g/registrationPage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+

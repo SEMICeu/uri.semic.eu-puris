@@ -1,0 +1,10 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.europa.eu/m8g/specialOpeningHoursSpecification> a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label "availability restriction"@en ;
+    rdfs:comment "The time during which the Contact Point is not available."@en ;
+    rdfs:isDefinedBy <http://data.europa.eu/m8g> .
+

@@ -1,4 +1,6 @@
+<http://data.europa.eu/m8g/ownedBy> <http://www.w3.org/2000/01/rdf-schema#label> "owned by"@en .
+<http://data.europa.eu/m8g/ownedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.europa.eu/m8g/ownedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "The owner of a specific Channel through which a Public Service is being delivered."@en .
+<http://data.europa.eu/m8g/ownedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
 <http://data.europa.eu/m8g/ownedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.europa.eu/m8g/ownedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Cardinality [0..n]. This property links the Channel class with one or more instances of the Public Organisation class. This property indicates the owner of a specific Channel through which a Public Service is being delivered."@en .
-<http://data.europa.eu/m8g/ownedBy> <http://www.w3.org/2000/01/rdf-schema#label> "ownedBy"@en .
-<http://data.europa.eu/m8g/ownedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/m8g/PublicOrganisation> .
+

@@ -1,0 +1,6 @@
+<http://data.europa.eu/m8g/hasEconomicOperator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.europa.eu/m8g/hasEconomicOperator> <http://www.w3.org/2000/01/rdf-schema#label> "has economic operator"@en .
+<http://data.europa.eu/m8g/hasEconomicOperator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.europa.eu/m8g/hasEconomicOperator> <http://www.w3.org/2000/01/rdf-schema#comment> "It links a Service Concession Contract with the Economic Operator in charge for the provision and the management of public services"@en .
+<http://data.europa.eu/m8g/hasEconomicOperator> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
+
