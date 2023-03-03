@@ -1,14 +1,14 @@
 [
   {
-    "@id": "http://data.europa.eu/m8g/code",
+    "@id": "http://data.europa.eu/m8g/isSpecifiedIn",
     "@type": [
-      "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
     ],
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
         "@language": "en",
-        "@value": "The classification of the administrative unit."
+        "@value": "Evidence Type List in which the Evidence Type is included."
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -19,7 +19,7 @@
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@language": "en",
-        "@value": "code"
+        "@value": "is specified in"
       }
     ]
   }

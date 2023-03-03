@@ -1,6 +1,6 @@
 [
   {
-    "@id": "http://data.europa.eu/m8g/code",
+    "@id": "http://data.europa.eu/m8g/isDerivedFrom",
     "@type": [
       "http://www.w3.org/2002/07/owl#ObjectProperty",
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
@@ -8,7 +8,7 @@
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
         "@language": "en",
-        "@value": "The classification of the administrative unit."
+        "@value": "Reference Framework on which the Requirement is based, such as a law or regulation."
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -19,7 +19,7 @@
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@language": "en",
-        "@value": "code"
+        "@value": "is derived from"
       }
     ]
   }
