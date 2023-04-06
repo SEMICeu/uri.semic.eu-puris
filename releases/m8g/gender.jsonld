@@ -8,7 +8,7 @@
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
         "@language": "en",
-        "@value": "The identities, expressions and societal roles of the Person"
+        "@value": "The identities, expressions and societal roles of the Person."
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [

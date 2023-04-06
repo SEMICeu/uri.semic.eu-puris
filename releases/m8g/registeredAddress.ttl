@@ -5,6 +5,7 @@
 <http://data.europa.eu/m8g/registeredAddress> a rdf:Property,
         owl:ObjectProperty ;
     rdfs:label "registered address"@en ;
-    rdfs:comment "The registered address relationship links a Resource with the legally registered Address."@en ;
+    rdfs:comment "The address at which the Legal Entity is legally registered."@en,
+        "The registered address relationship links a Resource with the legally registered Address."@en ;
     rdfs:isDefinedBy <http://data.europa.eu/m8g> .
 

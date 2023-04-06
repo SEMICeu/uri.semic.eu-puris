@@ -5,9 +5,9 @@
 >
   <rdf:Description rdf:about="http://data.europa.eu/m8g/crs">
     <rdfs:label xml:lang="en">crs</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/m8g"/>
     <rdfs:comment xml:lang="en">An identifier for the coordinate reference system.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/m8g"/>
   </rdf:Description>
 </rdf:RDF>

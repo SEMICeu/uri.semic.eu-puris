@@ -5,8 +5,8 @@
 >
   <rdf:Description rdf:about="http://data.europa.eu/m8g/geometryType">
     <rdfs:comment xml:lang="en">The classification of the Geometry.</rdfs:comment>
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/m8g"/>
     <rdfs:label xml:lang="en">geometry type</rdfs:label>
   </rdf:Description>

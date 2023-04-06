@@ -9,6 +9,10 @@
       {
         "@language": "en",
         "@value": "The registered address relationship links a Resource with the legally registered Address."
+      },
+      {
+        "@language": "en",
+        "@value": "The address at which the Legal Entity is legally registered."
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [

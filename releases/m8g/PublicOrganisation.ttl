@@ -1,8 +1,4 @@
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 
-<http://data.europa.eu/m8g/PublicOrganisation>
-    <http://purl.org/vocab/vann/usageNote> "Mandatory class. The CPSV-AP reuses the Core Public Organisation Vocabulary that defines the concept of a Public Organisation and associated properties and relationships. It is largely based on the W3C Organization Ontology."@en ;
-    a <http://www.w3.org/2002/07/owl#Class> ;
-    <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g/cpov> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "PublicOrganisation"@en .
+<http://data.europa.eu/m8g/PublicOrganisation> a owl:Class .
 

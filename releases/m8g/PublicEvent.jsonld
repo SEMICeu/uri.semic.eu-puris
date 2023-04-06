@@ -1,0 +1,8 @@
+[
+  {
+    "@id": "http://data.europa.eu/m8g/PublicEvent",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ]
+  }
+]

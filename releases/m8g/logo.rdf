@@ -4,10 +4,10 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://data.europa.eu/m8g/logo">
-    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/m8g"/>
-    <rdfs:comment xml:lang="en">A graphic symbol to represent the Public Oorganization.</rdfs:comment>
+    <rdfs:label xml:lang="en">logo</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:label xml:lang="en">logo</rdfs:label>
+    <rdfs:comment xml:lang="en">A graphic symbol to represent the Public Oorganization.</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/m8g"/>
   </rdf:Description>
 </rdf:RDF>
