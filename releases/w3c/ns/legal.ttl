@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schemas: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.w3.org/ns/legal#LegalEntity> a rdfs:Class;
+  rdfs:comment "A self-empoyed person, company, or organization that has legal rights and obligations."@en;
+  rdfs:label "Legal Entity"@en .
+
+
+<http://www.w3.org/ns/legal#companyActivity> a rdf:Property;
+  rdfs:comment "The area of work in which the Legal Entity is engaged."@en;
+  rdfs:label "legal entity activity"@en .
+
+<http://www.w3.org/ns/legal#companyStatus> a rdf:Property;
+  rdfs:comment "Information about the viability of the current position of the legal entity."@en;
+  rdfs:label "legal entity status"@en .
+
+<http://www.w3.org/ns/legal#companyType> a rdf:Property;
+  rdfs:comment "The classification of the Legal Entity as a member of a particular group in the context of legal registration."@en;
+  rdfs:label "legal form type"@en .
+
+<http://www.w3.org/ns/legal#legalName> a rdf:Property;
+  rdfs:comment "The name under which the Legal Entity is legally registered."@en;
+  rdfs:label "legal name"@en .
+

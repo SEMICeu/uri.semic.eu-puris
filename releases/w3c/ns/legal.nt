@@ -1,0 +1,15 @@
+<http://www.w3.org/ns/legal#LegalEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/ns/legal#LegalEntity> <http://www.w3.org/2000/01/rdf-schema#comment> "A self-empoyed person, company, or organization that has legal rights and obligations."@en .
+<http://www.w3.org/ns/legal#LegalEntity> <http://www.w3.org/2000/01/rdf-schema#label> "Legal Entity"@en .
+<http://www.w3.org/ns/legal#companyActivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/legal#companyActivity> <http://www.w3.org/2000/01/rdf-schema#comment> "The area of work in which the Legal Entity is engaged."@en .
+<http://www.w3.org/ns/legal#companyActivity> <http://www.w3.org/2000/01/rdf-schema#label> "legal entity activity"@en .
+<http://www.w3.org/ns/legal#companyStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/legal#companyStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "Information about the viability of the current position of the legal entity."@en .
+<http://www.w3.org/ns/legal#companyStatus> <http://www.w3.org/2000/01/rdf-schema#label> "legal entity status"@en .
+<http://www.w3.org/ns/legal#companyType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/legal#companyType> <http://www.w3.org/2000/01/rdf-schema#comment> "The classification of the Legal Entity as a member of a particular group in the context of legal registration."@en .
+<http://www.w3.org/ns/legal#companyType> <http://www.w3.org/2000/01/rdf-schema#label> "legal form type"@en .
+<http://www.w3.org/ns/legal#legalName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/legal#legalName> <http://www.w3.org/2000/01/rdf-schema#comment> "The name under which the Legal Entity is legally registered."@en .
+<http://www.w3.org/ns/legal#legalName> <http://www.w3.org/2000/01/rdf-schema#label> "legal name"@en .
