@@ -1,4 +1,10 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://data.europa.eu/m8g/ContactPoint> a owl:Class .
+<http://data.europa.eu/m8g/contactPoint> a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label "contact point"@en ;
+    rdfs:comment "The main contact information of the resource."@en ;
+    rdfs:isDefinedBy <http://data.europa.eu/m8g> .
 
