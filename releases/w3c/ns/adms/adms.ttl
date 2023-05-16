@@ -133,6 +133,18 @@
     <http://www.w3.org/2000/01/rdf-schema#label> "sample"@en ;
     <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> .
 
+<http://www.w3.org/ns/adms#schemeAgency>
+    a <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "The name of the agency that issued the identifier."@en ;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "This property is deprecated because in in HTML specification another URI was used." ;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/adms#Identifier> ;
+    <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/adms> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "schema agency"@en ;
+    <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> ;
+    <http://www.w3.org/2002/07/owl#deprecated> "true" ;
+    <http://www.w3.org/2002/07/owl#equivalentProperty>  <http://www.w3.org/ns/adms#schemaAgency> ;
+    <http://purl.org/dc/terms/isReplacedBy> <http://www.w3.org/ns/adms#schemaAgency> .
+
 <http://www.w3.org/ns/adms#schemaAgency>
     a <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
     <http://www.w3.org/2000/01/rdf-schema#comment> "The name of the agency that issued the identifier."@en ;
