@@ -1,4 +1,4 @@
-<<http://www.w3.org/ns/locn#Address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/ns/locn#Address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <http://www.w3.org/ns/locn#Address> <http://www.w3.org/2000/01/rdf-schema#label> "Address"@en .
 <http://www.w3.org/ns/locn#Address> <http://purl.org/dc/terms/identifier> "locn:Address"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.w3.org/ns/locn#Address> <http://www.w3.org/2000/01/rdf-schema#comment> "An \"address representation\" as conceptually defined by the INSPIRE Address Representation data type. The locn:addressId property may be used to link this locn:Address to other representations."@en .
