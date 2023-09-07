@@ -1,0 +1,6 @@
+<http://data.europa.eu/r5r/applicableLegislation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.europa.eu/r5r/applicableLegislation> <http://www.w3.org/2000/01/rdf-schema#label> "applicable legislation"@en .
+<http://data.europa.eu/r5r/applicableLegislation> <http://www.w3.org/2000/01/rdf-schema#comment> "the legislation that is applicable to this resource."@en .
+<http://data.europa.eu/r5r/applicableLegislation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<http://data.europa.eu/r5r/applicableLegislation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/r5r> .
+<http://data.europa.eu/r5r/applicableLegislation> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.europa.eu/eli/ontology#LegalResource> .
