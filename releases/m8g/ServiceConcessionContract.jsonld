@@ -1,6 +1,6 @@
 [
   {
-    "@id": "http://data.europa.eu/m8g/ContactPoint",
+    "@id": "http://data.europa.eu/m8g/ServiceConcessionContract",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ]
