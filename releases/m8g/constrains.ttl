@@ -2,9 +2,9 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://data.europa.eu/m8g/isProvidedBy> a rdf:Property,
+<http://data.europa.eu/m8g/constrains> a rdf:Property,
         owl:ObjectProperty ;
-    rdfs:label "is provided by"@en ;
-    rdfs:comment "Agent that transmits the Evidence."@en ;
+    rdfs:label "constrains"@en ;
+    rdfs:comment "Information Concept about which a Constraint expresses a limitation."@en ;
     rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

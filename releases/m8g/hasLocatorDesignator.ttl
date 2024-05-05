@@ -2,9 +2,9 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://data.europa.eu/m8g/isProvidedBy> a rdf:Property,
+<http://data.europa.eu/m8g/hasLocatorDesignator> a rdf:Property,
         owl:ObjectProperty ;
-    rdfs:label "is provided by"@en ;
-    rdfs:comment "Agent that transmits the Evidence."@en ;
+    rdfs:label "has locator designator"@en ;
+    rdfs:comment "A number or a sequence of characters that uniquely identifies the locator within the relevant scope(s)."@en ;
     rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 
