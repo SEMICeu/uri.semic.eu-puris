@@ -5,9 +5,9 @@
 >
   <rdf:Description rdf:about="http://data.europa.eu/m8g/sector">
     <rdfs:label xml:lang="en">sector</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/m8g/"/>
     <rdfs:comment xml:lang="en">The industry or sector a Public Service relates to, or is intended for.</rdfs:comment>
-    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/m8g"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
 </rdf:RDF>

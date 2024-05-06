@@ -6,5 +6,5 @@
         owl:ObjectProperty ;
     rdfs:label "currency"@en ;
     rdfs:comment "The currency in which the Cost needs to be paid and the value of the Cost is expressed."@en ;
-    rdfs:isDefinedBy <http://data.europa.eu/m8g> .
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

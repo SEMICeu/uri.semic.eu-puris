@@ -5,6 +5,6 @@
 <http://data.europa.eu/m8g/isDefinedBy> a rdf:Property,
         owl:ObjectProperty ;
     rdfs:label "is defined by"@en ;
-    rdfs:comment "It links the Cost class to one or more instances of the Public Organization class."@en ;
-    rdfs:isDefinedBy <http://data.europa.eu/m8g> .
+    rdfs:comment "It links the Cost class to one or more instances of the Organization class."@en ;
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

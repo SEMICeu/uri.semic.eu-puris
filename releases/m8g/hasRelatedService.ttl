@@ -6,5 +6,5 @@
         owl:ObjectProperty ;
     rdfs:label "has related service"@en ;
     rdfs:comment "The Public Service related to the Event."@en ;
-    rdfs:isDefinedBy <http://data.europa.eu/m8g> .
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

@@ -6,5 +6,5 @@
         owl:ObjectProperty ;
     rdfs:label "holds requirement"@en ;
     rdfs:comment "It links a Public Service to a class that describes the Requirement."@en ;
-    rdfs:isDefinedBy <http://data.europa.eu/m8g> .
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

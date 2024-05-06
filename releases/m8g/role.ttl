@@ -6,5 +6,5 @@
         owl:ObjectProperty ;
     rdfs:label "role"@en ;
     rdfs:comment "The function of an Agent within a Participation."@en ;
-    rdfs:isDefinedBy <http://data.europa.eu/m8g> .
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

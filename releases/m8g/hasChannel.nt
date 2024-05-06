@@ -1,6 +1,6 @@
-<http://data.europa.eu/m8g/hasChannel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://data.europa.eu/m8g/hasChannel> <http://www.w3.org/2000/01/rdf-schema#comment> "It links the Public Service to any Channel through which an Agent provides, uses or otherwise interacts with the Public Service, such as an online service, phone number or office."@en .
-<http://data.europa.eu/m8g/hasChannel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.europa.eu/m8g/hasChannel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://data.europa.eu/m8g/hasChannel> <http://www.w3.org/2000/01/rdf-schema#label> "has channel"@en .
-<http://data.europa.eu/m8g/hasChannel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
+<http://data.europa.eu/m8g/hasChannel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g/> .
+<http://data.europa.eu/m8g/hasChannel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 

@@ -5,9 +5,9 @@
 >
   <rdf:Description rdf:about="http://data.europa.eu/m8g/participates">
     <rdfs:comment xml:lang="en">The participation in which an Agent is involved.</rdfs:comment>
-    <rdfs:label xml:lang="en">participates</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/m8g/"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/m8g"/>
+    <rdfs:label xml:lang="en">participates</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

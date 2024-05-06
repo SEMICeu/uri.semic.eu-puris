@@ -8,12 +8,16 @@
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
         "@language": "en",
-        "@value": "The time at which the Contact Point is normally available."
+        "@value": "A time at which the the resource is normally available."
+      },
+      {
+        "@language": "en",
+        "@value": "A time at which the resource is normally available."
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
-        "@id": "http://data.europa.eu/m8g"
+        "@id": "http://data.europa.eu/m8g/"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [

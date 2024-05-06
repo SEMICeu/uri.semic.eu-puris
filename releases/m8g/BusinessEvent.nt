@@ -1,3 +1,3 @@
+<http://data.europa.eu/m8g/BusinessEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g/> .
 <http://data.europa.eu/m8g/BusinessEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.europa.eu/m8g/BusinessEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Optional class. This class represents a Business Event, which specialises Event. A Business Event is a specific situation or event in the lifecycle of a business that fulfils one or more needs or (legal) obligations of that business at this specific point in time. A Business Event requires a set of public services to be delivered and consumed in order for the associated business need(s) or obligation(s) to be fulfilled. Business Events are defined within the context of a particular Member State. In other words, a Business Event groups together a number of public services that need to be delivered for completing that particular event."@en .
-<http://data.europa.eu/m8g/BusinessEvent> <http://www.w3.org/2000/01/rdf-schema#label> "BusinessEvent"@en .
+

@@ -6,5 +6,5 @@
         owl:ObjectProperty ;
     rdfs:label "sector"@en ;
     rdfs:comment "The industry or sector a Public Service relates to, or is intended for."@en ;
-    rdfs:isDefinedBy <http://data.europa.eu/m8g> .
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

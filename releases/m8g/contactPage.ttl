@@ -6,5 +6,5 @@
         owl:ObjectProperty ;
     rdfs:label "contact page"@en ;
     rdfs:comment "A web page that could be used to reach out the Contact Point."@en ;
-    rdfs:isDefinedBy <http://data.europa.eu/m8g> .
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

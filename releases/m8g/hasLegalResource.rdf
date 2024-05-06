@@ -7,7 +7,7 @@
     <rdfs:label xml:lang="en">has legal resource</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/m8g"/>
     <rdfs:comment xml:lang="en">It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis.&#13;</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/m8g/"/>
   </rdf:Description>
 </rdf:RDF>

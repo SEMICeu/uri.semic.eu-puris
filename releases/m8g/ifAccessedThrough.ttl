@@ -6,5 +6,5 @@
         owl:ObjectProperty ;
     rdfs:label "if accessed through"@en ;
     rdfs:comment "The costs created by the use of different Channels."@en ;
-    rdfs:isDefinedBy <http://data.europa.eu/m8g> .
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

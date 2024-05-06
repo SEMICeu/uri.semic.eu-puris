@@ -6,5 +6,5 @@
         owl:ObjectProperty ;
     rdfs:label "has participation"@en ;
     rdfs:comment "The way how a resource is organized."@en ;
-    rdfs:isDefinedBy <http://data.europa.eu/m8g> .
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

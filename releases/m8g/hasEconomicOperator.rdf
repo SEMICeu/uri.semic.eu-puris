@@ -7,7 +7,7 @@
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:label xml:lang="en">has economic operator</rdfs:label>
-    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/m8g"/>
-    <rdfs:comment xml:lang="en">It links a Service Concession Contract with the Economic Operator in charge for the provision and the management of public services</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/m8g/"/>
+    <rdfs:comment xml:lang="en">It links a Service Concession Contract with the Economic Operator in charge for the provision and the management of public services.</rdfs:comment>
   </rdf:Description>
 </rdf:RDF>

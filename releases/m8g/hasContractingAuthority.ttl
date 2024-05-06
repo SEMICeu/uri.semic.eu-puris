@@ -6,5 +6,5 @@
         owl:ObjectProperty ;
     rdfs:label "has contracting authority"@en ;
     rdfs:comment "It links a Service Concession Contract with the Contracting Authority which is ultimately responsible for a public service."@en ;
-    rdfs:isDefinedBy <http://data.europa.eu/m8g> .
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

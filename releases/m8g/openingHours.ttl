@@ -5,6 +5,7 @@
 <http://data.europa.eu/m8g/openingHours> a rdf:Property,
         owl:ObjectProperty ;
     rdfs:label "opening hours"@en ;
-    rdfs:comment "The time at which the Contact Point is normally available."@en ;
-    rdfs:isDefinedBy <http://data.europa.eu/m8g> .
+    rdfs:comment "A time at which the resource is normally available."@en,
+        "A time at which the the resource is normally available."@en ;
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

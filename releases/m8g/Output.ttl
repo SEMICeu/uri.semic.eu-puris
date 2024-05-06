@@ -1,8 +1,6 @@
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://data.europa.eu/m8g/Output>
-    a <http://www.w3.org/2002/07/owl#Class> ;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Optional class. Outputs can be any resource - document, artefact – anything produced by the Public Service. In the context of a Public Service, the output provides an official document or other artefact of the Competent Authority (Public Organisation) that permits/authorises/entitles an Agent to (do) something."@en ;
-    <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g/cpsvap> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Output"@en .
+<http://data.europa.eu/m8g/Output> a owl:Class ;
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

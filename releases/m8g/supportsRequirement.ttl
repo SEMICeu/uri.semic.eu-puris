@@ -6,5 +6,5 @@
         owl:ObjectProperty ;
     rdfs:label "supports requirement"@en ;
     rdfs:comment "Requirement for which the Evidence provides proof."@en ;
-    rdfs:isDefinedBy <http://data.europa.eu/m8g> .
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

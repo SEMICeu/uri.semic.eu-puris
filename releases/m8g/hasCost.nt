@@ -1,6 +1,6 @@
-<http://data.europa.eu/m8g/hasCost> <http://www.w3.org/2000/01/rdf-schema#comment> "It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service."@en .
-<http://data.europa.eu/m8g/hasCost> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
-<http://data.europa.eu/m8g/hasCost> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.europa.eu/m8g/hasCost> <http://www.w3.org/2000/01/rdf-schema#label> "has cost"@en .
 <http://data.europa.eu/m8g/hasCost> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.europa.eu/m8g/hasCost> <http://www.w3.org/2000/01/rdf-schema#label> "has cost"@en .
+<http://data.europa.eu/m8g/hasCost> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g/> .
+<http://data.europa.eu/m8g/hasCost> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.europa.eu/m8g/hasCost> <http://www.w3.org/2000/01/rdf-schema#comment> "It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service."@en .
 

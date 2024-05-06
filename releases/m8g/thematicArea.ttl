@@ -5,6 +5,6 @@
 <http://data.europa.eu/m8g/thematicArea> a rdf:Property,
         owl:ObjectProperty ;
     rdfs:label "thematic area"@en ;
-    rdfs:comment "The Thematic Area of a Public Service"@en ;
-    rdfs:isDefinedBy <http://data.europa.eu/m8g> .
+    rdfs:comment "The Thematic Area of a Public Service."@en ;
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

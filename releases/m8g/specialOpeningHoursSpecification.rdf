@@ -4,10 +4,10 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://data.europa.eu/m8g/specialOpeningHoursSpecification">
-    <rdfs:comment xml:lang="en">The time during which the Contact Point is not available.</rdfs:comment>
-    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/m8g"/>
-    <rdfs:label xml:lang="en">availability restriction</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label xml:lang="en">availability restriction</rdfs:label>
+    <rdfs:comment xml:lang="en">A time during which the resource is not available.</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/m8g/"/>
   </rdf:Description>
 </rdf:RDF>

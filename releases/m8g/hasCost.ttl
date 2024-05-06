@@ -6,5 +6,5 @@
         owl:ObjectProperty ;
     rdfs:label "has cost"@en ;
     rdfs:comment "It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service."@en ;
-    rdfs:isDefinedBy <http://data.europa.eu/m8g> .
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

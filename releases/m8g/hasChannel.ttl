@@ -6,5 +6,5 @@
         owl:ObjectProperty ;
     rdfs:label "has channel"@en ;
     rdfs:comment "It links the Public Service to any Channel through which an Agent provides, uses or otherwise interacts with the Public Service, such as an online service, phone number or office."@en ;
-    rdfs:isDefinedBy <http://data.europa.eu/m8g> .
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

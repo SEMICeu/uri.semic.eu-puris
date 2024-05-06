@@ -6,8 +6,9 @@
   <rdf:Description rdf:about="http://data.europa.eu/m8g/openingHours">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:comment xml:lang="en">A time at which the the resource is normally available.</rdfs:comment>
+    <rdfs:comment xml:lang="en">A time at which the resource is normally available.</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/m8g/"/>
     <rdfs:label xml:lang="en">opening hours</rdfs:label>
-    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/m8g"/>
-    <rdfs:comment xml:lang="en">The time at which the Contact Point is normally available.</rdfs:comment>
   </rdf:Description>
 </rdf:RDF>

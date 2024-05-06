@@ -1,0 +1,30 @@
+[
+  {
+    "@id": "http://data.europa.eu/m8g/processingTime",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The (estimated) time needed for executing a Public Service. The actual information is provided using the ISO8601 syntax for durations. "
+      },
+      {
+        "@language": "en",
+        "@value": "The (estimated) time needed for executing a Public Service which may depend on the Channel chosen."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://data.europa.eu/m8g/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "processing time"
+      }
+    ]
+  }
+]

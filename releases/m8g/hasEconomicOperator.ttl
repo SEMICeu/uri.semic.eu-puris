@@ -5,6 +5,6 @@
 <http://data.europa.eu/m8g/hasEconomicOperator> a rdf:Property,
         owl:ObjectProperty ;
     rdfs:label "has economic operator"@en ;
-    rdfs:comment "It links a Service Concession Contract with the Economic Operator in charge for the provision and the management of public services"@en ;
-    rdfs:isDefinedBy <http://data.europa.eu/m8g> .
+    rdfs:comment "It links a Service Concession Contract with the Economic Operator in charge for the provision and the management of public services."@en ;
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

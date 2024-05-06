@@ -6,5 +6,5 @@
         owl:ObjectProperty ;
     rdfs:label "is classified by"@en ;
     rdfs:comment "It allows to classify the Public Service with any Concept other than those already foreseen and defined explicitly in  the CPSV-AP (Thematic Area, Sector, etc.)."@en ;
-    rdfs:isDefinedBy <http://data.europa.eu/m8g> .
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

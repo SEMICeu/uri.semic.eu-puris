@@ -6,8 +6,8 @@
   <rdf:Description rdf:about="http://data.europa.eu/m8g/isGroupedBy">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/m8g"/>
-    <rdfs:label xml:lang="en">is grouped by</rdfs:label>
     <rdfs:comment xml:lang="en">It links the Public Service to the Event class.</rdfs:comment>
+    <rdfs:label xml:lang="en">is grouped by</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/m8g/"/>
   </rdf:Description>
 </rdf:RDF>

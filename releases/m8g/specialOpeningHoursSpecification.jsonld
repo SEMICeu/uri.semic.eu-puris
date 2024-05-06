@@ -8,12 +8,12 @@
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
         "@language": "en",
-        "@value": "The time during which the Contact Point is not available."
+        "@value": "A time during which the resource is not available."
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
-        "@id": "http://data.europa.eu/m8g"
+        "@id": "http://data.europa.eu/m8g/"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [

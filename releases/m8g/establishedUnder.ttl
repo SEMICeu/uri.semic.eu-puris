@@ -7,5 +7,5 @@
     rdfs:label "established under"@en ;
     rdfs:comment """It links a Service Concession Contract to relevant legislation or policy documents i.e.\r
 the Legal Resource under which the Service Concession Contracts are being defined."""@en ;
-    rdfs:isDefinedBy <http://data.europa.eu/m8g> .
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

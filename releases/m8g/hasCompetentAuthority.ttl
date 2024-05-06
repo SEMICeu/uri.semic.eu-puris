@@ -6,5 +6,5 @@
         owl:ObjectProperty ;
     rdfs:label "has competent authority"@en ;
     rdfs:comment "It links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service."@en ;
-    rdfs:isDefinedBy <http://data.europa.eu/m8g> .
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

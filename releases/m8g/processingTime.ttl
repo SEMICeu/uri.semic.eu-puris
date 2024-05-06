@@ -7,5 +7,5 @@
     rdfs:label "processing time"@en ;
     rdfs:comment "The (estimated) time needed for executing a Public Service which may depend on the Channel chosen."@en,
         "The (estimated) time needed for executing a Public Service. The actual information is provided using the ISO8601 syntax for durations. "@en ;
-    rdfs:isDefinedBy <http://data.europa.eu/m8g> .
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

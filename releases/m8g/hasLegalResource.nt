@@ -1,6 +1,6 @@
-<http://data.europa.eu/m8g/hasLegalResource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
 <http://data.europa.eu/m8g/hasLegalResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://data.europa.eu/m8g/hasLegalResource> <http://www.w3.org/2000/01/rdf-schema#comment> "It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis.\r"@en .
 <http://data.europa.eu/m8g/hasLegalResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.europa.eu/m8g/hasLegalResource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g/> .
 <http://data.europa.eu/m8g/hasLegalResource> <http://www.w3.org/2000/01/rdf-schema#label> "has legal resource"@en .
+<http://data.europa.eu/m8g/hasLegalResource> <http://www.w3.org/2000/01/rdf-schema#comment> "It indicates the Legal Resource (e.g. legislation) to which the Public Service relates, operates or has its legal basis.\r"@en .
 

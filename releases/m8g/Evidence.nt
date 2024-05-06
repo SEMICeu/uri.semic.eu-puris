@@ -1,4 +1,3 @@
-<http://data.europa.eu/m8g/Evidence> <http://purl.org/vocab/vann/usageNote> "Optional class. Evidence can be any resource - document, artefact \u2013 anything needed for executing the Public Service. In the context of Public Services, Evidence is usually administrative documents or completed application forms. A specific Public Service may require the presence of certain Evidence or combinations of Evidence in order to be delivered. In some cases, the Output of one service will be Evidence for another service. Such relationships should be described in the associated Rule(s)."@en .
 <http://data.europa.eu/m8g/Evidence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.europa.eu/m8g/Evidence> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g/cccev> .
-<http://data.europa.eu/m8g/Evidence> <http://www.w3.org/2000/01/rdf-schema#label> "Evidence"@en .
+<http://data.europa.eu/m8g/Evidence> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g/> .
+

@@ -1,8 +1,6 @@
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://data.europa.eu/m8g/Channel>
-    a <http://www.w3.org/2002/07/owl#Class> ;
-    <http://www.w3.org/2000/01/rdf-schema#comment> "Optional class. The Channel class represents the medium through which an Agent provides, uses or interacts in another way with a Public Service. Typical examples include online services, phone, walk-in centres etc."@en ;
-    <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g/cpsvap> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Channel"@en .
+<http://data.europa.eu/m8g/Channel> a owl:Class ;
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

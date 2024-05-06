@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="http://data.europa.eu/m8g/Evidence">
-    <ns0:usageNote xmlns:ns0="http://purl.org/vocab/vann/" xml:lang="en">Optional class. Evidence can be any resource - document, artefact – anything needed for executing the Public Service. In the context of Public Services, Evidence is usually administrative documents or completed application forms. A specific Public Service may require the presence of certain Evidence or combinations of Evidence in order to be delivered. In some cases, the Output of one service will be Evidence for another service. Such relationships should be described in the associated Rule(s).</ns0:usageNote>
-  </rdf:Description>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/Evidence">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/m8g/Evidence">
-    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g/cccev"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/m8g/Evidence">
-    <ns0:label xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Evidence</ns0:label>
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/m8g/"/>
   </rdf:Description>
 </rdf:RDF>

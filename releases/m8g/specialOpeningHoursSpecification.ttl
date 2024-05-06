@@ -5,6 +5,6 @@
 <http://data.europa.eu/m8g/specialOpeningHoursSpecification> a rdf:Property,
         owl:ObjectProperty ;
     rdfs:label "availability restriction"@en ;
-    rdfs:comment "The time during which the Contact Point is not available."@en ;
-    rdfs:isDefinedBy <http://data.europa.eu/m8g> .
+    rdfs:comment "A time during which the resource is not available."@en ;
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

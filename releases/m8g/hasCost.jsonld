@@ -1,0 +1,26 @@
+[
+  {
+    "@id": "http://data.europa.eu/m8g/hasCost",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "It indicates the costs related to the execution of a Public Service for the citizen or business related to the execution of the particular Public Service."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://data.europa.eu/m8g/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "has cost"
+      }
+    ]
+  }
+]

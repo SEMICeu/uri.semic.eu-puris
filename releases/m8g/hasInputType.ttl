@@ -6,5 +6,5 @@
         owl:ObjectProperty ;
     rdfs:label "has input type"@en ;
     rdfs:comment "It links a Public Service to one or more instances of the EvidenceType class. "@en ;
-    rdfs:isDefinedBy <http://data.europa.eu/m8g> .
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

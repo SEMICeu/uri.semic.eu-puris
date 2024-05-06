@@ -6,5 +6,5 @@
         owl:DatatypeProperty ;
     rdfs:label "has value"@en ;
     rdfs:comment "A numeric value indicating the amount of the Cost."@en ;
-    rdfs:isDefinedBy <http://data.europa.eu/m8g> .
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

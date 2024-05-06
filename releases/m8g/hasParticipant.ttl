@@ -6,5 +6,5 @@
         owl:ObjectProperty ;
     rdfs:label "has participant"@en ;
     rdfs:comment "The Agent involved in the Participation."@en ;
-    rdfs:isDefinedBy <http://data.europa.eu/m8g> .
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

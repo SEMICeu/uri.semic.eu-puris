@@ -1,6 +1,6 @@
-<http://data.europa.eu/m8g/hasCompetentAuthority> <http://www.w3.org/2000/01/rdf-schema#label> "has competent authority"@en .
-<http://data.europa.eu/m8g/hasCompetentAuthority> <http://www.w3.org/2000/01/rdf-schema#comment> "It links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service."@en .
 <http://data.europa.eu/m8g/hasCompetentAuthority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.europa.eu/m8g/hasCompetentAuthority> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
+<http://data.europa.eu/m8g/hasCompetentAuthority> <http://www.w3.org/2000/01/rdf-schema#comment> "It links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service."@en .
+<http://data.europa.eu/m8g/hasCompetentAuthority> <http://www.w3.org/2000/01/rdf-schema#label> "has competent authority"@en .
 <http://data.europa.eu/m8g/hasCompetentAuthority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.europa.eu/m8g/hasCompetentAuthority> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g/> .
 
