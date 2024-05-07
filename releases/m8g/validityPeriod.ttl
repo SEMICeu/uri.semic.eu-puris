@@ -1,8 +1,10 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://data.europa.eu/m8g/validityPeriod>
-    a rdf:Property, <http://www.w3.org/2002/07/owl#ObjectProperty> ;
-    <http://www.w3.org/2000/01/rdf-schema#domain> _:genid29 ;
-    <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> ;
-    <http://www.w3.org/2000/01/rdf-schema#range> _:genid30 .
+<http://data.europa.eu/m8g/validityPeriod> a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label "validity period"@en ;
+    rdfs:comment "Period of Time during which the Evidence holds true or has force."@en ;
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

@@ -1,9 +1,10 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://data.europa.eu/m8g/hasQualifiedRelation>
-    a rdf:Property, <http://www.w3.org/2002/07/owl#ObjectProperty> ;
-    <http://www.w3.org/2000/01/rdf-schema#domain> _:genid9 ;
-    <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> ;
-    <http://www.w3.org/2000/01/rdf-schema#range> _:genid10 ;
-    <http://www.w3.org/2004/02/skos/core#scopeNote> "This property leaves the possiblity to define a qualified relation from Requirement to Information Requirement or Constraint as well as a qualified relation from Requirement to Requirement.  A use case would be to specialize an EU requirement in Member States' specific requirements."@en .
+<http://data.europa.eu/m8g/hasQualifiedRelation> a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label "has qualified relation"@en ;
+    rdfs:comment "Described and/or categorised relation to another Requirement."@en ;
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

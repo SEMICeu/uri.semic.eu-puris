@@ -1,8 +1,10 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://data.europa.eu/m8g/specifiesEvidenceType>
-    a rdf:Property, <http://www.w3.org/2002/07/owl#ObjectProperty> ;
-    <http://www.w3.org/2000/01/rdf-schema#domain> _:genid23 ;
-    <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> ;
-    <http://www.w3.org/2000/01/rdf-schema#range> _:genid24 .
+<http://data.europa.eu/m8g/specifiesEvidenceType> a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label "specifies evidence type"@en ;
+    rdfs:comment "Evidence Type included in this Evidence Type List."@en ;
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

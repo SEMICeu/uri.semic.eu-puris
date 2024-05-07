@@ -1,9 +1,10 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://data.europa.eu/m8g/weightingConsiderationDescription>
-    a rdf:Property, <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
-    <http://www.w3.org/2000/01/rdf-schema#domain> _:genid37 ;
-    <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> ;
-    <http://www.w3.org/2000/01/rdf-schema#range> _:genid38 ;
-    <http://www.w3.org/2004/02/skos/core#scopeNote> "This description gives the view of the creator of the Criterion weights on how to interpret and use them during the evaluation process."@en .
+<http://data.europa.eu/m8g/weightingConsiderationDescription> a rdf:Property,
+        owl:DatatypeProperty ;
+    rdfs:label "weighting consideration description"@en ;
+    rdfs:comment "Explanation of how the weighting of a Criterion is to be used."@en ;
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

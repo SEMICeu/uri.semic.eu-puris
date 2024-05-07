@@ -1,6 +1,6 @@
 [
   {
-    "@id": "http://data.europa.eu/m8g/ReferenceFramework",
+    "@id": "http://data.europa.eu/m8g/InformationConcept",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],

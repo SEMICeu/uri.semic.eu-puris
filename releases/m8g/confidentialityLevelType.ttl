@@ -1,9 +1,10 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://data.europa.eu/m8g/confidentialityLevelType>
-    a rdf:Property, <http://www.w3.org/2002/07/owl#ObjectProperty> ;
-    <http://www.w3.org/2000/01/rdf-schema#domain> _:genid3 ;
-    <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> ;
-    <http://www.w3.org/2000/01/rdf-schema#range> _:genid4 ;
-    <http://www.w3.org/2004/02/skos/core#scopeNote> "Classifications should be defined by an organisation/country as an outcome of a security assessment."@en .
+<http://data.europa.eu/m8g/confidentialityLevelType> a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label "confidentiality level type"@en ;
+    rdfs:comment "Security classification assigned to an Evidence e.g. classified, sensitive, public."@en ;
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

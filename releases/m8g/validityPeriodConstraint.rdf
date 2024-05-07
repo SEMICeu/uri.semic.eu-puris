@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/validityPeriodConstraint">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/m8g/validityPeriodConstraint">
+    <rdfs:comment xml:lang="en">Temporal condition on the validity period of the Evidence Type.</rdfs:comment>
+    <rdfs:label xml:lang="en">validity period constraint</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/m8g/validityPeriodConstraint">
-    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid31"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/m8g/validityPeriodConstraint">
-    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/m8g/validityPeriodConstraint">
-    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid32"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/m8g/validityPeriodConstraint">
-    <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">E.g. A Belgian birth evidence is valid for X months after emission. To express constraints on the validity period that must hold when assessing the evidence (e.g. the certificate of good conduct cannot be issued more than 3 months ago), we refer to the Constraint class.</ns0:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/m8g/"/>
   </rdf:Description>
 </rdf:RDF>

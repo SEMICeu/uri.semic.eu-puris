@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/hasQualifiedRelation">
+    <rdfs:label xml:lang="en">has qualified relation</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasQualifiedRelation">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasQualifiedRelation">
-    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid9"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasQualifiedRelation">
-    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasQualifiedRelation">
-    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid10"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/m8g/hasQualifiedRelation">
-    <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">This property leaves the possiblity to define a qualified relation from Requirement to Information Requirement or Constraint as well as a qualified relation from Requirement to Requirement.  A use case would be to specialize an EU requirement in Member States' specific requirements.</ns0:scopeNote>
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/m8g/"/>
+    <rdfs:comment xml:lang="en">Described and/or categorised relation to another Requirement.</rdfs:comment>
   </rdf:Description>
 </rdf:RDF>

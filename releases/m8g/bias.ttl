@@ -1,10 +1,10 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://data.europa.eu/m8g/bias>
-    a rdf:Property, <http://www.w3.org/2002/07/owl#ObjectProperty> ;
-    <http://www.w3.org/2000/01/rdf-schema#domain> _:genid1 ;
-    <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> ;
-    <http://www.w3.org/2000/01/rdf-schema#range> _:genid2 ;
-    <http://www.w3.org/2004/02/skos/core#scopeNote> """The bias parameter tries to correct a systematic error. For example in procurement, a home bias corresponds to the \"presence of local preferences distorting international specialisation and resource allocation\". [https://trade.ec.europa.eu/doclib/docs/2018/september/tradoc_157319.pdf]
-When quantified, this systematic error can be removed."""@en .
+<http://data.europa.eu/m8g/bias> a rdf:Property,
+        owl:DatatypeProperty ;
+    rdfs:label "bias"@en ;
+    rdfs:comment "Parameter used to adjust the evaluation of the Criterion."@en ;
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

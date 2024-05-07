@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
   <rdf:Description rdf:about="http://data.europa.eu/m8g/weightingConsiderationDescription">
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/m8g/"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/m8g/weightingConsiderationDescription">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/m8g/weightingConsiderationDescription">
-    <ns0:domain xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid37"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/m8g/weightingConsiderationDescription">
-    <ns0:isDefinedBy xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://data.europa.eu/m8g"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/m8g/weightingConsiderationDescription">
-    <ns0:range xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="genid38"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/m8g/weightingConsiderationDescription">
-    <ns0:scopeNote xmlns:ns0="http://www.w3.org/2004/02/skos/core#" xml:lang="en">This description gives the view of the creator of the Criterion weights on how to interpret and use them during the evaluation process.</ns0:scopeNote>
+    <rdfs:label xml:lang="en">weighting consideration description</rdfs:label>
+    <rdfs:comment xml:lang="en">Explanation of how the weighting of a Criterion is to be used.</rdfs:comment>
   </rdf:Description>
 </rdf:RDF>

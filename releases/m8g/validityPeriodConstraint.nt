@@ -1,6 +1,6 @@
 <http://data.europa.eu/m8g/validityPeriodConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.europa.eu/m8g/validityPeriodConstraint> <http://www.w3.org/2000/01/rdf-schema#label> "validity period constraint"@en .
+<http://data.europa.eu/m8g/validityPeriodConstraint> <http://www.w3.org/2000/01/rdf-schema#comment> "Temporal condition on the validity period of the Evidence Type."@en .
 <http://data.europa.eu/m8g/validityPeriodConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.europa.eu/m8g/validityPeriodConstraint> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid31 .
-<http://data.europa.eu/m8g/validityPeriodConstraint> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
-<http://data.europa.eu/m8g/validityPeriodConstraint> <http://www.w3.org/2000/01/rdf-schema#range> _:genid32 .
-<http://data.europa.eu/m8g/validityPeriodConstraint> <http://www.w3.org/2004/02/skos/core#scopeNote> "E.g. A Belgian birth evidence is valid for X months after emission. To express constraints on the validity period that must hold when assessing the evidence (e.g. the certificate of good conduct cannot be issued more than 3 months ago), we refer to the Constraint class."@en .
+<http://data.europa.eu/m8g/validityPeriodConstraint> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g/> .
+

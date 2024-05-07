@@ -1,5 +1,6 @@
+<http://data.europa.eu/m8g/isSpecifiedIn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g/> .
+<http://data.europa.eu/m8g/isSpecifiedIn> <http://www.w3.org/2000/01/rdf-schema#label> "is specified in"@en .
+<http://data.europa.eu/m8g/isSpecifiedIn> <http://www.w3.org/2000/01/rdf-schema#comment> "Evidence Type List in which the Evidence Type is included."@en .
 <http://data.europa.eu/m8g/isSpecifiedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://data.europa.eu/m8g/isSpecifiedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.europa.eu/m8g/isSpecifiedIn> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid17 .
-<http://data.europa.eu/m8g/isSpecifiedIn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
-<http://data.europa.eu/m8g/isSpecifiedIn> <http://www.w3.org/2000/01/rdf-schema#range> _:genid18 .
+

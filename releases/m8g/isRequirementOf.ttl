@@ -1,11 +1,10 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://data.europa.eu/m8g/isRequirementOf>
-    a rdf:Property, <http://www.w3.org/2002/07/owl#ObjectProperty> ;
-    <http://www.w3.org/2000/01/rdf-schema#domain> _:genid15 ;
-    <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> ;
-    <http://www.w3.org/2000/01/rdf-schema#range> _:genid16 ;
-    <http://www.w3.org/2004/02/skos/core#scopeNote> """The relation between a parent Requirement and a sub-Requirement can be complex. Therefore, qualified relations (see hasQualifiedRelation) can be used to represent this relationship on its own and qualify it with additional information such as a date, a place. This is left to implementers.
-
-In the case where the purpose is to link the two Requirements without additional information, the simple relationship as proposed here can be directly used."""@en .
+<http://data.europa.eu/m8g/isRequirementOf> a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label "is requirement of"@en ;
+    rdfs:comment "A reference between a sub-Requirement and its parent Requirement."@en ;
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

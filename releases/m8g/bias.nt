@@ -1,6 +1,6 @@
+<http://data.europa.eu/m8g/bias> <http://www.w3.org/2000/01/rdf-schema#comment> "Parameter used to adjust the evaluation of the Criterion."@en .
+<http://data.europa.eu/m8g/bias> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g/> .
+<http://data.europa.eu/m8g/bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/m8g/bias> <http://www.w3.org/2000/01/rdf-schema#label> "bias"@en .
 <http://data.europa.eu/m8g/bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://data.europa.eu/m8g/bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.europa.eu/m8g/bias> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid1 .
-<http://data.europa.eu/m8g/bias> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
-<http://data.europa.eu/m8g/bias> <http://www.w3.org/2000/01/rdf-schema#range> _:genid2 .
-<http://data.europa.eu/m8g/bias> <http://www.w3.org/2004/02/skos/core#scopeNote> "The bias parameter tries to correct a systematic error. For example in procurement, a home bias corresponds to the \"presence of local preferences distorting international specialisation and resource allocation\". [https://trade.ec.europa.eu/doclib/docs/2018/september/tradoc_157319.pdf]\nWhen quantified, this systematic error can be removed."@en .
+

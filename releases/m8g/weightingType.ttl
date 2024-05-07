@@ -1,10 +1,10 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://data.europa.eu/m8g/weightingType>
-    a rdf:Property, <http://www.w3.org/2002/07/owl#ObjectProperty> ;
-    <http://www.w3.org/2000/01/rdf-schema#domain> _:genid39 ;
-    <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> ;
-    <http://www.w3.org/2000/01/rdf-schema#range> _:genid40 ;
-    <http://www.w3.org/2004/02/skos/core#scopeNote> """An existing codelist http://publications.europa.eu/resource/authority/number-weight
-Example see: https://docs.ted.europa.eu/eforms/0.3.0/index.html#awardCriteriaSection"""@en .
+<http://data.europa.eu/m8g/weightingType> a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label "weighting type"@en ;
+    rdfs:comment "Indication of how the weight should be interpreted in a complex evaluation expression, e.g. as a percentage in an evaluation expression."@en ;
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

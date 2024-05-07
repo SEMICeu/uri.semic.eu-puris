@@ -1,16 +1,6 @@
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://data.europa.eu/m8g/SupportedValue>
-    a <http://www.w3.org/2000/01/rdf-schema#Class>, <http://www.w3.org/2002/07/owl#Class> ;
-    <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> ;
-    <http://www.w3.org/2004/02/skos/core#scopeNote> """The notion of Supported Value is closely related to actual data exchange between two parties: 
-(a) the Requirement processor, i.e. the Agent setting out Requirements for an objective and processing the supplied Evidences in the context of the Requirements, and 
-(b) the Evidence provider, i.e. the Agent supplying information to an information request expressed as Requirements.
-
-The Requirement processor has expressed its expectations (both business as technical) for the information it wants to recieve as an Information Concept. The Evidence provider is able to supply information for that Information Concept, but its native data representation might not be coherent with the expectations set by the Requirement processor. The Supported Value is bridging both. 
-
-The Evidence provider can either provide a derived value (fact) from its native data representation that complies with the Information Concept expectations. Or it can provide a query in an agreed language between Evidence provider and Requirement processor that allows the Requirement processor to retrieve the value from the native data representation.
-
-Implementers are free to choose their language. It is recommended to document the made agreements well.
-"""@en .
+<http://data.europa.eu/m8g/SupportedValue> a owl:Class ;
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 

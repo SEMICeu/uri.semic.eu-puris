@@ -4,9 +4,9 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://data.europa.eu/m8g/hasEvidenceTypeList">
-    <rdfs:comment xml:lang="en">Evidence Type List that specifies the Evidence Types that are needed to meet the Requirement.</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:comment xml:lang="en">Evidence Type List that specifies the Evidence Types that are needed to meet the Requirement.</rdfs:comment>
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/m8g/"/>
     <rdfs:label xml:lang="en">has evidence type list</rdfs:label>
   </rdf:Description>

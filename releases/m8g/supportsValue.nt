@@ -1,5 +1,6 @@
 <http://data.europa.eu/m8g/supportsValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://data.europa.eu/m8g/supportsValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.europa.eu/m8g/supportsValue> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid27 .
-<http://data.europa.eu/m8g/supportsValue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
-<http://data.europa.eu/m8g/supportsValue> <http://www.w3.org/2000/01/rdf-schema#range> _:genid28 .
+<http://data.europa.eu/m8g/supportsValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Supported Value that the Evidence contains."@en .
+<http://data.europa.eu/m8g/supportsValue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g/> .
+<http://data.europa.eu/m8g/supportsValue> <http://www.w3.org/2000/01/rdf-schema#label> "supports value"@en .
+

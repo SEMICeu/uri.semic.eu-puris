@@ -1,9 +1,10 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://data.europa.eu/m8g/weight>
-    a rdf:Property, <http://www.w3.org/2002/07/owl#ObjectProperty> ;
-    <http://www.w3.org/2000/01/rdf-schema#domain> _:genid35 ;
-    <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> ;
-    <http://www.w3.org/2000/01/rdf-schema#range> _:genid36 ;
-    <http://www.w3.org/2004/02/skos/core#scopeNote> "The weight must be between 0 and 1. Usually, all Criteria can be integrated within a weighted sum equal to 1."@en .
+<http://data.europa.eu/m8g/weight> a rdf:Property,
+        owl:DatatypeProperty ;
+    rdfs:label "weight"@en ;
+    rdfs:comment "Relative importance of the Criterion."@en ;
+    rdfs:isDefinedBy <http://data.europa.eu/m8g/> .
 
