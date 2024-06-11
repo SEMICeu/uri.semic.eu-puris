@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "vann": "http://purl.org/vocab/vann/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "dcatap": "http://data.europa.eu/r5r/"
+  },
+  "@id": "dcatap:availability",
+  "dcterms:identifier": "dcatap:availability",
+  "vann:usageNote": {
+    "@language": "en",
+    "@value": "Recommended property. This property indicates how long it is planned to keep the Distribution of the Dataset available . "
+  },
+  "rdfs:comment": {
+    "@language": "en",
+    "@value": "This property indicates how long it is planned to keep the Distribution of the Dataset available."
+  },
+  "rdfs:isDefinedBy": {
+    "@id": "dcatap:availability"
+  },
+  "rdfs:label": {
+    "@language": "en",
+    "@value": "Distribution - availability"
+  }
+}
