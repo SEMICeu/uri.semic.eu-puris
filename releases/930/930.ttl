@@ -1,55 +1,116 @@
 @prefix dc: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schemas: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.europa.eu/930/custodian> a owl:ObjectProperty;
   rdfs:label "custodian"@en;
-  rdfs:comment "Party that accepts accountability and responsibility for the data and ensures appropriate care and maintenance of the resource [ISO-19115]."@en;
+  rdfs:comment "Party that accepts accountability and responsibility for the data and ensures appropriate care and maintenance of the resource [[ISO-19115]]."@en;
+  rdfs:domain rdfs:Resource;
+  rdfs:isDefinedBy <http://data.europa.eu/930>;
+  rdfs:range foaf:Agent .
+
+<http://data.europa.eu/930/distributor> a owl:ObjectProperty;
+  rdfs:label "distributor"@en;
+  rdfs:comment "Party who distributes the resource [[ISO-19115]]."@en;
   rdfs:domain rdfs:Resource;
   rdfs:isDefinedBy <http://data.europa.eu/930>;
   rdfs:range foaf:Agent .
 
 <http://data.europa.eu/930/originator> a owl:ObjectProperty;
-  rdfs:label "orginator"@en;
-  rdfs:comment """ 	
-
-Party who created the resource [ISO-19115]."""@en;
+  rdfs:label "originator"@en;
+  rdfs:comment """
+Party who created the resource [[ISO-19115]]."""@en;
   rdfs:domain rdfs:Resource;
   rdfs:isDefinedBy <http://data.europa.eu/930>;
   rdfs:range foaf:Agent .
 
 <http://data.europa.eu/930/principalInvestigator> a owl:ObjectProperty;
   rdfs:label "principal investigator"@en;
-  rdfs:comment "Key party responsible for gathering information and conducting research [ISO-19115]."@en;
+  rdfs:comment "Key party responsible for gathering information and conducting research [[ISO-19115]]."@en;
   rdfs:domain rdfs:Resource;
   rdfs:isDefinedBy <http://data.europa.eu/930>;
   rdfs:range foaf:Agent .
 
 <http://data.europa.eu/930/processor> a owl:ObjectProperty;
   rdfs:label "processor"@en;
-  rdfs:comment """ 	
-
-Party who has processed the data in a manner such that the resource has been modified [ISO-19115]."""@en;
+  rdfs:comment """
+Party who has processed the data in a manner such that the resource has been modified [[ISO-19115]]."""@en;
   rdfs:domain rdfs:Resource;
   rdfs:isDefinedBy <http://data.europa.eu/930>;
   rdfs:range foaf:Agent .
+
+<http://data.europa.eu/930/referenceSystem> a owl:ObjectProperty;
+  rdfs:label "reference system"@en;
+  rdfs:comment "The reference system used in accordance with OGC EPSG Coordinate Reference Systems Register [[OGC-EPSG]]."@en;
+  rdfs:domain rdfs:Resource;
+  rdfs:isDefinedBy <http://data.europa.eu/930>;
+  rdfs:range skos:Concept;
+  rdfs:subPropertyOf dc:conformsTo .
 
 <http://data.europa.eu/930/resourceProvider> a owl:ObjectProperty;
   rdfs:label "resource provider"@en;
-  rdfs:comment """ 	
-
-Party that supplies the resource [ISO-19115]."""@en;
+  rdfs:comment """
+Party that supplies the resource [[ISO-19115]]."""@en;
   rdfs:domain rdfs:Resource;
   rdfs:isDefinedBy <http://data.europa.eu/930>;
   rdfs:range foaf:Agent .
 
+<http://data.europa.eu/930/resourceType> a owl:ObjectProperty;
+  rdfs:label "resource type"@en;
+  rdfs:comment "Resource type in accordance with INSPIRE Resource Types [[INSPIRE-RT]]."@en;
+  rdfs:domain dcat:Resource;
+  rdfs:isDefinedBy <http://data.europa.eu/930>;
+  rdfs:range skos:Concept;
+  rdfs:subPropertyOf dc:type .
+
+<http://data.europa.eu/930/serviceCategory> a owl:ObjectProperty;
+  rdfs:label "service category"@en;
+  rdfs:comment "Service category in accordance with INSPIRE Spatial Data Service Categories [[INSPIRE-SDSC]]."@en;
+  rdfs:domain dcat:DataService;
+  rdfs:isDefinedBy <http://data.europa.eu/930>;
+  rdfs:range skos:Concept;
+  rdfs:subPropertyOf dc:type .
+
+<http://data.europa.eu/930/serviceProtocol> a owl:ObjectProperty;
+  rdfs:label "service protocol"@en;
+  rdfs:comment "Protocol value in accordance with INSPIRE Protocol Values [[INSPIRE-PV]]."@en;
+  rdfs:domain dcat:DataService;
+  rdfs:isDefinedBy <http://data.europa.eu/930>;
+  rdfs:range skos:Concept;
+  rdfs:subPropertyOf dc:conformsTo .
+
+<http://data.europa.eu/930/serviceType> a owl:ObjectProperty;
+  rdfs:label "service type"@en;
+  rdfs:comment "Service type in accordance with INSPIRE Spatial Data Service Types [[INSPIRE-SDST]]."@en;
+  rdfs:domain dcat:DataService;
+  rdfs:isDefinedBy <http://data.europa.eu/930>;
+  rdfs:range skos:Concept;
+  rdfs:subPropertyOf dc:type .
+
+<http://data.europa.eu/930/spatialResolutionAsText> a owl:ObjectProperty;
+  rdfs:label "spatial resolution as text"@en;
+  rdfs:comment "Textual description of spatial resolution."@en;
+  rdfs:domain rdfs:Resource;
+  rdfs:isDefinedBy <http://data.europa.eu/930>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/930/topicCategory> a owl:ObjectProperty;
+  rdfs:label "topic category"@en;
+  rdfs:comment "Topic category in accordance with ISO-19115 [[INSPIRE-TC]]."@en;
+  rdfs:domain dcat:Resource;
+  rdfs:isDefinedBy <http://data.europa.eu/930>;
+  rdfs:range skos:Concept;
+  rdfs:subPropertyOf dc:subject .
+
 <http://data.europa.eu/930/user> a owl:ObjectProperty;
   rdfs:label "user"@en;
-  rdfs:comment "Party who uses the resource [ISO-19115]."@en;
+  rdfs:comment "Party who uses the resource [[ISO-19115]]."@en;
   rdfs:domain rdfs:Resource;
   rdfs:isDefinedBy <http://data.europa.eu/930>;
   rdfs:range foaf:Agent .
@@ -239,6 +300,11 @@ Party that supplies the resource [ISO-19115]."""@en;
     foaf:lastName "Gattwinkel"
   ], [
     a foaf:Person;
+    foaf:firstName "Pavlina";
+    foaf:lastName "Fragkou";
+    schemas:affiliation [foaf:name "SEMIC EU"]
+  ], [
+    a foaf:Person;
     foaf:firstName "Adina";
     foaf:lastName "Dragan"
   ], [
@@ -302,19 +368,13 @@ Party that supplies the resource [ISO-19115]."""@en;
     foaf:firstName "Ludger";
     foaf:lastName "A. Rinsche"
   ];
-  dc:issued "2023-09-01";
+  dc:issued "2024-06-26";
   dc:license <https://creativecommons.org/licenses/by/4.0/>;
   dc:mediator [
     foaf:homepage <https://semic.eu>;
     foaf:name "Semantic Interoperability Community (SEMIC)"
   ];
   <http://www.w3.org/2001/02pd/rec54#editor> [
-    a foaf:Person;
-    foaf:firstName "Bert";
-    foaf:lastName "Van Nuffelen";
-    foaf:mbox <mailto:bert.van.nuffelen@tenforce.com>;
-    schemas:affiliation [foaf:name "TenForce"]
-  ], [
     a foaf:Person;
     foaf:firstName "Natasa";
     foaf:lastName "Sofou"
@@ -330,7 +390,14 @@ Party that supplies the resource [ISO-19115]."""@en;
   ];
   foaf:maker [
     a foaf:Person;
-    foaf:firstName "Pavlina";
-    foaf:lastName "Fragkou";
-    schemas:affiliation [foaf:name "SEMIC EU"]
+    foaf:firstName "Bert";
+    foaf:lastName "Van Nuffelen";
+    foaf:mbox <mailto:bert.vannuffelen@vlaanderen.be>;
+    schemas:affiliation [foaf:name "Digitaal Vlaanderen"]
+  ], [
+    a foaf:Person;
+    foaf:firstName "Jakub";
+    foaf:lastName "Klímek";
+    foaf:mbox <mailto:jakub@cuit.cz>;
+    schemas:affiliation [foaf:name "CUIT"]
   ] .
