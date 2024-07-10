@@ -1,0 +1,6 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.europa.eu/it6/CostMatrix> a owl:Class ;
+    rdfs:isDefinedBy <http://data.europa.eu/it6/> .
+

@@ -1,0 +1,26 @@
+[
+  {
+    "@id": "http://data.europa.eu/it6/hasProvider",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A natural or legal person, public authority, agency or other body that develops a Machine Learning Model or places it on the market or puts the it into service under its own name or trademark, whether for payment or free of charge."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://data.europa.eu/it6/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "has provider"
+      }
+    ]
+  }
+]
