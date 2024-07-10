@@ -1,0 +1,6 @@
+<http://data.europa.eu/it6/intervalEnd> <http://www.w3.org/2000/01/rdf-schema#label> "interval end"@en .
+<http://data.europa.eu/it6/intervalEnd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/intervalEnd> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6/> .
+<http://data.europa.eu/it6/intervalEnd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.europa.eu/it6/intervalEnd> <http://www.w3.org/2000/01/rdf-schema#comment> "The maximum value of the Quality Measure."@en .
+

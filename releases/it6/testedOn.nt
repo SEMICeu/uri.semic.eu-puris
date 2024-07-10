@@ -1,6 +1,6 @@
-<http://data.europa.eu/it6/testedOn> <http://www.w3.org/2000/01/rdf-schema#comment> "The testing dataset used to evaluate the machine learning model."@en .
 <http://data.europa.eu/it6/testedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.europa.eu/it6/testedOn> <http://www.w3.org/2000/01/rdf-schema#comment> "The testing dataset used to evaluate the machine learning model."@en .
 <http://data.europa.eu/it6/testedOn> <http://www.w3.org/2000/01/rdf-schema#label> "tested on"@en .
-<http://data.europa.eu/it6/testedOn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6/> .
 <http://data.europa.eu/it6/testedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.europa.eu/it6/testedOn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6/> .
 

@@ -1,0 +1,10 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.europa.eu/it6/ignoreAttribute> a rdf:Property,
+        owl:DatatypeProperty ;
+    rdfs:label "ignore attribute"@en ;
+    rdfs:comment "Attributes that should be excluded in modelling, such as identifiers and indexes."@en ;
+    rdfs:isDefinedBy <http://data.europa.eu/it6/> .
+
