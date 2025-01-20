@@ -3,11 +3,11 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
-  <rdf:Description rdf:about="http://data.europa.eu/it6/hasHyperparameter">
+  <rdf:Description rdf:about="http://data.europa.eu/it6/hasHyperParameter">
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6/"/>
+    <rdfs:label xml:lang="en">has hyperparameter</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:comment xml:lang="en">The hyperparameter associated with this run.</rdfs:comment>
-    <rdfs:label xml:lang="en">has hyper parameter</rdfs:label>
-    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6/"/>
+    <rdfs:comment xml:lang="en">The hyperparameter associated with the run.</rdfs:comment>
   </rdf:Description>
 </rdf:RDF>

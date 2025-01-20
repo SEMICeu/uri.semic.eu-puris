@@ -2,9 +2,9 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://data.europa.eu/it6/hasHyperparameter> a rdf:Property,
+<http://data.europa.eu/it6/hasHyperParameter> a rdf:Property,
         owl:ObjectProperty ;
-    rdfs:label "has hyper parameter"@en ;
-    rdfs:comment "The hyperparameter associated with this run."@en ;
+    rdfs:label "has hyperparameter"@en ;
+    rdfs:comment "The hyperparameter associated with the run."@en ;
     rdfs:isDefinedBy <http://data.europa.eu/it6/> .
 

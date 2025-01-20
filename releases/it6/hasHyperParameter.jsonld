@@ -1,6 +1,6 @@
 [
   {
-    "@id": "http://data.europa.eu/it6/hasHyperparameter",
+    "@id": "http://data.europa.eu/it6/hasHyperParameter",
     "@type": [
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
       "http://www.w3.org/2002/07/owl#ObjectProperty"
@@ -8,7 +8,7 @@
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
         "@language": "en",
-        "@value": "The hyperparameter associated with this run."
+        "@value": "The hyperparameter associated with the run."
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -19,7 +19,7 @@
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@language": "en",
-        "@value": "has hyper parameter"
+        "@value": "has hyperparameter"
       }
     ]
   }
