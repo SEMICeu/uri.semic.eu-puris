@@ -1,5 +1,4 @@
-<http://data.europa.eu/it6/customName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6/> .
 <http://data.europa.eu/it6/customName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://data.europa.eu/it6/customName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://data.europa.eu/it6/customName> <http://www.w3.org/2000/01/rdf-schema#label> "custom name"@en .
-
+<http://data.europa.eu/it6/customName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6/> .
+<http://data.europa.eu/it6/customName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .

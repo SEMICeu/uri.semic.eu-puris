@@ -4,9 +4,9 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://data.europa.eu/it6/recommendedRange">
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6/"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6/"/>
     <rdfs:label xml:lang="en">recommended range</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

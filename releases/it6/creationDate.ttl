@@ -5,5 +5,6 @@
 <http://data.europa.eu/it6/creationDate> a rdf:Property,
         owl:DatatypeProperty ;
     rdfs:label "creation date"@en ;
+    rdfs:comment "Date of creation of the resource."@en ;
     rdfs:isDefinedBy <http://data.europa.eu/it6/> .
 

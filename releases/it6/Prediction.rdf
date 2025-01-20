@@ -4,7 +4,7 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://data.europa.eu/it6/Prediction">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
 </rdf:RDF>
