@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:eli="http://data.europa.eu/eli/ontology#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:rrmv="http://data.europa.eu/2qy/rrmv#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:time="http://www.w3.org/2006/time#"
+   xmlns:xml="http://www.w3.org/XML/1998/namespace"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <owl:Ontology rdf:about="http://data.europa.eu/2qy/rrmv">
+    <dc:contributor xml:lang="en">Alessio Nardin, DIGIT.B2</dc:contributor>
+    <dc:contributor xml:lang="en">Andrea Giovanni Nuzzolese, CNR</dc:contributor>
+    <dc:contributor xml:lang="en">Bert Van Nuffelen, PwC EU Services</dc:contributor>
+    <dc:contributor xml:lang="en">Cecile Guasch, DIGIT.B2</dc:contributor>
+    <dc:contributor xml:lang="en">Davide Audrito, DIGIT.B2</dc:contributor>
+    <dc:creator xml:lang="en">Monica Palmirani, University of Bologna</dc:creator>
+    <dc:description xml:lang="en">The RRMV ontology (Reporting Requirement Metadata Vocabulary) can be used for modelling and representing Requests set in legal resources.</dc:description>
+    <dc:rights xml:lang="en">This work is distributed under a EUPL 1.2 License (https://interoperable-europe.ec.europa.eu/sites/default/files/custom-page/attachment/2020-03/EUPL-1.2%20EN.txt).</dc:rights>
+    <dc:title xml:lang="en">Reporting Requirement Metadata Vocabulary</dc:title>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-20T12:44:32</dcterms:modified>
+    <owl:imports rdf:resource="http://data.europa.eu/eli/ontology"/>
+    <owl:imports rdf:resource="http://purl.org/dc/terms"/>
+    <owl:imports rdf:resource="http://purl.org/dc/terms/"/>
+    <owl:imports rdf:resource="http://www.w3.org/2006/time"/>
+    <owl:versionInfo xml:lang="en">0.1.1</owl:versionInfo>
+  </owl:Ontology>
+  <owl:Class rdf:about="http://data.europa.eu/2qy/rrmv#Action">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T13:37:02</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-20T14:03:01</dcterms:modified>
+    <rdfs:comment xml:lang="en">An event with at least one agent that is participant in it in a given time.</rdfs:comment>
+    <rdfs:label xml:lang="en">Action</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://data.europa.eu/2qy/rrmv#ActionResult">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T13:45:09</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-20T14:03:25</dcterms:modified>
+    <rdfs:comment xml:lang="en">The outcome of an Action</rdfs:comment>
+    <rdfs:label xml:lang="en">ActionResult</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:allValuesFrom rdf:resource="http://data.europa.eu/2qy/rrmv#ResultType"/>
+        <owl:onProperty rdf:resource="http://data.europa.eu/2qy/rrmv#hasType"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://data.europa.eu/2qy/rrmv#AgentRole">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T13:46:56</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-19T15:07:59</dcterms:modified>
+    <rdfs:comment xml:lang="en">A supportive class connecting agents with a role they play.</rdfs:comment>
+    <rdfs:label xml:lang="en">AgentRole</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://data.europa.eu/2qy/rrmv#AgentType">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T13:49:28</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T13:50:37</dcterms:modified>
+    <rdfs:comment>The kind of Agent.</rdfs:comment>
+    <rdfs:label xml:lang="en">Agent Type</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://data.europa.eu/2qy/rrmv#Frequency">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T13:47:35</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-20T14:03:39</dcterms:modified>
+    <rdfs:comment xml:lang="en">Frequency of an Request over time (e.g., every 6 months, each quarter).</rdfs:comment>
+    <rdfs:label xml:lang="en">Frequency</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://data.europa.eu/2qy/rrmv#Function">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T13:50:50</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T13:51:13</dcterms:modified>
+    <rdfs:comment>Function of the temporal infomation in legislation.</rdfs:comment>
+    <rdfs:label xml:lang="en">Temporal Function</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://data.europa.eu/2qy/rrmv#Request">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T13:29:29</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-20T14:03:48</dcterms:modified>
+    <rdfs:comment xml:lang="en">A portion of legal source expression including a mandate that produces at least one Action.</rdfs:comment>
+    <rdfs:label xml:lang="en">Request</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://data.europa.eu/2qy/rrmv#ResultType">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T13:52:49</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T13:53:14</dcterms:modified>
+    <rdfs:comment>The kind of Action Result</rdfs:comment>
+    <rdfs:label xml:lang="en">Result Type</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://data.europa.eu/2qy/rrmv#Role">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T13:48:10</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-20T14:03:56</dcterms:modified>
+    <rdfs:comment xml:lang="en">Function played by an Agent involved in a Request.</rdfs:comment>
+    <rdfs:label xml:lang="en">Role</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:allValuesFrom rdf:resource="http://data.europa.eu/2qy/rrmv#RoleType"/>
+        <owl:onProperty rdf:resource="http://data.europa.eu/2qy/rrmv#hasType"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://data.europa.eu/2qy/rrmv#RoleType">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T13:53:53</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T13:54:21</dcterms:modified>
+    <rdfs:comment>The kind of Role played by an Agent.</rdfs:comment>
+    <rdfs:label xml:lang="en">Role Type</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://data.europa.eu/2qy/rrmv#Status">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T13:55:07</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T13:55:30</dcterms:modified>
+    <rdfs:comment>Status of Action.</rdfs:comment>
+    <rdfs:label xml:lang="en">Status</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://data.europa.eu/2qy/rrmv#TemporalFunction">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-18T20:55:55</dcterms:created>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </owl:Class>
+  <skos:Concept rdf:about="http://data.europa.eu/2qy/rrmv#action">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-20T10:15:08</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-20T10:42:14</dcterms:modified>
+    <rdf:type rdf:resource="http://data.europa.eu/2qy/rrmv#ResultType"/>
+  </skos:Concept>
+  <rrmv:Status rdf:about="http://data.europa.eu/2qy/rrmv#activated">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-20T10:17:08</dcterms:created>
+  </rrmv:Status>
+  <rrmv:RoleType rdf:about="http://data.europa.eu/2qy/rrmv#addressee">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-20T10:16:28</dcterms:created>
+  </rrmv:RoleType>
+  <rrmv:RoleType rdf:about="http://data.europa.eu/2qy/rrmv#addresser">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-20T10:16:31</dcterms:created>
+  </rrmv:RoleType>
+  <owl:ObjectProperty rdf:about="http://data.europa.eu/2qy/rrmv#atTime">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-18T20:30:51</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-18T20:32:36</dcterms:modified>
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf>
+          <rdf:List>
+            <rdf:first rdf:resource="http://data.europa.eu/2qy/rrmv#Action"/>
+            <rdf:rest>
+              <rdf:List>
+                <rdf:first rdf:resource="http://data.europa.eu/2qy/rrmv#AgentRole"/>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+              </rdf:List>
+            </rdf:rest>
+          </rdf:List>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+    <rdfs:range rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+  </owl:ObjectProperty>
+  <rrmv:RoleType rdf:about="http://data.europa.eu/2qy/rrmv#bearer">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-20T10:16:36</dcterms:created>
+  </rrmv:RoleType>
+  <owl:ObjectProperty rdf:about="http://data.europa.eu/2qy/rrmv#changes">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T17:13:19</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T17:13:32</dcterms:modified>
+    <rdfs:domain rdf:resource="http://data.europa.eu/2qy/rrmv#Request"/>
+    <rdfs:range rdf:resource="http://data.europa.eu/2qy/rrmv#Request"/>
+    <rdfs:subPropertyOf rdf:resource="http://data.europa.eu/eli/ontology#changes"/>
+  </owl:ObjectProperty>
+  <rrmv:Status rdf:about="http://data.europa.eu/2qy/rrmv#completed">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-20T10:18:13</dcterms:created>
+  </rrmv:Status>
+  <rrmv:TemporalFunction rdf:about="http://data.europa.eu/2qy/rrmv#deadline">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-20T10:13:33</dcterms:created>
+  </rrmv:TemporalFunction>
+  <rrmv:Status rdf:about="http://data.europa.eu/2qy/rrmv#deleted">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-20T10:18:20</dcterms:created>
+  </rrmv:Status>
+  <owl:ObjectProperty rdf:about="http://data.europa.eu/2qy/rrmv#forAgent">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T14:37:42</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T14:41:31</dcterms:modified>
+    <rdfs:comment xml:lang="en">The property linking a particular Role to Agent.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://data.europa.eu/2qy/rrmv#AgentRole"/>
+    <rdfs:label xml:lang="en">for agent</rdfs:label>
+    <rdfs:range rdf:resource="http://data.europa.eu/eli/ontology#Agent"/>
+  </owl:ObjectProperty>
+  <rrmv:ResultType rdf:about="http://data.europa.eu/2qy/rrmv#framework">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-20T10:14:58</dcterms:created>
+  </rrmv:ResultType>
+  <owl:ObjectProperty rdf:about="http://data.europa.eu/2qy/rrmv#hasAgentRole">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T14:35:42</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T14:36:30</dcterms:modified>
+    <rdfs:comment xml:lang="en">The involvement of an agent in a role within this action. </rdfs:comment>
+    <rdfs:domain rdf:resource="http://data.europa.eu/2qy/rrmv#Action"/>
+    <rdfs:label xml:lang="en">has agent role</rdfs:label>
+    <rdfs:range rdf:resource="http://data.europa.eu/2qy/rrmv#AgentRole"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="http://data.europa.eu/2qy/rrmv#hasAnnotation">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-14T09:19:35</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-18T21:15:29</dcterms:modified>
+    <rdfs:comment xml:lang="en">A note added by way of comment or explanation.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://data.europa.eu/2qy/rrmv#Action"/>
+    <rdfs:domain rdf:resource="http://data.europa.eu/2qy/rrmv#ActionResult"/>
+    <rdfs:domain rdf:resource="http://data.europa.eu/2qy/rrmv#Request"/>
+    <rdfs:domain rdf:resource="http://data.europa.eu/eli/ontology#Agent"/>
+    <rdfs:label xml:lang="en">has annotation</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+  </owl:DatatypeProperty>
+  <owl:ObjectProperty rdf:about="http://data.europa.eu/2qy/rrmv#hasDocument">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-14T16:01:52</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-14T16:37:35</dcterms:modified>
+    <rdfs:comment xml:lang="en">A property that links a Result of an Action with an Expression, usually when the result is a document.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://data.europa.eu/2qy/rrmv#ActionResult"/>
+    <rdfs:label xml:lang="en">has document</rdfs:label>
+    <rdfs:range rdf:resource="http://data.europa.eu/eli/ontology#Expression"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://data.europa.eu/2qy/rrmv#hasFrequency">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T14:00:58</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T14:01:54</dcterms:modified>
+    <rdfs:comment xml:lang="en">The frequency in which the request is to be executed in case of repetitive mandate. </rdfs:comment>
+    <rdfs:domain rdf:resource="http://data.europa.eu/2qy/rrmv#Request"/>
+    <rdfs:label xml:lang="en">has frequency</rdfs:label>
+    <rdfs:range rdf:resource="http://data.europa.eu/2qy/rrmv#Frequency"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://data.europa.eu/2qy/rrmv#hasFunction">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-18T20:56:45</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-18T20:57:24</dcterms:modified>
+    <rdfs:domain rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+    <rdfs:range rdf:resource="http://data.europa.eu/2qy/rrmv#TemporalFunction"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://data.europa.eu/2qy/rrmv#hasNext">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T14:33:18</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T14:39:46</dcterms:modified>
+    <rdfs:comment xml:lang="en">A succeeding action</rdfs:comment>
+    <rdfs:domain rdf:resource="http://data.europa.eu/2qy/rrmv#Action"/>
+    <rdfs:label xml:lang="en">has next</rdfs:label>
+    <rdfs:range rdf:resource="http://data.europa.eu/2qy/rrmv#Action"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://data.europa.eu/2qy/rrmv#hasResult">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T14:31:57</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T14:40:36</dcterms:modified>
+    <rdfs:comment xml:lang="en">A result of an action.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://data.europa.eu/2qy/rrmv#Action"/>
+    <rdfs:label xml:lang="en">has result</rdfs:label>
+    <rdfs:range rdf:resource="http://data.europa.eu/2qy/rrmv#ActionResult"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://data.europa.eu/2qy/rrmv#hasStatus">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T14:03:45</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T14:40:47</dcterms:modified>
+    <rdfs:comment xml:lang="en">A status of this Action.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://data.europa.eu/2qy/rrmv#Action"/>
+    <rdfs:label xml:lang="en">has status</rdfs:label>
+    <rdfs:range rdf:resource="http://data.europa.eu/2qy/rrmv#Status"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://data.europa.eu/2qy/rrmv#hasTopic">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-18T21:17:11</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-18T21:17:29</dcterms:modified>
+    <rdfs:domain rdf:resource="http://data.europa.eu/2qy/rrmv#Request"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://data.europa.eu/2qy/rrmv#hasType">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T16:55:31</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-19T15:58:51</dcterms:modified>
+  </owl:ObjectProperty>
+  <rrmv:Status rdf:about="http://data.europa.eu/2qy/rrmv#implemented">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-20T10:18:26</dcterms:created>
+  </rrmv:Status>
+  <rrmv:RoleType rdf:about="http://data.europa.eu/2qy/rrmv#implementor">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-20T10:16:43</dcterms:created>
+  </rrmv:RoleType>
+  <rdf:Property rdf:about="http://data.europa.eu/2qy/rrmv#isPartOf">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T17:08:16</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T17:09:08</dcterms:modified>
+    <rdfs:domain rdf:resource="http://data.europa.eu/2qy/rrmv#Request"/>
+    <rdfs:range rdf:resource="http://data.europa.eu/eli/ontology#LegalExpression"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/isPartOf"/>
+  </rdf:Property>
+  <rrmv:ResultType rdf:about="http://data.europa.eu/2qy/rrmv#meeting">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-20T10:15:48</dcterms:created>
+  </rrmv:ResultType>
+  <rrmv:Status rdf:about="http://data.europa.eu/2qy/rrmv#partiallyAchieved">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-20T10:18:34</dcterms:created>
+  </rrmv:Status>
+  <rrmv:ResultType rdf:about="http://data.europa.eu/2qy/rrmv#plan">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-20T10:15:59</dcterms:created>
+  </rrmv:ResultType>
+  <rrmv:Status rdf:about="http://data.europa.eu/2qy/rrmv#postponed">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-20T10:19:19</dcterms:created>
+  </rrmv:Status>
+  <owl:ObjectProperty rdf:about="http://data.europa.eu/2qy/rrmv#produces">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T13:39:29</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T14:40:57</dcterms:modified>
+    <rdfs:comment xml:lang="en">The action that is produced by a request.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://data.europa.eu/2qy/rrmv#Request"/>
+    <rdfs:label xml:lang="en">produces</rdfs:label>
+    <rdfs:range rdf:resource="http://data.europa.eu/2qy/rrmv#Action"/>
+  </owl:ObjectProperty>
+  <rrmv:RoleType rdf:about="http://data.europa.eu/2qy/rrmv#proposer">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-20T10:16:48</dcterms:created>
+  </rrmv:RoleType>
+  <rrmv:Status rdf:about="http://data.europa.eu/2qy/rrmv#reiterated">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-20T10:19:28</dcterms:created>
+  </rrmv:Status>
+  <owl:ObjectProperty rdf:about="http://data.europa.eu/2qy/rrmv#related_to">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T17:15:49</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T17:16:13</dcterms:modified>
+    <rdfs:domain rdf:resource="http://data.europa.eu/2qy/rrmv#Request"/>
+    <rdfs:range rdf:resource="http://data.europa.eu/2qy/rrmv#Request"/>
+    <rdfs:subPropertyOf rdf:resource="http://data.europa.eu/eli/ontology#related_to"/>
+  </owl:ObjectProperty>
+  <rrmv:ResultType rdf:about="http://data.europa.eu/2qy/rrmv#report">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-20T10:16:05</dcterms:created>
+  </rrmv:ResultType>
+  <rrmv:ResultType rdf:about="http://data.europa.eu/2qy/rrmv#standard">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-20T10:16:13</dcterms:created>
+  </rrmv:ResultType>
+  <rrmv:Status rdf:about="http://data.europa.eu/2qy/rrmv#suspended">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-20T10:20:12</dcterms:created>
+  </rrmv:Status>
+  <rrmv:TemporalFunction rdf:about="http://data.europa.eu/2qy/rrmv#validity">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-20T10:13:58</dcterms:created>
+  </rrmv:TemporalFunction>
+  <owl:ObjectProperty rdf:about="http://data.europa.eu/2qy/rrmv#withRole">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T14:59:59</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T15:01:48</dcterms:modified>
+    <rdfs:comment xml:lang="en">The property linking a Agent to Role</rdfs:comment>
+    <rdfs:domain rdf:resource="http://data.europa.eu/2qy/rrmv#AgentRole"/>
+    <rdfs:label xml:lang="en">with role</rdfs:label>
+    <rdfs:range rdf:resource="http://data.europa.eu/2qy/rrmv#Role"/>
+  </owl:ObjectProperty>
+</rdf:RDF>
