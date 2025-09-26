@@ -5,6 +5,6 @@
 <http://data.europa.eu/it6/hasRisk> a rdf:Property,
         owl:ObjectProperty ;
     rdfs:label "has risk"@en ;
-    rdfs:comment "It refers to a possible risk that can occur."@en ;
+    rdfs:comment "A possible risk that can occur."@en ;
     rdfs:isDefinedBy <http://data.europa.eu/it6/> .
 

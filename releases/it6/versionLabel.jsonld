@@ -8,7 +8,7 @@
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
         "@language": "en",
-        "@value": "Version label provided by user, something relevant to the user. Can also be a date, hash, or some other type of id."
+        "@value": "User-provided version label, which can be a date, hash, or other identifier relevant to the user."
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [

@@ -8,7 +8,7 @@
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
         "@language": "en",
-        "@value": "The method by which the data was collected, given by the uploader."
+        "@value": "Method used to collect the data, provided by the uploader."
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [

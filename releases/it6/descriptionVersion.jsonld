@@ -8,7 +8,7 @@
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
         "@language": "en",
-        "@value": "It refers to the version of the description. '1' for original version."
+        "@value": "Version number of the description. '1' for original version."
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [

@@ -5,9 +5,9 @@
 >
   <rdf:Description rdf:about="http://data.europa.eu/it6/hasPrediction">
     <rdfs:comment xml:lang="en">The predicted dataset generated as output of a machine learning model.</rdfs:comment>
-    <rdfs:label xml:lang="en">has prediction</rdfs:label>
-    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6/"/>
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6/"/>
+    <rdfs:label xml:lang="en">has prediction</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

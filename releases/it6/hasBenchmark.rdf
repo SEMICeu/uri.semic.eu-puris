@@ -7,7 +7,7 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <rdfs:comment xml:lang="en">The benchmarks used to evaluate this model.</rdfs:comment>
-    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6/"/>
     <rdfs:label xml:lang="en">has benchmark</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6/"/>
   </rdf:Description>
 </rdf:RDF>

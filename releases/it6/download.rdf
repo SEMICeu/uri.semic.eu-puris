@@ -6,8 +6,8 @@
   <rdf:Description rdf:about="http://data.europa.eu/it6/download">
     <rdfs:label xml:lang="en">download</rdfs:label>
     <rdfs:comment xml:lang="en">The number of downloads of the machine learning model.</rdfs:comment>
-    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6/"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6/"/>
   </rdf:Description>
 </rdf:RDF>

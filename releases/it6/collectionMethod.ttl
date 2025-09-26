@@ -5,6 +5,6 @@
 <http://data.europa.eu/it6/collectionMethod> a rdf:Property,
         owl:DatatypeProperty ;
     rdfs:label "collection method"@en ;
-    rdfs:comment "The method by which the data was collected, given by the uploader."@en ;
+    rdfs:comment "Method used to collect the data, provided by the uploader."@en ;
     rdfs:isDefinedBy <http://data.europa.eu/it6/> .
 

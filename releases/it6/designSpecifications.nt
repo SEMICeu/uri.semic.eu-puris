@@ -1,0 +1,5 @@
+<http://data.europa.eu/it6/designSpecifications> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/designSpecifications> <http://www.w3.org/2000/01/rdf-schema#comment> "A general description of the main steps or stages involved in the training process, including training methodologies and techniques, the key design choices, assumptions made and what the model is designed to optimise for, and the relevance of different parameters, as applicable."@en .
+<http://data.europa.eu/it6/designSpecifications> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6/> .
+<http://data.europa.eu/it6/designSpecifications> <http://www.w3.org/2000/01/rdf-schema#label> "design specifications"@en .
+<http://data.europa.eu/it6/designSpecifications> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .

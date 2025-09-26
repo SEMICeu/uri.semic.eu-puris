@@ -6,8 +6,8 @@
   <rdf:Description rdf:about="http://data.europa.eu/it6/nature">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment xml:lang="en">The inherent characteristics of the risk.</rdfs:comment>
     <rdfs:label xml:lang="en">nature</rdfs:label>
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6/"/>
-    <rdfs:comment xml:lang="en">The nature of the resource.</rdfs:comment>
   </rdf:Description>
 </rdf:RDF>

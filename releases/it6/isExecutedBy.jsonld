@@ -8,7 +8,7 @@
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
         "@language": "en",
-        "@value": "The library that is executed by this file"
+        "@value": "The library that is executed by this file."
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [

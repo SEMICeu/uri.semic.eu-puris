@@ -5,5 +5,6 @@
 <http://data.europa.eu/it6/hasFile> a rdf:Property,
         owl:ObjectProperty ;
     rdfs:label "has file"@en ;
+    rdfs:comment "The file in which the model is expressed."@en ;
     rdfs:isDefinedBy <http://data.europa.eu/it6/> .
 

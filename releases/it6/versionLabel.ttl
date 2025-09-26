@@ -5,6 +5,6 @@
 <http://data.europa.eu/it6/versionLabel> a rdf:Property,
         owl:DatatypeProperty ;
     rdfs:label "version label"@en ;
-    rdfs:comment "Version label provided by user, something relevant to the user. Can also be a date, hash, or some other type of id."@en ;
+    rdfs:comment "User-provided version label, which can be a date, hash, or other identifier relevant to the user."@en ;
     rdfs:isDefinedBy <http://data.europa.eu/it6/> .
 

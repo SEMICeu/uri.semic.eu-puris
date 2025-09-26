@@ -5,6 +5,6 @@
 <http://data.europa.eu/it6/isExecutedBy> a rdf:Property,
         owl:ObjectProperty ;
     rdfs:label "is executed by"@en ;
-    rdfs:comment "The library that is executed by this file"@en ;
+    rdfs:comment "The library that is executed by this file."@en ;
     rdfs:isDefinedBy <http://data.europa.eu/it6/> .
 

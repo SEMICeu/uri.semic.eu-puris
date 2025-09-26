@@ -5,6 +5,6 @@
 <http://data.europa.eu/it6/descriptionVersion> a rdf:Property,
         owl:DatatypeProperty ;
     rdfs:label "description version"@en ;
-    rdfs:comment "It refers to the version of the description. '1' for original version."@en ;
+    rdfs:comment "Version number of the description. '1' for original version."@en ;
     rdfs:isDefinedBy <http://data.europa.eu/it6/> .
 

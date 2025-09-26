@@ -4,6 +4,8 @@
 
 <http://data.europa.eu/it6/hasOutput> a rdf:Property,
         owl:ObjectProperty ;
-    rdfs:label "has output"@en ;
+    rdfs:label "has output"@en,
+        "has output modality"@en ;
+    rdfs:comment "The modality of the output of the model."@en ;
     rdfs:isDefinedBy <http://data.europa.eu/it6/> .
 

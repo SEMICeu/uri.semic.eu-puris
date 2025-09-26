@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/it6/unsuitabilityMethod">
+    <rdfs:comment xml:lang="en">A description of any methods implemented in data acquisition or processing, if any, to detect the presence of unsuitable data sources considering the models intended uses, including but not limited to illegal content, child sexual abuse material (CSAM), non-consensual intimate imagery (NCII), and personal data leading to its unlawful processing.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6/"/>
+    <rdfs:label xml:lang="en">unsuitability method</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

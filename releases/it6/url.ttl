@@ -3,7 +3,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 <http://data.europa.eu/it6/url> a rdf:Property,
-        owl:DatatypeProperty,
         owl:ObjectProperty ;
     rdfs:label "url"@en ;
     rdfs:comment "The url of the file to be downloaded."@en ;

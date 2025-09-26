@@ -5,6 +5,6 @@
 <http://data.europa.eu/it6/haRegisteredUser> a rdf:Property,
         owl:ObjectProperty ;
     rdfs:label "has registered user"@en ;
-    rdfs:comment "The registered user associated to the model"@en ;
+    rdfs:comment "The registered user associated to the model."@en ;
     rdfs:isDefinedBy <http://data.europa.eu/it6/> .
 

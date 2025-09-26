@@ -5,6 +5,5 @@
 <http://data.europa.eu/it6/hasOutputFilePrediction> a rdf:Property,
         owl:ObjectProperty ;
     rdfs:label "has output file prediction"@en ;
-    rdfs:comment "The file in which the model is expressed."@en ;
     rdfs:isDefinedBy <http://data.europa.eu/it6/> .
 

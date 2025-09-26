@@ -5,6 +5,6 @@
 <http://data.europa.eu/it6/hasHardware> a rdf:Property,
         owl:ObjectProperty ;
     rdfs:label "has hardware"@en ;
-    rdfs:comment "The hardware associated with the computer infrastructure"@en ;
+    rdfs:comment "The hardware associated with the computer infrastructure."@en ;
     rdfs:isDefinedBy <http://data.europa.eu/it6/> .
 

@@ -7,7 +7,7 @@
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6/"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:comment xml:lang="en">The default target attribute, if it exists.</rdfs:comment>
     <rdfs:label xml:lang="en">default target attribute</rdfs:label>
+    <rdfs:comment xml:lang="en">The primary attribute intended for analysis or processing, if applicable.</rdfs:comment>
   </rdf:Description>
 </rdf:RDF>
