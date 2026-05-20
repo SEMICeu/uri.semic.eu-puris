@@ -1,0 +1,494 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schemas: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.europa.eu/it6/Benchmark> a owl:Class;
+  rdfs:isDefinedBy <http://data.europa.eu/it6> .
+
+<http://data.europa.eu/it6/ComputerInfrastructure> a owl:Class;
+  rdfs:isDefinedBy <http://data.europa.eu/it6> .
+
+<http://data.europa.eu/it6/CostMatrix> a owl:Class;
+  rdfs:isDefinedBy <http://data.europa.eu/it6> .
+
+<http://data.europa.eu/it6/DataQuality> a owl:Class;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:subClassOf <http://data.europa.eu/it6/Measure> .
+
+<http://data.europa.eu/it6/EstimationProcedure> a owl:Class;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:subClassOf <http://data.europa.eu/it6/Measure> .
+
+<http://data.europa.eu/it6/Feature> a owl:Class;
+  rdfs:isDefinedBy <http://data.europa.eu/it6> .
+
+<http://data.europa.eu/it6/Hardware> a owl:Class;
+  rdfs:isDefinedBy <http://data.europa.eu/it6> .
+
+<http://data.europa.eu/it6/Prediction> a owl:Class;
+  rdfs:isDefinedBy <http://data.europa.eu/it6> .
+
+<http://data.europa.eu/it6/PredictionFeature> a owl:Class;
+  rdfs:isDefinedBy <http://data.europa.eu/it6> .
+
+<http://data.europa.eu/it6/RunCollection> a owl:Class;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:subClassOf <http://data.europa.eu/it6/Collection> .
+
+<http://data.europa.eu/it6/Split> a owl:Class;
+  rdfs:isDefinedBy <http://data.europa.eu/it6> .
+
+<http://data.europa.eu/it6/Task> a owl:Class;
+  rdfs:isDefinedBy <http://data.europa.eu/it6> .
+
+<http://data.europa.eu/it6/TaskCollection> a owl:Class;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:subClassOf <http://data.europa.eu/it6/Collection> .
+
+<http://data.europa.eu/it6/TaskType> a owl:Class;
+  rdfs:isDefinedBy <http://data.europa.eu/it6> .
+
+<http://data.europa.eu/it6/arrayData> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/Evaluation>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/bias> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/MachineLearningModel>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/biasMethod> a owl:DatatypeProperty;
+  rdfs:domain dcat:Dataset;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/carbonEmitted> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/EnvironmentalImpact>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/className> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/Flow>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/classification> a owl:ObjectProperty;
+  rdfs:domain <http://data.europa.eu/it6/Modality>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range skos:Concept .
+
+<http://data.europa.eu/it6/collectionDate> a owl:DatatypeProperty;
+  rdfs:domain dcat:Dataset;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/collectionMethod> a owl:DatatypeProperty;
+  rdfs:domain dcat:Dataset;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/component> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/Parameter>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/creationDate> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/Collection>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/curationMethod> a owl:DatatypeProperty;
+  rdfs:domain dcat:Dataset;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/customName> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/Flow>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/dataProvenance> a owl:DatatypeProperty;
+  rdfs:domain dcat:Dataset;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/defaultTargetAttribute> a owl:DatatypeProperty;
+  rdfs:domain dcat:Distribution;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/defaultValue> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/FlowParameter>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/descriptionVersion> a owl:DatatypeProperty;
+  rdfs:domain dcat:CatalogRecord;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/designSpecifications> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/MachineLearningModel>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/download> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/Engagement>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range xsd:integer .
+
+<http://data.europa.eu/it6/errorMessage> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/Run>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/evaluationEngine> a owl:DatatypeProperty;
+  rdfs:domain <http://www.w3.org/ns/dqv#QualityMeasurementDataset>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/evaluationResults> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/MachineLearningModel>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/evaluationStrategies> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/MachineLearningModel>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/externalVersion> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/Flow>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/fold> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/Evaluation>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/hasDocument> a owl:ObjectProperty;
+  rdfs:domain <https://linkedpaperswithcode.com/class/paper>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range foaf:Document .
+
+<http://data.europa.eu/it6/howToUse> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/MachineLearningModel>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/ignoreAttribute> a owl:DatatypeProperty;
+  rdfs:domain dcat:Distribution;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/implementation> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/EvaluationMeasure>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/intendedUse> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/MachineLearningModel>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/intervalEnd> a owl:DatatypeProperty;
+  rdfs:domain <http://www.w3.org/ns/dqv#QualityMeasurement>,
+    <http://data.europa.eu/it6/Evaluation>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/intervalStart> a owl:DatatypeProperty;
+  rdfs:domain <http://www.w3.org/ns/dqv#QualityMeasurement>,
+    <http://data.europa.eu/it6/Evaluation>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/like> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/Engagement>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range xsd:integer .
+
+<http://data.europa.eu/it6/limitations> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/MachineLearningModel>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/measurementMethodology> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/EnvironmentalImpact>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/methodOfDistribution> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/MachineLearningModel>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/mitigation> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/HarmRisk>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/modelArchitecture> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/MachineLearningModel>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/nature> a owl:ObjectProperty;
+  rdfs:domain <http://data.europa.eu/it6/HarmRisk>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range skos:Concept .
+
+<http://data.europa.eu/it6/numberOfDatapoints> a owl:DatatypeProperty;
+  rdfs:domain dcat:Distribution;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range xsd:nonNegativeInteger .
+
+<http://data.europa.eu/it6/placedOnMarketDate> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/MachineLearningModel>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/powerConsumption> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/EnvironmentalImpact>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/probability> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/HarmRisk>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/processingDate> a owl:DatatypeProperty;
+  rdfs:domain dcat:Distribution;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/processingError> a owl:DatatypeProperty;
+  rdfs:domain dcat:Distribution;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/processingWarning> a owl:DatatypeProperty;
+  rdfs:domain dcat:Distribution;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/recommendedRange> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/FlowParameter>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/releaseDate> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/MachineLearningModel>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/repeat> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/Evaluation>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/rowIDAttribute> a owl:DatatypeProperty;
+  rdfs:domain dcat:Distribution;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/runDetails> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/Run>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/sample> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/Evaluation>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/sampleSize> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/Evaluation>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/setupId> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/Run>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/setupString> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/Run>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/severity> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/HarmRisk>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/shortDescription> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/MachineLearningModel>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/size> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/Modality>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/source> a owl:ObjectProperty;
+  rdfs:domain <http://data.europa.eu/it6/HarmRisk>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range skos:Concept .
+
+<http://data.europa.eu/it6/stdev> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/Evaluation>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/testingDescription> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/MachineLearningModel>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/totalNumberOfParameters> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/MachineLearningModel>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range xsd:nonNegativeInteger .
+
+<http://data.europa.eu/it6/trainingMethodologies> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/MachineLearningModel>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/trainingProcess> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/MachineLearningModel>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/trainingTime> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/Run>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/unsuitabilityMethod> a owl:DatatypeProperty;
+  rdfs:domain dcat:Dataset;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/uploaded> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/Flow>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/url> a owl:ObjectProperty;
+  rdfs:domain <http://data.europa.eu/it6/OutputFileDescription>,
+    <http://data.europa.eu/it6/File>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range dcat:Resource .
+
+<http://data.europa.eu/it6/value> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/EvaluationMeasure>,
+    <http://data.europa.eu/it6/Parameter>,
+    <http://data.europa.eu/it6/Evaluation>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/valueBad> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/EvaluationMeasure>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/valueGood> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/EvaluationMeasure>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/version> a owl:DatatypeProperty;
+  rdfs:domain <http://data.europa.eu/it6/Flow>,
+    <http://data.europa.eu/it6/Library>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/versionLabel> a owl:DatatypeProperty;
+  rdfs:domain dcat:Dataset;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range rdfs:Literal .
+
+<http://data.europa.eu/it6/visibility> a owl:ObjectProperty;
+  rdfs:domain dcat:Dataset,
+    <http://data.europa.eu/it6/Collection>;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:range skos:Concept .
+
+<http://data.europa.eu/it6/File> a owl:Class;
+  rdfs:isDefinedBy <http://data.europa.eu/it6> .
+
+<http://data.europa.eu/it6/Library> a owl:Class;
+  rdfs:isDefinedBy <http://data.europa.eu/it6> .
+
+<http://data.europa.eu/it6/OutputFileDescription> a owl:Class;
+  rdfs:isDefinedBy <http://data.europa.eu/it6> .
+
+<http://data.europa.eu/it6/Engagement> a owl:Class;
+  rdfs:isDefinedBy <http://data.europa.eu/it6> .
+
+<http://data.europa.eu/it6/FlowParameter> a owl:Class;
+  rdfs:isDefinedBy <http://data.europa.eu/it6> .
+
+<http://data.europa.eu/it6/Modality> a owl:Class;
+  rdfs:isDefinedBy <http://data.europa.eu/it6> .
+
+<http://data.europa.eu/it6/Parameter> a owl:Class;
+  rdfs:isDefinedBy <http://data.europa.eu/it6> .
+
+<http://data.europa.eu/it6/EnvironmentalImpact> a owl:Class;
+  rdfs:isDefinedBy <http://data.europa.eu/it6> .
+
+<http://data.europa.eu/it6/Measure> a owl:Class;
+  rdfs:isDefinedBy <http://data.europa.eu/it6> .
+
+<http://data.europa.eu/it6/Collection> a owl:Class;
+  rdfs:isDefinedBy <http://data.europa.eu/it6> .
+
+<http://data.europa.eu/it6/EvaluationMeasure> a owl:Class;
+  rdfs:isDefinedBy <http://data.europa.eu/it6>;
+  rdfs:subClassOf <http://data.europa.eu/it6/Measure> .
+
+<http://data.europa.eu/it6/Flow> a owl:Class;
+  rdfs:isDefinedBy <http://data.europa.eu/it6> .
+
+<http://data.europa.eu/it6/HarmRisk> a owl:Class;
+  rdfs:isDefinedBy <http://data.europa.eu/it6> .
+
+<http://data.europa.eu/it6/Run> a owl:Class;
+  rdfs:isDefinedBy <http://data.europa.eu/it6> .
+
+<http://data.europa.eu/it6/Evaluation> a owl:Class;
+  rdfs:isDefinedBy <http://data.europa.eu/it6> .
+
+<http://data.europa.eu/it6/MachineLearningModel> a owl:Class;
+  rdfs:label "Machine Learning Model"@en;
+  rdfs:comment "A file that has been trained to recognize certain types of patterns."@en;
+  rdfs:isDefinedBy <http://data.europa.eu/it6> .
+
+<http://data.europa.eu/it6> a owl:Ontology;
+  rdfs:label "it6"@en,
+    "it6"@nl;
+  dc:issued "2023-01-13";
+  dc:license <https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic>;
+  dc:mediator [
+    foaf:homepage <https://semic.eu>;
+    foaf:name "Semantic Interoperability Community (SEMIC)"
+  ];
+  <http://www.w3.org/2001/02pd/rec54#editor> [
+    a foaf:Person;
+    foaf:firstName "Emidio";
+    foaf:lastName "Stani";
+    schemas:affiliation [foaf:name "PwC EU Services"]
+  ] .
