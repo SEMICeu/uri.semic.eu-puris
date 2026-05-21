@@ -26,69 +26,101 @@
         <dc:issued>2023-01-13</dc:issued>
       </owl:Ontology>
     </rdfs:isDefinedBy>
+    <rdfs:label xml:lang="en">Benchmark</rdfs:label>
+    <rdfs:comment xml:lang="en">A type of comparison between two or more resources.</rdfs:comment>
   </owl:Class>
   <owl:Class rdf:about="http://data.europa.eu/it6/ComputerInfrastructure">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">Computer Infrastructure</rdfs:label>
+    <rdfs:comment xml:lang="en">The architecture that represents the set of hardware, software, network resources and services required for the operation of an IT environment.</rdfs:comment>
   </owl:Class>
   <owl:Class rdf:about="http://data.europa.eu/it6/CostMatrix">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">Cost Matrix</rdfs:label>
   </owl:Class>
   <owl:Class rdf:about="http://data.europa.eu/it6/DataQuality">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">Data Quality</rdfs:label>
+    <rdfs:comment xml:lang="en">A measurable property of datasets, such as size, shape, statistical properties, benchmarks, and the presence of missing values.</rdfs:comment>
     <rdfs:subClassOf>
       <owl:Class rdf:about="http://data.europa.eu/it6/Measure">
         <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+        <rdfs:label xml:lang="en">Measure</rdfs:label>
       </owl:Class>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://data.europa.eu/it6/EstimationProcedure">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">Estimation Procedure</rdfs:label>
+    <rdfs:comment xml:lang="en">How models should be evaluated, typically by defining specific kinds of train- and test splits.</rdfs:comment>
     <rdfs:subClassOf rdf:resource="http://data.europa.eu/it6/Measure"/>
   </owl:Class>
   <owl:Class rdf:about="http://data.europa.eu/it6/Feature">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">Feature</rdfs:label>
+    <rdfs:comment xml:lang="en">The attribute or column in which a distribution is structured.</rdfs:comment>
   </owl:Class>
   <owl:Class rdf:about="http://data.europa.eu/it6/Hardware">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">Hardware</rdfs:label>
+    <rdfs:comment xml:lang="en">The tangible, physical devices and components that support the operation of software applications and services.</rdfs:comment>
   </owl:Class>
   <owl:Class rdf:about="http://data.europa.eu/it6/Prediction">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">Prediction</rdfs:label>
   </owl:Class>
   <owl:Class rdf:about="http://data.europa.eu/it6/PredictionFeature">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">Prediction Feature</rdfs:label>
   </owl:Class>
   <owl:Class rdf:about="http://data.europa.eu/it6/RunCollection">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">Run Collection</rdfs:label>
+    <rdfs:comment xml:lang="en">A group of runs to easily refer to them and share them with others.</rdfs:comment>
     <rdfs:subClassOf>
       <owl:Class rdf:about="http://data.europa.eu/it6/Collection">
         <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+        <rdfs:label xml:lang="en">Collection</rdfs:label>
+        <rdfs:comment xml:lang="en">A group of task or runs to easily refer to them and share them with others.</rdfs:comment>
       </owl:Class>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="http://data.europa.eu/it6/Split">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">Split</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents a partition of a distribution of data.</rdfs:comment>
   </owl:Class>
   <owl:Class rdf:about="http://data.europa.eu/it6/Task">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">Task</rdfs:label>
+    <rdfs:comment xml:lang="en">A task defines specific problems to be solved using a given dataset.</rdfs:comment>
   </owl:Class>
   <owl:Class rdf:about="http://data.europa.eu/it6/TaskCollection">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">Task Collection</rdfs:label>
+    <rdfs:comment xml:lang="en">A group of tasks to easily refer to them and share them with others.</rdfs:comment>
     <rdfs:subClassOf rdf:resource="http://data.europa.eu/it6/Collection"/>
   </owl:Class>
   <owl:Class rdf:about="http://data.europa.eu/it6/TaskType">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">Task Type</rdfs:label>
   </owl:Class>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/arrayData">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">array data</rdfs:label>
+    <rdfs:comment xml:lang="en">For composite evaluation measures (e.g. per-class measures, confusion matrix), a string (JSON) representation of the evaluation.</rdfs:comment>
     <rdfs:domain>
       <owl:Class rdf:about="http://data.europa.eu/it6/Evaluation">
         <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+        <rdfs:label xml:lang="en">Evaluation</rdfs:label>
       </owl:Class>
     </rdfs:domain>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/bias">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">bias</rdfs:label>
+    <rdfs:comment xml:lang="en">A description of the possible biases affecting the overall output of the model.</rdfs:comment>
     <rdfs:domain>
       <owl:Class rdf:about="http://data.europa.eu/it6/MachineLearningModel">
         <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
@@ -100,162 +132,223 @@
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/biasMethod">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">bias method</rdfs:label>
+    <rdfs:comment xml:lang="en">A description of any methods implemented in data acquisition or processing, if any, to address the prevalence of identifiable biases in the training data.</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/carbonEmitted">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">carbon emitted</rdfs:label>
+    <rdfs:comment xml:lang="en">The emitted carbon.</rdfs:comment>
     <rdfs:domain>
       <owl:Class rdf:about="http://data.europa.eu/it6/EnvironmentalImpact">
         <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+        <rdfs:label xml:lang="en">Environmental Impact</rdfs:label>
+        <rdfs:comment xml:lang="en">The measurable effects of activities on the environment.</rdfs:comment>
       </owl:Class>
     </rdfs:domain>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/className">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">class name</rdfs:label>
     <rdfs:domain>
       <owl:Class rdf:about="http://data.europa.eu/it6/Flow">
         <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+        <rdfs:label xml:lang="en">Flow</rdfs:label>
+        <rdfs:comment xml:lang="en">A machine learning pipeline or neural architectures, or (untrained) machine learning models, such as in general.</rdfs:comment>
       </owl:Class>
     </rdfs:domain>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:ObjectProperty rdf:about="http://data.europa.eu/it6/classification">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">classification</rdfs:label>
+    <rdfs:comment xml:lang="en">The classification of the modality.</rdfs:comment>
     <rdfs:domain>
       <owl:Class rdf:about="http://data.europa.eu/it6/Modality">
         <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+        <rdfs:label xml:lang="en">Modality</rdfs:label>
+        <rdfs:comment xml:lang="en">The distinct format of structure of input or output data.</rdfs:comment>
       </owl:Class>
     </rdfs:domain>
     <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </owl:ObjectProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/collectionDate">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">collection date</rdfs:label>
+    <rdfs:comment xml:lang="en">The date the data was originally collected, given by the uploader.</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/collectionMethod">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">collection method</rdfs:label>
+    <rdfs:comment xml:lang="en">Method used to collect the data, provided by the uploader.</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/component">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">component</rdfs:label>
     <rdfs:domain>
       <owl:Class rdf:about="http://data.europa.eu/it6/Parameter">
         <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+        <rdfs:label xml:lang="en">Parameter</rdfs:label>
+        <rdfs:comment xml:lang="en">The various configuration settings that are specified prior to and during training a model.</rdfs:comment>
       </owl:Class>
     </rdfs:domain>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/creationDate">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">creation date</rdfs:label>
+    <rdfs:comment xml:lang="en">Date of creation of the resource.</rdfs:comment>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/Collection"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/curationMethod">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">curation method</rdfs:label>
+    <rdfs:comment xml:lang="en">General description of the data processing involved in transforming the acquired data into training, testing, and validation data for the model, such as cleaning (e.g. filtering out irrelevant content such as advertisements), normalisation (e.g. tokenizing), augmentation (e.g. back-translation).</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/customName">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">custom name</rdfs:label>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/Flow"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/dataProvenance">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">data provenance</rdfs:label>
+    <rdfs:comment xml:lang="en">A documented trail that accounts for the origin of the data.</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/defaultTargetAttribute">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">default target attribute</rdfs:label>
+    <rdfs:comment xml:lang="en">The primary attribute intended for analysis or processing, if applicable.</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/defaultValue">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">default value</rdfs:label>
+    <rdfs:comment xml:lang="en">The default value of the parameter.</rdfs:comment>
     <rdfs:domain>
       <owl:Class rdf:about="http://data.europa.eu/it6/FlowParameter">
         <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+        <rdfs:label xml:lang="en">Flow Parameter</rdfs:label>
       </owl:Class>
     </rdfs:domain>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/descriptionVersion">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">description version</rdfs:label>
+    <rdfs:comment xml:lang="en">Version number of the description. '1' for original version.</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/designSpecifications">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">design specifications</rdfs:label>
+    <rdfs:comment xml:lang="en">A general description of the main steps or stages involved in the training process, including training methodologies and techniques, the key design choices, assumptions made and what the model is designed to optimise for, and the relevance of different parameters, as applicable.</rdfs:comment>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/MachineLearningModel"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/download">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">download</rdfs:label>
+    <rdfs:comment xml:lang="en">The number of downloads of the machine learning model.</rdfs:comment>
     <rdfs:domain>
       <owl:Class rdf:about="http://data.europa.eu/it6/Engagement">
         <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+        <rdfs:label xml:lang="en">Engagement</rdfs:label>
       </owl:Class>
     </rdfs:domain>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/errorMessage">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">error message</rdfs:label>
     <rdfs:domain>
       <owl:Class rdf:about="http://data.europa.eu/it6/Run">
         <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+        <rdfs:label xml:lang="en">Run</rdfs:label>
+        <rdfs:comment xml:lang="en">An evaluation of machine learning models (flows) trained on a given task.</rdfs:comment>
       </owl:Class>
     </rdfs:domain>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/evaluationEngine">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">evaluation engine id</rdfs:label>
+    <rdfs:comment xml:lang="en">The engine responsible for extracting the features.</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/dqv#QualityMeasurementDataset"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/evaluationResults">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">evaluation results</rdfs:label>
+    <rdfs:comment xml:lang="en">A description of the evaluation against the validation dataset.</rdfs:comment>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/MachineLearningModel"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/evaluationStrategies">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">evaluation strategies</rdfs:label>
+    <rdfs:comment xml:lang="en">A description of the evaluation strategies used.</rdfs:comment>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/MachineLearningModel"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/externalVersion">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">external version</rdfs:label>
+    <rdfs:comment xml:lang="en">The version of the flow, as defined by the uploader, for reference.</rdfs:comment>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/Flow"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/fold">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">fold</rdfs:label>
+    <rdfs:comment xml:lang="en">The number of the fold in the inner cross-validation.</rdfs:comment>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/Evaluation"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:ObjectProperty rdf:about="http://data.europa.eu/it6/hasDocument">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">has document</rdfs:label>
+    <rdfs:comment xml:lang="en">The url or location of the document itself.</rdfs:comment>
     <rdfs:domain rdf:resource="https://linkedpaperswithcode.com/class/paper"/>
     <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
   </owl:ObjectProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/howToUse">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">how to use</rdfs:label>
+    <rdfs:comment xml:lang="en">An explanation of how to use or deploy the model.</rdfs:comment>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/MachineLearningModel"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/ignoreAttribute">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">ignore attribute</rdfs:label>
+    <rdfs:comment xml:lang="en">Attributes that should be excluded in modelling, such as identifiers and indexes.</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/implementation">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">implementation</rdfs:label>
     <rdfs:domain>
       <owl:Class rdf:about="http://data.europa.eu/it6/EvaluationMeasure">
         <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+        <rdfs:label xml:lang="en">Evaluation Measure</rdfs:label>
+        <rdfs:comment xml:lang="en">A way to score the outputs of machine learning models (e.g. predictions).</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://data.europa.eu/it6/Measure"/>
       </owl:Class>
     </rdfs:domain>
@@ -263,248 +356,338 @@
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/intendedUse">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">intended use</rdfs:label>
+    <rdfs:comment xml:lang="en">The prescribed application of the model.</rdfs:comment>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/MachineLearningModel"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/intervalEnd">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">interval end</rdfs:label>
+    <rdfs:comment xml:lang="en">The maximum value of the Quality Measure.</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/dqv#QualityMeasurement"/>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/Evaluation"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/intervalStart">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">interval start</rdfs:label>
+    <rdfs:comment xml:lang="en">The minimum value of the Quality Measure.</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/dqv#QualityMeasurement"/>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/Evaluation"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/like">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">like</rdfs:label>
+    <rdfs:comment xml:lang="en">The number of likes the machine learning model received.</rdfs:comment>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/Engagement"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/limitations">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">limitations</rdfs:label>
+    <rdfs:comment xml:lang="en">The limited capabilities of the model.</rdfs:comment>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/MachineLearningModel"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/measurementMethodology">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">measurement methodology</rdfs:label>
+    <rdfs:comment xml:lang="en">The methodology with which the resource was measured.</rdfs:comment>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/EnvironmentalImpact"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/methodOfDistribution">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">method of distribution</rdfs:label>
+    <rdfs:comment xml:lang="en">A method of distribution through which the model has been made or can be made available to downstream providers.</rdfs:comment>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/MachineLearningModel"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/mitigation">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">mitigation</rdfs:label>
+    <rdfs:comment xml:lang="en">The action of reducing the likelihood or severity of the risk.</rdfs:comment>
     <rdfs:domain>
       <owl:Class rdf:about="http://data.europa.eu/it6/HarmRisk">
         <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+        <rdfs:label xml:lang="en">Harm Risk</rdfs:label>
+        <rdfs:comment xml:lang="en">The combination of the probability of an occurrence of harm and the severity of that harm.</rdfs:comment>
       </owl:Class>
     </rdfs:domain>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/modelArchitecture">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">model architecture</rdfs:label>
+    <rdfs:comment xml:lang="en">A general description of the model architecture, e.g. a transformer architecture.</rdfs:comment>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/MachineLearningModel"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:ObjectProperty rdf:about="http://data.europa.eu/it6/nature">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">nature</rdfs:label>
+    <rdfs:comment xml:lang="en">The inherent characteristics of the risk.</rdfs:comment>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/HarmRisk"/>
     <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </owl:ObjectProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/numberOfDatapoints">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">number of datapoints</rdfs:label>
+    <rdfs:comment xml:lang="en">The total count of individual data entries or observations contained.</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/placedOnMarketDate">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">placed on market date</rdfs:label>
+    <rdfs:comment xml:lang="en">Date when the model was placed on the Union market.</rdfs:comment>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/MachineLearningModel"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/powerConsumption">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">power consumption</rdfs:label>
+    <rdfs:comment xml:lang="en">The consumed power.</rdfs:comment>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/EnvironmentalImpact"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/probability">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">probability</rdfs:label>
+    <rdfs:comment xml:lang="en">The likelihood that a given event will occur.</rdfs:comment>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/HarmRisk"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/processingDate">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">processing date</rdfs:label>
+    <rdfs:comment xml:lang="en">Date of processing.</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/processingError">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">processing error</rdfs:label>
+    <rdfs:comment xml:lang="en">Errors discovered while processing the dataset.</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/processingWarning">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">processing warning</rdfs:label>
+    <rdfs:comment xml:lang="en">Warnings while processing the dataset.</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/recommendedRange">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">recommended range</rdfs:label>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/FlowParameter"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/releaseDate">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">release date</rdfs:label>
+    <rdfs:comment xml:lang="en">The date a model is released.</rdfs:comment>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/MachineLearningModel"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/repeat">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">repeat</rdfs:label>
+    <rdfs:comment xml:lang="en">The number of the repeat in the outer cross-validation.</rdfs:comment>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/Evaluation"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/rowIDAttribute">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">row ID attribute</rdfs:label>
+    <rdfs:comment xml:lang="en">The attribute that represents the row-id column, if present in the dataset.</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/runDetails">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">run details</rdfs:label>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/Run"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/sample">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">sample</rdfs:label>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/Evaluation"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/sampleSize">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">sample size</rdfs:label>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/Evaluation"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/setupId">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">setup Id</rdfs:label>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/Run"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/setupString">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">setup string</rdfs:label>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/Run"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/severity">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">severity</rdfs:label>
+    <rdfs:comment xml:lang="en">The extent of the damage resulting from an event occurring.</rdfs:comment>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/HarmRisk"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/shortDescription">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">short description</rdfs:label>
+    <rdfs:comment xml:lang="en">A short description of a machine learning model.</rdfs:comment>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/MachineLearningModel"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/size">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">size</rdfs:label>
+    <rdfs:comment xml:lang="en">The maximum size of the modality.</rdfs:comment>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/Modality"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:ObjectProperty rdf:about="http://data.europa.eu/it6/source">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">source</rdfs:label>
+    <rdfs:comment xml:lang="en">The origin or cause of the risk.</rdfs:comment>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/HarmRisk"/>
     <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </owl:ObjectProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/stdev">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">stdev</rdfs:label>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/Evaluation"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/testingDescription">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">testing description</rdfs:label>
+    <rdfs:comment xml:lang="en">A detailed description of the measures put in place for the purpose of conducting internal and/or external adversarial testing (e.g. red teaming), model adaptations, including alignment and fine-tuning.</rdfs:comment>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/MachineLearningModel"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/totalNumberOfParameters">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">total number of parameters</rdfs:label>
+    <rdfs:comment xml:lang="en">The total number of parameters of the model.</rdfs:comment>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/MachineLearningModel"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/trainingMethodologies">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">training methodologies</rdfs:label>
+    <rdfs:comment xml:lang="en">A description of the methodologies used.</rdfs:comment>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/MachineLearningModel"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/trainingProcess">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">training process</rdfs:label>
+    <rdfs:comment xml:lang="en">A description of the training process.</rdfs:comment>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/MachineLearningModel"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/trainingTime">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">training time</rdfs:label>
+    <rdfs:comment xml:lang="en">A description of the training time.</rdfs:comment>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/Run"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/unsuitabilityMethod">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">unsuitability method</rdfs:label>
+    <rdfs:comment xml:lang="en">A description of any methods implemented in data acquisition or processing, if any, to detect the presence of unsuitable data sources considering the model's intended uses, including but not limited to illegal content, child sexual abuse material (CSAM), non-consensual intimate imagery (NCII), and personal data leading to its unlawful processing.</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/uploaded">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">uploaded</rdfs:label>
+    <rdfs:comment xml:lang="en">The time that the flow was uploaded.</rdfs:comment>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/Flow"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:ObjectProperty rdf:about="http://data.europa.eu/it6/url">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">url</rdfs:label>
     <rdfs:domain>
       <owl:Class rdf:about="http://data.europa.eu/it6/OutputFileDescription">
         <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+        <rdfs:label xml:lang="en">Output File Description</rdfs:label>
+        <rdfs:comment xml:lang="en">The degree or extent of something, as determined by measurement or calculation.</rdfs:comment>
       </owl:Class>
     </rdfs:domain>
     <rdfs:domain>
       <owl:Class rdf:about="http://data.europa.eu/it6/File">
         <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+        <rdfs:label xml:lang="en">File</rdfs:label>
+        <rdfs:comment xml:lang="en">A physical embodiment of the machine learning model in a particular format.</rdfs:comment>
       </owl:Class>
     </rdfs:domain>
     <rdfs:range rdf:resource="http://www.w3.org/ns/dcat#Resource"/>
+    <rdfs:comment xml:lang="en">The url of the file to be downloaded.</rdfs:comment>
   </owl:ObjectProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/value">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">value</rdfs:label>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/EvaluationMeasure"/>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/Parameter"/>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/Evaluation"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:comment xml:lang="en">The result of evaluation.</rdfs:comment>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/valueBad">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">value bad</rdfs:label>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/EvaluationMeasure"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/valueGood">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">value good</rdfs:label>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/EvaluationMeasure"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/version">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">version</rdfs:label>
+    <rdfs:comment xml:lang="en">The version of the flow.</rdfs:comment>
+    <rdfs:comment xml:lang="en">Version of the resource.</rdfs:comment>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/Flow"/>
     <rdfs:domain>
       <owl:Class rdf:about="http://data.europa.eu/it6/Library">
         <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+        <rdfs:label xml:lang="en">Library</rdfs:label>
+        <rdfs:comment xml:lang="en">A collection of code.</rdfs:comment>
       </owl:Class>
     </rdfs:domain>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:about="http://data.europa.eu/it6/versionLabel">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">version label</rdfs:label>
+    <rdfs:comment xml:lang="en">User-provided version label, which can be a date, hash, or other identifier relevant to the user.</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </owl:DatatypeProperty>
   <owl:ObjectProperty rdf:about="http://data.europa.eu/it6/visibility">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/it6"/>
+    <rdfs:label xml:lang="en">visibility</rdfs:label>
+    <rdfs:comment xml:lang="en">Settings for a dataset that determine who can access or view it. Options typically include 'Everyone', 'All my friends', 'Only me', or specific user-defined circles.</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <rdfs:domain rdf:resource="http://data.europa.eu/it6/Collection"/>
     <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>

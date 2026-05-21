@@ -31,26 +31,53 @@
     {
       "@id": "http://data.europa.eu/it6/Benchmark",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "label": {
+        "en": "Benchmark"
+      },
+      "definition": {
+        "en": "A type of comparison between two or more resources."
+      },
       "parents": []
     },
     {
       "@id": "http://data.europa.eu/it6/Collection",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "label": {
+        "en": "Collection"
+      },
+      "definition": {
+        "en": "A group of task or runs to easily refer to them and share them with others."
+      },
       "parents": []
     },
     {
       "@id": "http://data.europa.eu/it6/ComputerInfrastructure",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "label": {
+        "en": "Computer Infrastructure"
+      },
+      "definition": {
+        "en": "The architecture that represents the set of hardware, software, network resources and services required for the operation of an IT environment."
+      },
       "parents": []
     },
     {
       "@id": "http://data.europa.eu/it6/CostMatrix",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "label": {
+        "en": "Cost Matrix"
+      },
       "parents": []
     },
     {
       "@id": "http://data.europa.eu/it6/DataQuality",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "label": {
+        "en": "Data Quality"
+      },
+      "definition": {
+        "en": "A measurable property of datasets, such as size, shape, statistical properties, benchmarks, and the presence of missing values."
+      },
       "parents": [
         "http://data.europa.eu/it6/Measure"
       ]
@@ -58,16 +85,31 @@
     {
       "@id": "http://data.europa.eu/it6/Engagement",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "label": {
+        "en": "Engagement"
+      },
       "parents": []
     },
     {
       "@id": "http://data.europa.eu/it6/EnvironmentalImpact",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "label": {
+        "en": "Environmental Impact"
+      },
+      "definition": {
+        "en": "The measurable effects of activities on the environment."
+      },
       "parents": []
     },
     {
       "@id": "http://data.europa.eu/it6/EstimationProcedure",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "label": {
+        "en": "Estimation Procedure"
+      },
+      "definition": {
+        "en": "How models should be evaluated, typically by defining specific kinds of train- and test splits."
+      },
       "parents": [
         "http://data.europa.eu/it6/Measure"
       ]
@@ -75,11 +117,20 @@
     {
       "@id": "http://data.europa.eu/it6/Evaluation",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "label": {
+        "en": "Evaluation"
+      },
       "parents": []
     },
     {
       "@id": "http://data.europa.eu/it6/EvaluationMeasure",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "label": {
+        "en": "Evaluation Measure"
+      },
+      "definition": {
+        "en": "A way to score the outputs of machine learning models (e.g. predictions)."
+      },
       "parents": [
         "http://data.europa.eu/it6/Measure"
       ]
@@ -87,36 +138,75 @@
     {
       "@id": "http://data.europa.eu/it6/Feature",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "label": {
+        "en": "Feature"
+      },
+      "definition": {
+        "en": "The attribute or column in which a distribution is structured."
+      },
       "parents": []
     },
     {
       "@id": "http://data.europa.eu/it6/File",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "label": {
+        "en": "File"
+      },
+      "definition": {
+        "en": "A physical embodiment of the machine learning model in a particular format."
+      },
       "parents": []
     },
     {
       "@id": "http://data.europa.eu/it6/Flow",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "label": {
+        "en": "Flow"
+      },
+      "definition": {
+        "en": "A machine learning pipeline or neural architectures, or (untrained) machine learning models, such as in general."
+      },
       "parents": []
     },
     {
       "@id": "http://data.europa.eu/it6/FlowParameter",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "label": {
+        "en": "Flow Parameter"
+      },
       "parents": []
     },
     {
       "@id": "http://data.europa.eu/it6/Hardware",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "label": {
+        "en": "Hardware"
+      },
+      "definition": {
+        "en": "The tangible, physical devices and components that support the operation of software applications and services."
+      },
       "parents": []
     },
     {
       "@id": "http://data.europa.eu/it6/HarmRisk",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "label": {
+        "en": "Harm Risk"
+      },
+      "definition": {
+        "en": "The combination of the probability of an occurrence of harm and the severity of that harm."
+      },
       "parents": []
     },
     {
       "@id": "http://data.europa.eu/it6/Library",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "label": {
+        "en": "Library"
+      },
+      "definition": {
+        "en": "A collection of code."
+      },
       "parents": []
     },
     {
@@ -133,41 +223,80 @@
     {
       "@id": "http://data.europa.eu/it6/Measure",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "label": {
+        "en": "Measure"
+      },
       "parents": []
     },
     {
       "@id": "http://data.europa.eu/it6/Modality",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "label": {
+        "en": "Modality"
+      },
+      "definition": {
+        "en": "The distinct format of structure of input or output data."
+      },
       "parents": []
     },
     {
       "@id": "http://data.europa.eu/it6/OutputFileDescription",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "label": {
+        "en": "Output File Description"
+      },
+      "definition": {
+        "en": "The degree or extent of something, as determined by measurement or calculation."
+      },
       "parents": []
     },
     {
       "@id": "http://data.europa.eu/it6/Parameter",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "label": {
+        "en": "Parameter"
+      },
+      "definition": {
+        "en": "The various configuration settings that are specified prior to and during training a model."
+      },
       "parents": []
     },
     {
       "@id": "http://data.europa.eu/it6/Prediction",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "label": {
+        "en": "Prediction"
+      },
       "parents": []
     },
     {
       "@id": "http://data.europa.eu/it6/PredictionFeature",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "label": {
+        "en": "Prediction Feature"
+      },
       "parents": []
     },
     {
       "@id": "http://data.europa.eu/it6/Run",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "label": {
+        "en": "Run"
+      },
+      "definition": {
+        "en": "An evaluation of machine learning models (flows) trained on a given task."
+      },
       "parents": []
     },
     {
       "@id": "http://data.europa.eu/it6/RunCollection",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "label": {
+        "en": "Run Collection"
+      },
+      "definition": {
+        "en": "A group of runs to easily refer to them and share them with others."
+      },
       "parents": [
         "http://data.europa.eu/it6/Collection"
       ]
@@ -175,16 +304,34 @@
     {
       "@id": "http://data.europa.eu/it6/Split",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "label": {
+        "en": "Split"
+      },
+      "definition": {
+        "en": "Represents a partition of a distribution of data."
+      },
       "parents": []
     },
     {
       "@id": "http://data.europa.eu/it6/Task",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "label": {
+        "en": "Task"
+      },
+      "definition": {
+        "en": "A task defines specific problems to be solved using a given dataset."
+      },
       "parents": []
     },
     {
       "@id": "http://data.europa.eu/it6/TaskCollection",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "label": {
+        "en": "Task Collection"
+      },
+      "definition": {
+        "en": "A group of tasks to easily refer to them and share them with others."
+      },
       "parents": [
         "http://data.europa.eu/it6/Collection"
       ]
@@ -192,42 +339,65 @@
     {
       "@id": "http://data.europa.eu/it6/TaskType",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "label": {
+        "en": "Task Type"
+      },
       "parents": []
     }
   ],
   "externals": [
     {
-      "name": {},
+      "name": {
+        "en": "Quality Measurement Dataset"
+      },
       "@id": "http://www.w3.org/ns/dqv#QualityMeasurementDataset",
       "@type": "rdfs:Class"
     }
   ],
   "properties": [
     {
-      "@id": "http://data.europa.eu/it6/visibility",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "domain": [
-        "http://www.w3.org/ns/dcat#Dataset"
-      ],
-      "range": [
-        "http://www.w3.org/2004/02/skos/core#Concept"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/visibility",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "domain": [
-        "http://data.europa.eu/it6/Collection"
-      ],
-      "range": [
-        "http://www.w3.org/2004/02/skos/core#Concept"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/versionLabel",
+      "@id": "http://data.europa.eu/it6/arrayData",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "array data"
+      },
+      "definition": {
+        "en": "For composite evaluation measures (e.g. per-class measures, confusion matrix), a string (JSON) representation of the evaluation."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/Evaluation"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/bias",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "bias"
+      },
+      "definition": {
+        "en": "A description of the possible biases affecting the overall output of the model."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/MachineLearningModel"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/biasMethod",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "bias method"
+      },
+      "definition": {
+        "en": "A description of any methods implemented in data acquisition or processing, if any, to address the prevalence of identifiable biases in the training data."
+      },
       "domain": [
         "http://www.w3.org/ns/dcat#Dataset"
       ],
@@ -237,8 +407,28 @@
       "generalization": []
     },
     {
-      "@id": "http://data.europa.eu/it6/version",
+      "@id": "http://data.europa.eu/it6/carbonEmitted",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "carbon emitted"
+      },
+      "definition": {
+        "en": "The emitted carbon."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/EnvironmentalImpact"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/className",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "class name"
+      },
       "domain": [
         "http://data.europa.eu/it6/Flow"
       ],
@@ -248,10 +438,33 @@
       "generalization": []
     },
     {
-      "@id": "http://data.europa.eu/it6/version",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "@id": "http://data.europa.eu/it6/classification",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "label": {
+        "en": "classification"
+      },
+      "definition": {
+        "en": "The classification of the modality."
+      },
       "domain": [
-        "http://data.europa.eu/it6/Library"
+        "http://data.europa.eu/it6/Modality"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/collectionDate",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "collection date"
+      },
+      "definition": {
+        "en": "The date the data was originally collected, given by the uploader."
+      },
+      "domain": [
+        "http://www.w3.org/ns/dcat#Dataset"
       ],
       "range": [
         "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -259,10 +472,16 @@
       "generalization": []
     },
     {
-      "@id": "http://data.europa.eu/it6/valueGood",
+      "@id": "http://data.europa.eu/it6/collectionMethod",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "collection method"
+      },
+      "definition": {
+        "en": "Method used to collect the data, provided by the uploader."
+      },
       "domain": [
-        "http://data.europa.eu/it6/EvaluationMeasure"
+        "http://www.w3.org/ns/dcat#Dataset"
       ],
       "range": [
         "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -270,30 +489,11 @@
       "generalization": []
     },
     {
-      "@id": "http://data.europa.eu/it6/valueBad",
+      "@id": "http://data.europa.eu/it6/component",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/EvaluationMeasure"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/value",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/EvaluationMeasure"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/value",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "component"
+      },
       "domain": [
         "http://data.europa.eu/it6/Parameter"
       ],
@@ -303,10 +503,16 @@
       "generalization": []
     },
     {
-      "@id": "http://data.europa.eu/it6/value",
+      "@id": "http://data.europa.eu/it6/creationDate",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "creation date"
+      },
+      "definition": {
+        "en": "Date of creation of the resource."
+      },
       "domain": [
-        "http://data.europa.eu/it6/Evaluation"
+        "http://data.europa.eu/it6/Collection"
       ],
       "range": [
         "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -314,635 +520,14 @@
       "generalization": []
     },
     {
-      "@id": "http://data.europa.eu/it6/url",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "domain": [
-        "http://data.europa.eu/it6/OutputFileDescription"
-      ],
-      "range": [
-        "http://www.w3.org/ns/dcat#Resource"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/url",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "domain": [
-        "http://data.europa.eu/it6/File"
-      ],
-      "range": [
-        "http://www.w3.org/ns/dcat#Resource"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/uploaded",
+      "@id": "http://data.europa.eu/it6/curationMethod",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/Flow"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/unsuitabilityMethod",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://www.w3.org/ns/dcat#Dataset"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/trainingTime",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/Run"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/trainingProcess",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/MachineLearningModel"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/trainingMethodologies",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/MachineLearningModel"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/totalNumberOfParameters",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/MachineLearningModel"
-      ],
-      "range": [
-        "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/testingDescription",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/MachineLearningModel"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/stdev",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/Evaluation"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/source",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "domain": [
-        "http://data.europa.eu/it6/HarmRisk"
-      ],
-      "range": [
-        "http://www.w3.org/2004/02/skos/core#Concept"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/size",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/Modality"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/shortDescription",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/MachineLearningModel"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/severity",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/HarmRisk"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/setupString",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/Run"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/setupId",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/Run"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/sampleSize",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/Evaluation"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/sample",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/Evaluation"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/runDetails",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/Run"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/rowIDAttribute",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://www.w3.org/ns/dcat#Distribution"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/repeat",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/Evaluation"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/releaseDate",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/MachineLearningModel"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/recommendedRange",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/FlowParameter"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/processingWarning",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://www.w3.org/ns/dcat#Distribution"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/processingError",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://www.w3.org/ns/dcat#Distribution"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/processingDate",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://www.w3.org/ns/dcat#Distribution"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/probability",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/HarmRisk"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/powerConsumption",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/EnvironmentalImpact"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/placedOnMarketDate",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/MachineLearningModel"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/numberOfDatapoints",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://www.w3.org/ns/dcat#Distribution"
-      ],
-      "range": [
-        "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/nature",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "domain": [
-        "http://data.europa.eu/it6/HarmRisk"
-      ],
-      "range": [
-        "http://www.w3.org/2004/02/skos/core#Concept"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/modelArchitecture",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/MachineLearningModel"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/mitigation",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/HarmRisk"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/methodOfDistribution",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/MachineLearningModel"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/measurementMethodology",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/EnvironmentalImpact"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/limitations",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/MachineLearningModel"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/like",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/Engagement"
-      ],
-      "range": [
-        "http://www.w3.org/2001/XMLSchema#integer"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/intervalStart",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://www.w3.org/ns/dqv#QualityMeasurement"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/intervalStart",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/Evaluation"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/intervalEnd",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://www.w3.org/ns/dqv#QualityMeasurement"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/intervalEnd",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/Evaluation"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/intendedUse",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/MachineLearningModel"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/implementation",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/EvaluationMeasure"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/ignoreAttribute",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://www.w3.org/ns/dcat#Distribution"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/howToUse",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/MachineLearningModel"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/hasDocument",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "domain": [
-        "https://linkedpaperswithcode.com/class/paper"
-      ],
-      "range": [
-        "http://xmlns.com/foaf/0.1/Document"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/fold",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/Evaluation"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/externalVersion",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/Flow"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/evaluationStrategies",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/MachineLearningModel"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/evaluationResults",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/MachineLearningModel"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/evaluationEngine",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://www.w3.org/ns/dqv#QualityMeasurementDataset"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/errorMessage",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/Run"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/download",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/Engagement"
-      ],
-      "range": [
-        "http://www.w3.org/2001/XMLSchema#integer"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/designSpecifications",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/MachineLearningModel"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/descriptionVersion",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://www.w3.org/ns/dcat#CatalogRecord"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/defaultValue",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/FlowParameter"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/defaultTargetAttribute",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://www.w3.org/ns/dcat#Distribution"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/dataProvenance",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "curation method"
+      },
+      "definition": {
+        "en": "General description of the data processing involved in transforming the acquired data into training, testing, and validation data for the model, such as cleaning (e.g. filtering out irrelevant content such as advertisements), normalisation (e.g. tokenizing), augmentation (e.g. back-translation)."
+      },
       "domain": [
         "http://www.w3.org/ns/dcat#Dataset"
       ],
@@ -954,6 +539,9 @@
     {
       "@id": "http://data.europa.eu/it6/customName",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "custom name"
+      },
       "domain": [
         "http://data.europa.eu/it6/Flow"
       ],
@@ -963,8 +551,14 @@
       "generalization": []
     },
     {
-      "@id": "http://data.europa.eu/it6/curationMethod",
+      "@id": "http://data.europa.eu/it6/dataProvenance",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "data provenance"
+      },
+      "definition": {
+        "en": "A documented trail that accounts for the origin of the data."
+      },
       "domain": [
         "http://www.w3.org/ns/dcat#Dataset"
       ],
@@ -974,10 +568,16 @@
       "generalization": []
     },
     {
-      "@id": "http://data.europa.eu/it6/creationDate",
+      "@id": "http://data.europa.eu/it6/defaultTargetAttribute",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "default target attribute"
+      },
+      "definition": {
+        "en": "The primary attribute intended for analysis or processing, if applicable."
+      },
       "domain": [
-        "http://data.europa.eu/it6/Collection"
+        "http://www.w3.org/ns/dcat#Distribution"
       ],
       "range": [
         "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -985,10 +585,16 @@
       "generalization": []
     },
     {
-      "@id": "http://data.europa.eu/it6/component",
+      "@id": "http://data.europa.eu/it6/defaultValue",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "default value"
+      },
+      "definition": {
+        "en": "The default value of the parameter."
+      },
       "domain": [
-        "http://data.europa.eu/it6/Parameter"
+        "http://data.europa.eu/it6/FlowParameter"
       ],
       "range": [
         "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -996,10 +602,16 @@
       "generalization": []
     },
     {
-      "@id": "http://data.europa.eu/it6/collectionMethod",
+      "@id": "http://data.europa.eu/it6/descriptionVersion",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "description version"
+      },
+      "definition": {
+        "en": "Version number of the description. '1' for original version."
+      },
       "domain": [
-        "http://www.w3.org/ns/dcat#Dataset"
+        "http://www.w3.org/ns/dcat#CatalogRecord"
       ],
       "range": [
         "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -1007,63 +619,14 @@
       "generalization": []
     },
     {
-      "@id": "http://data.europa.eu/it6/collectionDate",
+      "@id": "http://data.europa.eu/it6/designSpecifications",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://www.w3.org/ns/dcat#Dataset"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/classification",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "domain": [
-        "http://data.europa.eu/it6/Modality"
-      ],
-      "range": [
-        "http://www.w3.org/2004/02/skos/core#Concept"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/className",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/Flow"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/carbonEmitted",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://data.europa.eu/it6/EnvironmentalImpact"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/biasMethod",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "domain": [
-        "http://www.w3.org/ns/dcat#Dataset"
-      ],
-      "range": [
-        "http://www.w3.org/2000/01/rdf-schema#Literal"
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://data.europa.eu/it6/bias",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "design specifications"
+      },
+      "definition": {
+        "en": "A general description of the main steps or stages involved in the training process, including training methodologies and techniques, the key design choices, assumptions made and what the model is designed to optimise for, and the relevance of different parameters, as applicable."
+      },
       "domain": [
         "http://data.europa.eu/it6/MachineLearningModel"
       ],
@@ -1073,8 +636,113 @@
       "generalization": []
     },
     {
-      "@id": "http://data.europa.eu/it6/arrayData",
+      "@id": "http://data.europa.eu/it6/download",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "download"
+      },
+      "definition": {
+        "en": "The number of downloads of the machine learning model."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/Engagement"
+      ],
+      "range": [
+        "http://www.w3.org/2001/XMLSchema#integer"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/errorMessage",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "error message"
+      },
+      "domain": [
+        "http://data.europa.eu/it6/Run"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/evaluationEngine",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "evaluation engine id"
+      },
+      "definition": {
+        "en": "The engine responsible for extracting the features."
+      },
+      "domain": [
+        "http://www.w3.org/ns/dqv#QualityMeasurementDataset"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/evaluationResults",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "evaluation results"
+      },
+      "definition": {
+        "en": "A description of the evaluation against the validation dataset."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/MachineLearningModel"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/evaluationStrategies",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "evaluation strategies"
+      },
+      "definition": {
+        "en": "A description of the evaluation strategies used."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/MachineLearningModel"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/externalVersion",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "external version"
+      },
+      "definition": {
+        "en": "The version of the flow, as defined by the uploader, for reference."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/Flow"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/fold",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "fold"
+      },
+      "definition": {
+        "en": "The number of the fold in the inner cross-validation."
+      },
       "domain": [
         "http://data.europa.eu/it6/Evaluation"
       ],
@@ -1082,352 +750,1124 @@
         "http://www.w3.org/2000/01/rdf-schema#Literal"
       ],
       "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/hasDocument",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "label": {
+        "en": "has document"
+      },
+      "definition": {
+        "en": "The url or location of the document itself."
+      },
+      "domain": [
+        "https://linkedpaperswithcode.com/class/paper"
+      ],
+      "range": [
+        "http://xmlns.com/foaf/0.1/Document"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/howToUse",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "how to use"
+      },
+      "definition": {
+        "en": "An explanation of how to use or deploy the model."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/MachineLearningModel"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/ignoreAttribute",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "ignore attribute"
+      },
+      "definition": {
+        "en": "Attributes that should be excluded in modelling, such as identifiers and indexes."
+      },
+      "domain": [
+        "http://www.w3.org/ns/dcat#Distribution"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/implementation",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "implementation"
+      },
+      "domain": [
+        "http://data.europa.eu/it6/EvaluationMeasure"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/intendedUse",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "intended use"
+      },
+      "definition": {
+        "en": "The prescribed application of the model."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/MachineLearningModel"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/intervalEnd",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "interval end"
+      },
+      "definition": {
+        "en": "The maximum value of the Quality Measure."
+      },
+      "domain": [
+        "http://www.w3.org/ns/dqv#QualityMeasurement"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/intervalEnd",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "interval end"
+      },
+      "domain": [
+        "http://data.europa.eu/it6/Evaluation"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/intervalStart",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "interval start"
+      },
+      "definition": {
+        "en": "The minimum value of the Quality Measure."
+      },
+      "domain": [
+        "http://www.w3.org/ns/dqv#QualityMeasurement"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/intervalStart",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "interval start"
+      },
+      "domain": [
+        "http://data.europa.eu/it6/Evaluation"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/like",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "like"
+      },
+      "definition": {
+        "en": "The number of likes the machine learning model received."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/Engagement"
+      ],
+      "range": [
+        "http://www.w3.org/2001/XMLSchema#integer"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/limitations",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "limitations"
+      },
+      "definition": {
+        "en": "The limited capabilities of the model."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/MachineLearningModel"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/measurementMethodology",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "measurement methodology"
+      },
+      "definition": {
+        "en": "The methodology with which the resource was measured."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/EnvironmentalImpact"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/methodOfDistribution",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "method of distribution"
+      },
+      "definition": {
+        "en": "A method of distribution through which the model has been made or can be made available to downstream providers."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/MachineLearningModel"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/mitigation",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "mitigation"
+      },
+      "definition": {
+        "en": "The action of reducing the likelihood or severity of the risk."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/HarmRisk"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/modelArchitecture",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "model architecture"
+      },
+      "definition": {
+        "en": "A general description of the model architecture, e.g. a transformer architecture."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/MachineLearningModel"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/nature",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "label": {
+        "en": "nature"
+      },
+      "definition": {
+        "en": "The inherent characteristics of the risk."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/HarmRisk"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/numberOfDatapoints",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "number of datapoints"
+      },
+      "definition": {
+        "en": "The total count of individual data entries or observations contained."
+      },
+      "domain": [
+        "http://www.w3.org/ns/dcat#Distribution"
+      ],
+      "range": [
+        "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/placedOnMarketDate",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "placed on market date"
+      },
+      "definition": {
+        "en": "Date when the model was placed on the Union market."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/MachineLearningModel"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/powerConsumption",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "power consumption"
+      },
+      "definition": {
+        "en": "The consumed power."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/EnvironmentalImpact"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/probability",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "probability"
+      },
+      "definition": {
+        "en": "The likelihood that a given event will occur."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/HarmRisk"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/processingDate",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "processing date"
+      },
+      "definition": {
+        "en": "Date of processing."
+      },
+      "domain": [
+        "http://www.w3.org/ns/dcat#Distribution"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/processingError",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "processing error"
+      },
+      "definition": {
+        "en": "Errors discovered while processing the dataset."
+      },
+      "domain": [
+        "http://www.w3.org/ns/dcat#Distribution"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/processingWarning",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "processing warning"
+      },
+      "definition": {
+        "en": "Warnings while processing the dataset."
+      },
+      "domain": [
+        "http://www.w3.org/ns/dcat#Distribution"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/recommendedRange",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "recommended range"
+      },
+      "domain": [
+        "http://data.europa.eu/it6/FlowParameter"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/releaseDate",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "release date"
+      },
+      "definition": {
+        "en": "The date a model is released."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/MachineLearningModel"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/repeat",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "repeat"
+      },
+      "definition": {
+        "en": "The number of the repeat in the outer cross-validation."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/Evaluation"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/rowIDAttribute",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "row ID attribute"
+      },
+      "definition": {
+        "en": "The attribute that represents the row-id column, if present in the dataset."
+      },
+      "domain": [
+        "http://www.w3.org/ns/dcat#Distribution"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/runDetails",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "run details"
+      },
+      "domain": [
+        "http://data.europa.eu/it6/Run"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/sample",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "sample"
+      },
+      "domain": [
+        "http://data.europa.eu/it6/Evaluation"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/sampleSize",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "sample size"
+      },
+      "domain": [
+        "http://data.europa.eu/it6/Evaluation"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/setupId",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "setup Id"
+      },
+      "domain": [
+        "http://data.europa.eu/it6/Run"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/setupString",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "setup string"
+      },
+      "domain": [
+        "http://data.europa.eu/it6/Run"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/severity",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "severity"
+      },
+      "definition": {
+        "en": "The extent of the damage resulting from an event occurring."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/HarmRisk"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/shortDescription",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "short description"
+      },
+      "definition": {
+        "en": "A short description of a machine learning model."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/MachineLearningModel"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/size",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "size"
+      },
+      "definition": {
+        "en": "The maximum size of the modality."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/Modality"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/source",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "label": {
+        "en": "source"
+      },
+      "definition": {
+        "en": "The origin or cause of the risk."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/HarmRisk"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/stdev",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "stdev"
+      },
+      "domain": [
+        "http://data.europa.eu/it6/Evaluation"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/testingDescription",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "testing description"
+      },
+      "definition": {
+        "en": "A detailed description of the measures put in place for the purpose of conducting internal and/or external adversarial testing (e.g. red teaming), model adaptations, including alignment and fine-tuning."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/MachineLearningModel"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/totalNumberOfParameters",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "total number of parameters"
+      },
+      "definition": {
+        "en": "The total number of parameters of the model."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/MachineLearningModel"
+      ],
+      "range": [
+        "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/trainingMethodologies",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "training methodologies"
+      },
+      "definition": {
+        "en": "A description of the methodologies used."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/MachineLearningModel"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/trainingProcess",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "training process"
+      },
+      "definition": {
+        "en": "A description of the training process."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/MachineLearningModel"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/trainingTime",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "training time"
+      },
+      "definition": {
+        "en": "A description of the training time."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/Run"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/unsuitabilityMethod",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "unsuitability method"
+      },
+      "definition": {
+        "en": "A description of any methods implemented in data acquisition or processing, if any, to detect the presence of unsuitable data sources considering the model's intended uses, including but not limited to illegal content, child sexual abuse material (CSAM), non-consensual intimate imagery (NCII), and personal data leading to its unlawful processing."
+      },
+      "domain": [
+        "http://www.w3.org/ns/dcat#Dataset"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/uploaded",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "uploaded"
+      },
+      "definition": {
+        "en": "The time that the flow was uploaded."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/Flow"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/url",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "label": {
+        "en": "url"
+      },
+      "domain": [
+        "http://data.europa.eu/it6/OutputFileDescription"
+      ],
+      "range": [
+        "http://www.w3.org/ns/dcat#Resource"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/url",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "label": {
+        "en": "url"
+      },
+      "definition": {
+        "en": "The url of the file to be downloaded."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/File"
+      ],
+      "range": [
+        "http://www.w3.org/ns/dcat#Resource"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/value",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "value"
+      },
+      "domain": [
+        "http://data.europa.eu/it6/EvaluationMeasure"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/value",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "value"
+      },
+      "domain": [
+        "http://data.europa.eu/it6/Parameter"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/value",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "value"
+      },
+      "definition": {
+        "en": "The result of evaluation."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/Evaluation"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/valueBad",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "value bad"
+      },
+      "domain": [
+        "http://data.europa.eu/it6/EvaluationMeasure"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/valueGood",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "value good"
+      },
+      "domain": [
+        "http://data.europa.eu/it6/EvaluationMeasure"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/version",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "version"
+      },
+      "definition": {
+        "en": "The version of the flow."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/Flow"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/version",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "version"
+      },
+      "definition": {
+        "en": "Version of the resource."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/Library"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/versionLabel",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "label": {
+        "en": "version label"
+      },
+      "definition": {
+        "en": "User-provided version label, which can be a date, hash, or other identifier relevant to the user."
+      },
+      "domain": [
+        "http://www.w3.org/ns/dcat#Dataset"
+      ],
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Literal"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/visibility",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "label": {
+        "en": "visibility"
+      },
+      "definition": {
+        "en": "Settings for a dataset that determine who can access or view it. Options typically include 'Everyone', 'All my friends', 'Only me', or specific user-defined circles."
+      },
+      "domain": [
+        "http://www.w3.org/ns/dcat#Dataset"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://data.europa.eu/it6/visibility",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "label": {
+        "en": "visibility"
+      },
+      "definition": {
+        "en": "Settings for a dataset that determine who can access or view it. Options typically include 'Everyone', 'All my friends', 'Only me', or specific user-defined circles."
+      },
+      "domain": [
+        "http://data.europa.eu/it6/Collection"
+      ],
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "generalization": []
     }
   ],
   "externalproperties": [
     {
-      "name": {},
-      "@id": "http://www.w3.org/ns/odrl/2/hasPolicy",
+      "name": {
+        "en": "fine tuned from"
+      },
+      "@id": "http://data.europa.eu/it6/fineTunedFrom",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://www.w3.org/ns/dcat#version",
+      "name": {
+        "en": "has benchmark"
+      },
+      "@id": "http://data.europa.eu/it6/hasBenchmark",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://www.w3.org/ns/dcat#keyword",
+      "name": {
+        "en": "has cost matrix"
+      },
+      "@id": "http://data.europa.eu/it6/hasCostMatrix",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://www.w3.org/ns/dcat#keyword",
+      "name": {
+        "en": "has dependency"
+      },
+      "@id": "http://data.europa.eu/it6/hasDependency",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://www.w3.org/ns/dcat#keyword",
+      "name": {
+        "en": "has engagement"
+      },
+      "@id": "http://data.europa.eu/it6/hasEngagement",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://www.w3.org/ns/dcat#keyword",
+      "name": {
+        "en": "has estimation procedure"
+      },
+      "@id": "http://data.europa.eu/it6/hasEstimationProcedure",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://www.w3.org/ns/adms#status",
+      "name": {
+        "en": "has evaluation"
+      },
+      "@id": "http://data.europa.eu/it6/hasEvaluation",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "name": {
+        "en": "has evaluation measure"
+      },
+      "@id": "http://data.europa.eu/it6/hasEvaluationMeasure",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://www.w3.org/2004/02/skos/core#notation",
+      "name": {
+        "en": "has file"
+      },
+      "@id": "http://data.europa.eu/it6/hasFile",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://www.w3.org/2004/02/skos/core#definition",
+      "name": {
+        "en": "has flow"
+      },
+      "@id": "http://data.europa.eu/it6/hasFlow",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://www.w3.org/2000/01/rdf-schema#label",
+      "name": {
+        "en": "has flow"
+      },
+      "@id": "http://data.europa.eu/it6/hasFlow",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/type",
+      "name": {
+        "en": "has flow parameter"
+      },
+      "@id": "http://data.europa.eu/it6/hasFlowParameter",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/type",
+      "name": {
+        "en": "has hardware"
+      },
+      "@id": "http://data.europa.eu/it6/hasHardware",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/type",
+      "name": {
+        "en": "has inferencing impact"
+      },
+      "@id": "http://data.europa.eu/it6/hasInferencingImpact",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/type",
+      "name": {
+        "en": "has input modality"
+      },
+      "@id": "http://data.europa.eu/it6/hasInputModality",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/type",
+      "name": {
+        "en": "has library"
+      },
+      "@id": "http://data.europa.eu/it6/hasLibrary",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/type",
+      "name": {
+        "en": "has output"
+      },
+      "@id": "http://data.europa.eu/it6/hasOutput",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/type",
+      "name": {
+        "en": "has output file description"
+      },
+      "@id": "http://data.europa.eu/it6/hasOutputFileDescription",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/title",
+      "name": {
+        "en": "has output file prediction"
+      },
+      "@id": "http://data.europa.eu/it6/hasOutputFilePrediction",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/title",
+      "name": {
+        "en": "has output modality"
+      },
+      "@id": "http://data.europa.eu/it6/hasOutputModality",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/title",
+      "name": {
+        "en": "has parameter"
+      },
+      "@id": "http://data.europa.eu/it6/hasParameter",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/title",
+      "name": {
+        "en": "has parameter"
+      },
+      "@id": "http://data.europa.eu/it6/hasParameter",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/title",
+      "name": {
+        "en": "has prediction feature"
+      },
+      "@id": "http://data.europa.eu/it6/hasPredictionFeature",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/title",
+      "name": {
+        "en": "has risk"
+      },
+      "@id": "http://data.europa.eu/it6/hasRisk",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/title",
+      "name": {
+        "en": "has run"
+      },
+      "@id": "http://data.europa.eu/it6/hasRun",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/title",
+      "name": {
+        "en": "has split"
+      },
+      "@id": "http://data.europa.eu/it6/hasSplit",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/title",
+      "name": {
+        "en": "has task"
+      },
+      "@id": "http://data.europa.eu/it6/hasTask",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/title",
+      "name": {
+        "en": "has task"
+      },
+      "@id": "http://data.europa.eu/it6/hasTask",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/title",
+      "name": {
+        "en": "has task type"
+      },
+      "@id": "http://data.europa.eu/it6/hasTaskType",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/title",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/title",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/title",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/title",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/title",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/title",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/title",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/title",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/title",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/modified",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/language",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/identifier",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/identifier",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/identifier",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/identifier",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/identifier",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/identifier",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/identifier",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/identifier",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/identifier",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/identifier",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/identifier",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/identifier",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/format",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/format",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/description",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/description",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/description",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/description",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/description",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/description",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/description",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/description",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/description",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/description",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/description",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/description",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://purl.org/dc/terms/created",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://data.europa.eu/it6/targetFeature",
-      "@type": "rdf:Property"
-    },
-    {
-      "name": {},
-      "@id": "http://data.europa.eu/it6/isExecutedBy",
+      "name": {
+        "en": "has training impact"
+      },
+      "@id": "http://data.europa.eu/it6/hasTrainingImpact",
       "@type": "rdf:Property"
     },
     {
@@ -1438,153 +1878,486 @@
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://data.europa.eu/it6/hasTrainingImpact",
+      "name": {
+        "en": "is executed by"
+      },
+      "@id": "http://data.europa.eu/it6/isExecutedBy",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://data.europa.eu/it6/hasTaskType",
+      "name": {
+        "en": "target feature"
+      },
+      "@id": "http://data.europa.eu/it6/targetFeature",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://data.europa.eu/it6/hasTask",
+      "name": {
+        "en": "created"
+      },
+      "@id": "http://purl.org/dc/terms/created",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://data.europa.eu/it6/hasTask",
+      "name": {
+        "en": "description"
+      },
+      "@id": "http://purl.org/dc/terms/description",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://data.europa.eu/it6/hasSplit",
+      "name": {
+        "en": "description"
+      },
+      "@id": "http://purl.org/dc/terms/description",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://data.europa.eu/it6/hasRun",
+      "name": {
+        "en": "description"
+      },
+      "@id": "http://purl.org/dc/terms/description",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://data.europa.eu/it6/hasRisk",
+      "name": {
+        "en": "description"
+      },
+      "@id": "http://purl.org/dc/terms/description",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://data.europa.eu/it6/hasPredictionFeature",
+      "name": {
+        "en": "description"
+      },
+      "@id": "http://purl.org/dc/terms/description",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://data.europa.eu/it6/hasParameter",
+      "name": {
+        "en": "description"
+      },
+      "@id": "http://purl.org/dc/terms/description",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://data.europa.eu/it6/hasParameter",
+      "name": {
+        "en": "description"
+      },
+      "@id": "http://purl.org/dc/terms/description",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://data.europa.eu/it6/hasOutputModality",
+      "name": {
+        "en": "description"
+      },
+      "@id": "http://purl.org/dc/terms/description",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://data.europa.eu/it6/hasOutputFilePrediction",
+      "name": {
+        "en": "description"
+      },
+      "@id": "http://purl.org/dc/terms/description",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://data.europa.eu/it6/hasOutputFileDescription",
+      "name": {
+        "en": "description"
+      },
+      "@id": "http://purl.org/dc/terms/description",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://data.europa.eu/it6/hasOutput",
+      "name": {
+        "en": "description"
+      },
+      "@id": "http://purl.org/dc/terms/description",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://data.europa.eu/it6/hasLibrary",
+      "name": {
+        "en": "description"
+      },
+      "@id": "http://purl.org/dc/terms/description",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://data.europa.eu/it6/hasInputModality",
+      "name": {
+        "en": "format"
+      },
+      "@id": "http://purl.org/dc/terms/format",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://data.europa.eu/it6/hasInferencingImpact",
+      "name": {
+        "en": "format"
+      },
+      "@id": "http://purl.org/dc/terms/format",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://data.europa.eu/it6/hasHardware",
+      "name": {
+        "en": "identifier"
+      },
+      "@id": "http://purl.org/dc/terms/identifier",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://data.europa.eu/it6/hasFlowParameter",
+      "name": {
+        "en": "identifier"
+      },
+      "@id": "http://purl.org/dc/terms/identifier",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://data.europa.eu/it6/hasFlow",
+      "name": {
+        "en": "identifier"
+      },
+      "@id": "http://purl.org/dc/terms/identifier",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://data.europa.eu/it6/hasFlow",
+      "name": {
+        "en": "id"
+      },
+      "@id": "http://purl.org/dc/terms/identifier",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://data.europa.eu/it6/hasFile",
+      "name": {
+        "en": "id"
+      },
+      "@id": "http://purl.org/dc/terms/identifier",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://data.europa.eu/it6/hasEvaluationMeasure",
+      "name": {
+        "en": "identifier"
+      },
+      "@id": "http://purl.org/dc/terms/identifier",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://data.europa.eu/it6/hasEvaluation",
+      "name": {
+        "en": "identifier"
+      },
+      "@id": "http://purl.org/dc/terms/identifier",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://data.europa.eu/it6/hasEstimationProcedure",
+      "name": {
+        "en": "id"
+      },
+      "@id": "http://purl.org/dc/terms/identifier",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://data.europa.eu/it6/hasEngagement",
+      "name": {
+        "en": "id"
+      },
+      "@id": "http://purl.org/dc/terms/identifier",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://data.europa.eu/it6/hasDependency",
+      "name": {
+        "en": "identifier"
+      },
+      "@id": "http://purl.org/dc/terms/identifier",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://data.europa.eu/it6/hasCostMatrix",
+      "name": {
+        "en": "identifier"
+      },
+      "@id": "http://purl.org/dc/terms/identifier",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://data.europa.eu/it6/hasBenchmark",
+      "name": {
+        "en": "identifier"
+      },
+      "@id": "http://purl.org/dc/terms/identifier",
       "@type": "rdf:Property"
     },
     {
-      "name": {},
-      "@id": "http://data.europa.eu/it6/fineTunedFrom",
+      "name": {
+        "en": "language"
+      },
+      "@id": "http://purl.org/dc/terms/language",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "modified"
+      },
+      "@id": "http://purl.org/dc/terms/modified",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "title"
+      },
+      "@id": "http://purl.org/dc/terms/title",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "title"
+      },
+      "@id": "http://purl.org/dc/terms/title",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "title"
+      },
+      "@id": "http://purl.org/dc/terms/title",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "title"
+      },
+      "@id": "http://purl.org/dc/terms/title",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "title"
+      },
+      "@id": "http://purl.org/dc/terms/title",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "title"
+      },
+      "@id": "http://purl.org/dc/terms/title",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "title"
+      },
+      "@id": "http://purl.org/dc/terms/title",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "title"
+      },
+      "@id": "http://purl.org/dc/terms/title",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "name"
+      },
+      "@id": "http://purl.org/dc/terms/title",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "title"
+      },
+      "@id": "http://purl.org/dc/terms/title",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "title"
+      },
+      "@id": "http://purl.org/dc/terms/title",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "title"
+      },
+      "@id": "http://purl.org/dc/terms/title",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "title"
+      },
+      "@id": "http://purl.org/dc/terms/title",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "name"
+      },
+      "@id": "http://purl.org/dc/terms/title",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "title"
+      },
+      "@id": "http://purl.org/dc/terms/title",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "title"
+      },
+      "@id": "http://purl.org/dc/terms/title",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "title"
+      },
+      "@id": "http://purl.org/dc/terms/title",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "title"
+      },
+      "@id": "http://purl.org/dc/terms/title",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "title"
+      },
+      "@id": "http://purl.org/dc/terms/title",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "title"
+      },
+      "@id": "http://purl.org/dc/terms/title",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "type"
+      },
+      "@id": "http://purl.org/dc/terms/type",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "type"
+      },
+      "@id": "http://purl.org/dc/terms/type",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "type"
+      },
+      "@id": "http://purl.org/dc/terms/type",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "type"
+      },
+      "@id": "http://purl.org/dc/terms/type",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "type"
+      },
+      "@id": "http://purl.org/dc/terms/type",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "type"
+      },
+      "@id": "http://purl.org/dc/terms/type",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "type"
+      },
+      "@id": "http://purl.org/dc/terms/type",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "label"
+      },
+      "@id": "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "description"
+      },
+      "@id": "http://www.w3.org/2004/02/skos/core#definition",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "id"
+      },
+      "@id": "http://www.w3.org/2004/02/skos/core#notation",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "title"
+      },
+      "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "status"
+      },
+      "@id": "http://www.w3.org/ns/adms#status",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "keyword"
+      },
+      "@id": "http://www.w3.org/ns/dcat#keyword",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "keyword"
+      },
+      "@id": "http://www.w3.org/ns/dcat#keyword",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "keyword"
+      },
+      "@id": "http://www.w3.org/ns/dcat#keyword",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "keyword"
+      },
+      "@id": "http://www.w3.org/ns/dcat#keyword",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "version"
+      },
+      "@id": "http://www.w3.org/ns/dcat#version",
+      "@type": "rdf:Property"
+    },
+    {
+      "name": {
+        "en": "has policy"
+      },
+      "@id": "http://www.w3.org/ns/odrl/2/hasPolicy",
       "@type": "rdf:Property"
     }
   ],

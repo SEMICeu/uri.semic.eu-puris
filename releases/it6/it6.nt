@@ -7,370 +7,553 @@
 <http://data.europa.eu/it6> <http://purl.org/dc/terms/issued> "2023-01-13" .
 <http://data.europa.eu/it6/Benchmark> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
 <http://data.europa.eu/it6/Benchmark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.europa.eu/it6/Benchmark> <http://www.w3.org/2000/01/rdf-schema#label> "Benchmark"@en .
+<http://data.europa.eu/it6/Benchmark> <http://www.w3.org/2000/01/rdf-schema#comment> "A type of comparison between two or more resources."@en .
 <http://data.europa.eu/it6/Collection> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
 <http://data.europa.eu/it6/Collection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.europa.eu/it6/Collection> <http://www.w3.org/2000/01/rdf-schema#label> "Collection"@en .
+<http://data.europa.eu/it6/Collection> <http://www.w3.org/2000/01/rdf-schema#comment> "A group of task or runs to easily refer to them and share them with others."@en .
 <http://data.europa.eu/it6/ComputerInfrastructure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
 <http://data.europa.eu/it6/ComputerInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.europa.eu/it6/ComputerInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "Computer Infrastructure"@en .
+<http://data.europa.eu/it6/ComputerInfrastructure> <http://www.w3.org/2000/01/rdf-schema#comment> "The architecture that represents the set of hardware, software, network resources and services required for the operation of an IT environment."@en .
 <http://data.europa.eu/it6/CostMatrix> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
 <http://data.europa.eu/it6/CostMatrix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.europa.eu/it6/CostMatrix> <http://www.w3.org/2000/01/rdf-schema#label> "Cost Matrix"@en .
 <http://data.europa.eu/it6/DataQuality> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
 <http://data.europa.eu/it6/DataQuality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.europa.eu/it6/DataQuality> <http://www.w3.org/2000/01/rdf-schema#label> "Data Quality"@en .
+<http://data.europa.eu/it6/DataQuality> <http://www.w3.org/2000/01/rdf-schema#comment> "A measurable property of datasets, such as size, shape, statistical properties, benchmarks, and the presence of missing values."@en .
 <http://data.europa.eu/it6/DataQuality> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.europa.eu/it6/Measure> .
 <http://data.europa.eu/it6/Measure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
 <http://data.europa.eu/it6/Measure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.europa.eu/it6/Measure> <http://www.w3.org/2000/01/rdf-schema#label> "Measure"@en .
 <http://data.europa.eu/it6/Engagement> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
 <http://data.europa.eu/it6/Engagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.europa.eu/it6/Engagement> <http://www.w3.org/2000/01/rdf-schema#label> "Engagement"@en .
 <http://data.europa.eu/it6/EnvironmentalImpact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
 <http://data.europa.eu/it6/EnvironmentalImpact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.europa.eu/it6/EnvironmentalImpact> <http://www.w3.org/2000/01/rdf-schema#label> "Environmental Impact"@en .
+<http://data.europa.eu/it6/EnvironmentalImpact> <http://www.w3.org/2000/01/rdf-schema#comment> "The measurable effects of activities on the environment."@en .
 <http://data.europa.eu/it6/EstimationProcedure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
 <http://data.europa.eu/it6/EstimationProcedure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.europa.eu/it6/EstimationProcedure> <http://www.w3.org/2000/01/rdf-schema#label> "Estimation Procedure"@en .
+<http://data.europa.eu/it6/EstimationProcedure> <http://www.w3.org/2000/01/rdf-schema#comment> "How models should be evaluated, typically by defining specific kinds of train- and test splits."@en .
 <http://data.europa.eu/it6/EstimationProcedure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.europa.eu/it6/Measure> .
 <http://data.europa.eu/it6/Evaluation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
 <http://data.europa.eu/it6/Evaluation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.europa.eu/it6/Evaluation> <http://www.w3.org/2000/01/rdf-schema#label> "Evaluation"@en .
 <http://data.europa.eu/it6/EvaluationMeasure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
 <http://data.europa.eu/it6/EvaluationMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.europa.eu/it6/EvaluationMeasure> <http://www.w3.org/2000/01/rdf-schema#label> "Evaluation Measure"@en .
+<http://data.europa.eu/it6/EvaluationMeasure> <http://www.w3.org/2000/01/rdf-schema#comment> "A way to score the outputs of machine learning models (e.g. predictions)."@en .
 <http://data.europa.eu/it6/EvaluationMeasure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.europa.eu/it6/Measure> .
 <http://data.europa.eu/it6/Feature> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
 <http://data.europa.eu/it6/Feature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.europa.eu/it6/Feature> <http://www.w3.org/2000/01/rdf-schema#label> "Feature"@en .
+<http://data.europa.eu/it6/Feature> <http://www.w3.org/2000/01/rdf-schema#comment> "The attribute or column in which a distribution is structured."@en .
 <http://data.europa.eu/it6/File> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
 <http://data.europa.eu/it6/File> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.europa.eu/it6/File> <http://www.w3.org/2000/01/rdf-schema#label> "File"@en .
+<http://data.europa.eu/it6/File> <http://www.w3.org/2000/01/rdf-schema#comment> "A physical embodiment of the machine learning model in a particular format."@en .
 <http://data.europa.eu/it6/Flow> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
 <http://data.europa.eu/it6/Flow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.europa.eu/it6/Flow> <http://www.w3.org/2000/01/rdf-schema#label> "Flow"@en .
+<http://data.europa.eu/it6/Flow> <http://www.w3.org/2000/01/rdf-schema#comment> "A machine learning pipeline or neural architectures, or (untrained) machine learning models, such as in general."@en .
 <http://data.europa.eu/it6/FlowParameter> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
 <http://data.europa.eu/it6/FlowParameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.europa.eu/it6/FlowParameter> <http://www.w3.org/2000/01/rdf-schema#label> "Flow Parameter"@en .
 <http://data.europa.eu/it6/Hardware> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
 <http://data.europa.eu/it6/Hardware> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.europa.eu/it6/Hardware> <http://www.w3.org/2000/01/rdf-schema#label> "Hardware"@en .
+<http://data.europa.eu/it6/Hardware> <http://www.w3.org/2000/01/rdf-schema#comment> "The tangible, physical devices and components that support the operation of software applications and services."@en .
 <http://data.europa.eu/it6/HarmRisk> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
 <http://data.europa.eu/it6/HarmRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.europa.eu/it6/HarmRisk> <http://www.w3.org/2000/01/rdf-schema#label> "Harm Risk"@en .
+<http://data.europa.eu/it6/HarmRisk> <http://www.w3.org/2000/01/rdf-schema#comment> "The combination of the probability of an occurrence of harm and the severity of that harm."@en .
 <http://data.europa.eu/it6/Library> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
 <http://data.europa.eu/it6/Library> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.europa.eu/it6/Library> <http://www.w3.org/2000/01/rdf-schema#label> "Library"@en .
+<http://data.europa.eu/it6/Library> <http://www.w3.org/2000/01/rdf-schema#comment> "A collection of code."@en .
 <http://data.europa.eu/it6/MachineLearningModel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
 <http://data.europa.eu/it6/MachineLearningModel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://data.europa.eu/it6/MachineLearningModel> <http://www.w3.org/2000/01/rdf-schema#label> "Machine Learning Model"@en .
 <http://data.europa.eu/it6/MachineLearningModel> <http://www.w3.org/2000/01/rdf-schema#comment> "A file that has been trained to recognize certain types of patterns."@en .
 <http://data.europa.eu/it6/Modality> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
 <http://data.europa.eu/it6/Modality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.europa.eu/it6/Modality> <http://www.w3.org/2000/01/rdf-schema#label> "Modality"@en .
+<http://data.europa.eu/it6/Modality> <http://www.w3.org/2000/01/rdf-schema#comment> "The distinct format of structure of input or output data."@en .
 <http://data.europa.eu/it6/OutputFileDescription> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
 <http://data.europa.eu/it6/OutputFileDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.europa.eu/it6/OutputFileDescription> <http://www.w3.org/2000/01/rdf-schema#label> "Output File Description"@en .
+<http://data.europa.eu/it6/OutputFileDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "The degree or extent of something, as determined by measurement or calculation."@en .
 <http://data.europa.eu/it6/Parameter> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
 <http://data.europa.eu/it6/Parameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.europa.eu/it6/Parameter> <http://www.w3.org/2000/01/rdf-schema#label> "Parameter"@en .
+<http://data.europa.eu/it6/Parameter> <http://www.w3.org/2000/01/rdf-schema#comment> "The various configuration settings that are specified prior to and during training a model."@en .
 <http://data.europa.eu/it6/Prediction> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
 <http://data.europa.eu/it6/Prediction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.europa.eu/it6/Prediction> <http://www.w3.org/2000/01/rdf-schema#label> "Prediction"@en .
 <http://data.europa.eu/it6/PredictionFeature> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
 <http://data.europa.eu/it6/PredictionFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.europa.eu/it6/PredictionFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Prediction Feature"@en .
 <http://data.europa.eu/it6/Run> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
 <http://data.europa.eu/it6/Run> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.europa.eu/it6/Run> <http://www.w3.org/2000/01/rdf-schema#label> "Run"@en .
+<http://data.europa.eu/it6/Run> <http://www.w3.org/2000/01/rdf-schema#comment> "An evaluation of machine learning models (flows) trained on a given task."@en .
 <http://data.europa.eu/it6/RunCollection> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
 <http://data.europa.eu/it6/RunCollection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.europa.eu/it6/RunCollection> <http://www.w3.org/2000/01/rdf-schema#label> "Run Collection"@en .
+<http://data.europa.eu/it6/RunCollection> <http://www.w3.org/2000/01/rdf-schema#comment> "A group of runs to easily refer to them and share them with others."@en .
 <http://data.europa.eu/it6/RunCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.europa.eu/it6/Collection> .
 <http://data.europa.eu/it6/Split> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
 <http://data.europa.eu/it6/Split> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.europa.eu/it6/Split> <http://www.w3.org/2000/01/rdf-schema#label> "Split"@en .
+<http://data.europa.eu/it6/Split> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents a partition of a distribution of data."@en .
 <http://data.europa.eu/it6/Task> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
 <http://data.europa.eu/it6/Task> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.europa.eu/it6/Task> <http://www.w3.org/2000/01/rdf-schema#label> "Task"@en .
+<http://data.europa.eu/it6/Task> <http://www.w3.org/2000/01/rdf-schema#comment> "A task defines specific problems to be solved using a given dataset."@en .
 <http://data.europa.eu/it6/TaskCollection> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
 <http://data.europa.eu/it6/TaskCollection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.europa.eu/it6/TaskCollection> <http://www.w3.org/2000/01/rdf-schema#label> "Task Collection"@en .
+<http://data.europa.eu/it6/TaskCollection> <http://www.w3.org/2000/01/rdf-schema#comment> "A group of tasks to easily refer to them and share them with others."@en .
 <http://data.europa.eu/it6/TaskCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.europa.eu/it6/Collection> .
 <http://data.europa.eu/it6/TaskType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
 <http://data.europa.eu/it6/TaskType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.europa.eu/it6/visibility> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/visibility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.europa.eu/it6/visibility> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> .
-<http://data.europa.eu/it6/visibility> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Collection> .
-<http://data.europa.eu/it6/visibility> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://data.europa.eu/it6/versionLabel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/versionLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/versionLabel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> .
-<http://data.europa.eu/it6/versionLabel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/version> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/version> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/version> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Flow> .
-<http://data.europa.eu/it6/version> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Library> .
-<http://data.europa.eu/it6/version> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/valueGood> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/valueGood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/valueGood> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/EvaluationMeasure> .
-<http://data.europa.eu/it6/valueGood> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/valueBad> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/valueBad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/valueBad> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/EvaluationMeasure> .
-<http://data.europa.eu/it6/valueBad> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/TaskType> <http://www.w3.org/2000/01/rdf-schema#label> "Task Type"@en .
+<http://data.europa.eu/it6/arrayData> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/arrayData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/arrayData> <http://www.w3.org/2000/01/rdf-schema#label> "array data"@en .
+<http://data.europa.eu/it6/arrayData> <http://www.w3.org/2000/01/rdf-schema#comment> "For composite evaluation measures (e.g. per-class measures, confusion matrix), a string (JSON) representation of the evaluation."@en .
+<http://data.europa.eu/it6/arrayData> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Evaluation> .
+<http://data.europa.eu/it6/arrayData> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/bias> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/bias> <http://www.w3.org/2000/01/rdf-schema#label> "bias"@en .
+<http://data.europa.eu/it6/bias> <http://www.w3.org/2000/01/rdf-schema#comment> "A description of the possible biases affecting the overall output of the model."@en .
+<http://data.europa.eu/it6/bias> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/MachineLearningModel> .
+<http://data.europa.eu/it6/bias> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/biasMethod> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/biasMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/biasMethod> <http://www.w3.org/2000/01/rdf-schema#label> "bias method"@en .
+<http://data.europa.eu/it6/biasMethod> <http://www.w3.org/2000/01/rdf-schema#comment> "A description of any methods implemented in data acquisition or processing, if any, to address the prevalence of identifiable biases in the training data."@en .
+<http://data.europa.eu/it6/biasMethod> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> .
+<http://data.europa.eu/it6/biasMethod> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/carbonEmitted> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/carbonEmitted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/carbonEmitted> <http://www.w3.org/2000/01/rdf-schema#label> "carbon emitted"@en .
+<http://data.europa.eu/it6/carbonEmitted> <http://www.w3.org/2000/01/rdf-schema#comment> "The emitted carbon."@en .
+<http://data.europa.eu/it6/carbonEmitted> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/EnvironmentalImpact> .
+<http://data.europa.eu/it6/carbonEmitted> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/className> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/className> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/className> <http://www.w3.org/2000/01/rdf-schema#label> "class name"@en .
+<http://data.europa.eu/it6/className> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Flow> .
+<http://data.europa.eu/it6/className> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/classification> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/classification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.europa.eu/it6/classification> <http://www.w3.org/2000/01/rdf-schema#label> "classification"@en .
+<http://data.europa.eu/it6/classification> <http://www.w3.org/2000/01/rdf-schema#comment> "The classification of the modality."@en .
+<http://data.europa.eu/it6/classification> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Modality> .
+<http://data.europa.eu/it6/classification> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.europa.eu/it6/collectionDate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/collectionDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/collectionDate> <http://www.w3.org/2000/01/rdf-schema#label> "collection date"@en .
+<http://data.europa.eu/it6/collectionDate> <http://www.w3.org/2000/01/rdf-schema#comment> "The date the data was originally collected, given by the uploader."@en .
+<http://data.europa.eu/it6/collectionDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> .
+<http://data.europa.eu/it6/collectionDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/collectionMethod> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/collectionMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/collectionMethod> <http://www.w3.org/2000/01/rdf-schema#label> "collection method"@en .
+<http://data.europa.eu/it6/collectionMethod> <http://www.w3.org/2000/01/rdf-schema#comment> "Method used to collect the data, provided by the uploader."@en .
+<http://data.europa.eu/it6/collectionMethod> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> .
+<http://data.europa.eu/it6/collectionMethod> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/component> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/component> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/component> <http://www.w3.org/2000/01/rdf-schema#label> "component"@en .
+<http://data.europa.eu/it6/component> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Parameter> .
+<http://data.europa.eu/it6/component> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/creationDate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/creationDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/creationDate> <http://www.w3.org/2000/01/rdf-schema#label> "creation date"@en .
+<http://data.europa.eu/it6/creationDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Date of creation of the resource."@en .
+<http://data.europa.eu/it6/creationDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Collection> .
+<http://data.europa.eu/it6/creationDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/curationMethod> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/curationMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/curationMethod> <http://www.w3.org/2000/01/rdf-schema#label> "curation method"@en .
+<http://data.europa.eu/it6/curationMethod> <http://www.w3.org/2000/01/rdf-schema#comment> "General description of the data processing involved in transforming the acquired data into training, testing, and validation data for the model, such as cleaning (e.g. filtering out irrelevant content such as advertisements), normalisation (e.g. tokenizing), augmentation (e.g. back-translation)."@en .
+<http://data.europa.eu/it6/curationMethod> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> .
+<http://data.europa.eu/it6/curationMethod> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/customName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/customName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/customName> <http://www.w3.org/2000/01/rdf-schema#label> "custom name"@en .
+<http://data.europa.eu/it6/customName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Flow> .
+<http://data.europa.eu/it6/customName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/dataProvenance> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/dataProvenance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/dataProvenance> <http://www.w3.org/2000/01/rdf-schema#label> "data provenance"@en .
+<http://data.europa.eu/it6/dataProvenance> <http://www.w3.org/2000/01/rdf-schema#comment> "A documented trail that accounts for the origin of the data."@en .
+<http://data.europa.eu/it6/dataProvenance> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> .
+<http://data.europa.eu/it6/dataProvenance> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/defaultTargetAttribute> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/defaultTargetAttribute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/defaultTargetAttribute> <http://www.w3.org/2000/01/rdf-schema#label> "default target attribute"@en .
+<http://data.europa.eu/it6/defaultTargetAttribute> <http://www.w3.org/2000/01/rdf-schema#comment> "The primary attribute intended for analysis or processing, if applicable."@en .
+<http://data.europa.eu/it6/defaultTargetAttribute> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution> .
+<http://data.europa.eu/it6/defaultTargetAttribute> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/defaultValue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/defaultValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/defaultValue> <http://www.w3.org/2000/01/rdf-schema#label> "default value"@en .
+<http://data.europa.eu/it6/defaultValue> <http://www.w3.org/2000/01/rdf-schema#comment> "The default value of the parameter."@en .
+<http://data.europa.eu/it6/defaultValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/FlowParameter> .
+<http://data.europa.eu/it6/defaultValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/descriptionVersion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/descriptionVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/descriptionVersion> <http://www.w3.org/2000/01/rdf-schema#label> "description version"@en .
+<http://data.europa.eu/it6/descriptionVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "Version number of the description. '1' for original version."@en .
+<http://data.europa.eu/it6/descriptionVersion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#CatalogRecord> .
+<http://data.europa.eu/it6/descriptionVersion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/designSpecifications> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/designSpecifications> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/designSpecifications> <http://www.w3.org/2000/01/rdf-schema#label> "design specifications"@en .
+<http://data.europa.eu/it6/designSpecifications> <http://www.w3.org/2000/01/rdf-schema#comment> "A general description of the main steps or stages involved in the training process, including training methodologies and techniques, the key design choices, assumptions made and what the model is designed to optimise for, and the relevance of different parameters, as applicable."@en .
+<http://data.europa.eu/it6/designSpecifications> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/MachineLearningModel> .
+<http://data.europa.eu/it6/designSpecifications> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/download> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/download> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/download> <http://www.w3.org/2000/01/rdf-schema#label> "download"@en .
+<http://data.europa.eu/it6/download> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of downloads of the machine learning model."@en .
+<http://data.europa.eu/it6/download> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Engagement> .
+<http://data.europa.eu/it6/download> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.europa.eu/it6/errorMessage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/errorMessage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/errorMessage> <http://www.w3.org/2000/01/rdf-schema#label> "error message"@en .
+<http://data.europa.eu/it6/errorMessage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Run> .
+<http://data.europa.eu/it6/errorMessage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/evaluationEngine> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/evaluationEngine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/evaluationEngine> <http://www.w3.org/2000/01/rdf-schema#label> "evaluation engine id"@en .
+<http://data.europa.eu/it6/evaluationEngine> <http://www.w3.org/2000/01/rdf-schema#comment> "The engine responsible for extracting the features."@en .
+<http://data.europa.eu/it6/evaluationEngine> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dqv#QualityMeasurementDataset> .
+<http://data.europa.eu/it6/evaluationEngine> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/evaluationResults> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/evaluationResults> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/evaluationResults> <http://www.w3.org/2000/01/rdf-schema#label> "evaluation results"@en .
+<http://data.europa.eu/it6/evaluationResults> <http://www.w3.org/2000/01/rdf-schema#comment> "A description of the evaluation against the validation dataset."@en .
+<http://data.europa.eu/it6/evaluationResults> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/MachineLearningModel> .
+<http://data.europa.eu/it6/evaluationResults> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/evaluationStrategies> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/evaluationStrategies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/evaluationStrategies> <http://www.w3.org/2000/01/rdf-schema#label> "evaluation strategies"@en .
+<http://data.europa.eu/it6/evaluationStrategies> <http://www.w3.org/2000/01/rdf-schema#comment> "A description of the evaluation strategies used."@en .
+<http://data.europa.eu/it6/evaluationStrategies> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/MachineLearningModel> .
+<http://data.europa.eu/it6/evaluationStrategies> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/externalVersion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/externalVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/externalVersion> <http://www.w3.org/2000/01/rdf-schema#label> "external version"@en .
+<http://data.europa.eu/it6/externalVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "The version of the flow, as defined by the uploader, for reference."@en .
+<http://data.europa.eu/it6/externalVersion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Flow> .
+<http://data.europa.eu/it6/externalVersion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/fold> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/fold> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/fold> <http://www.w3.org/2000/01/rdf-schema#label> "fold"@en .
+<http://data.europa.eu/it6/fold> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of the fold in the inner cross-validation."@en .
+<http://data.europa.eu/it6/fold> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Evaluation> .
+<http://data.europa.eu/it6/fold> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/hasDocument> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/hasDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.europa.eu/it6/hasDocument> <http://www.w3.org/2000/01/rdf-schema#label> "has document"@en .
+<http://data.europa.eu/it6/hasDocument> <http://www.w3.org/2000/01/rdf-schema#comment> "The url or location of the document itself."@en .
+<http://data.europa.eu/it6/hasDocument> <http://www.w3.org/2000/01/rdf-schema#domain> <https://linkedpaperswithcode.com/class/paper> .
+<http://data.europa.eu/it6/hasDocument> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Document> .
+<http://data.europa.eu/it6/howToUse> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/howToUse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/howToUse> <http://www.w3.org/2000/01/rdf-schema#label> "how to use"@en .
+<http://data.europa.eu/it6/howToUse> <http://www.w3.org/2000/01/rdf-schema#comment> "An explanation of how to use or deploy the model."@en .
+<http://data.europa.eu/it6/howToUse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/MachineLearningModel> .
+<http://data.europa.eu/it6/howToUse> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/ignoreAttribute> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/ignoreAttribute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/ignoreAttribute> <http://www.w3.org/2000/01/rdf-schema#label> "ignore attribute"@en .
+<http://data.europa.eu/it6/ignoreAttribute> <http://www.w3.org/2000/01/rdf-schema#comment> "Attributes that should be excluded in modelling, such as identifiers and indexes."@en .
+<http://data.europa.eu/it6/ignoreAttribute> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution> .
+<http://data.europa.eu/it6/ignoreAttribute> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/implementation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/implementation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/implementation> <http://www.w3.org/2000/01/rdf-schema#label> "implementation"@en .
+<http://data.europa.eu/it6/implementation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/EvaluationMeasure> .
+<http://data.europa.eu/it6/implementation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/intendedUse> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/intendedUse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/intendedUse> <http://www.w3.org/2000/01/rdf-schema#label> "intended use"@en .
+<http://data.europa.eu/it6/intendedUse> <http://www.w3.org/2000/01/rdf-schema#comment> "The prescribed application of the model."@en .
+<http://data.europa.eu/it6/intendedUse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/MachineLearningModel> .
+<http://data.europa.eu/it6/intendedUse> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/intervalEnd> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/intervalEnd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/intervalEnd> <http://www.w3.org/2000/01/rdf-schema#label> "interval end"@en .
+<http://data.europa.eu/it6/intervalEnd> <http://www.w3.org/2000/01/rdf-schema#comment> "The maximum value of the Quality Measure."@en .
+<http://data.europa.eu/it6/intervalEnd> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dqv#QualityMeasurement> .
+<http://data.europa.eu/it6/intervalEnd> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Evaluation> .
+<http://data.europa.eu/it6/intervalEnd> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/intervalStart> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/intervalStart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/intervalStart> <http://www.w3.org/2000/01/rdf-schema#label> "interval start"@en .
+<http://data.europa.eu/it6/intervalStart> <http://www.w3.org/2000/01/rdf-schema#comment> "The minimum value of the Quality Measure."@en .
+<http://data.europa.eu/it6/intervalStart> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dqv#QualityMeasurement> .
+<http://data.europa.eu/it6/intervalStart> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Evaluation> .
+<http://data.europa.eu/it6/intervalStart> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/like> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/like> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/like> <http://www.w3.org/2000/01/rdf-schema#label> "like"@en .
+<http://data.europa.eu/it6/like> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of likes the machine learning model received."@en .
+<http://data.europa.eu/it6/like> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Engagement> .
+<http://data.europa.eu/it6/like> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.europa.eu/it6/limitations> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/limitations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/limitations> <http://www.w3.org/2000/01/rdf-schema#label> "limitations"@en .
+<http://data.europa.eu/it6/limitations> <http://www.w3.org/2000/01/rdf-schema#comment> "The limited capabilities of the model."@en .
+<http://data.europa.eu/it6/limitations> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/MachineLearningModel> .
+<http://data.europa.eu/it6/limitations> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/measurementMethodology> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/measurementMethodology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/measurementMethodology> <http://www.w3.org/2000/01/rdf-schema#label> "measurement methodology"@en .
+<http://data.europa.eu/it6/measurementMethodology> <http://www.w3.org/2000/01/rdf-schema#comment> "The methodology with which the resource was measured."@en .
+<http://data.europa.eu/it6/measurementMethodology> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/EnvironmentalImpact> .
+<http://data.europa.eu/it6/measurementMethodology> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/methodOfDistribution> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/methodOfDistribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/methodOfDistribution> <http://www.w3.org/2000/01/rdf-schema#label> "method of distribution"@en .
+<http://data.europa.eu/it6/methodOfDistribution> <http://www.w3.org/2000/01/rdf-schema#comment> "A method of distribution through which the model has been made or can be made available to downstream providers."@en .
+<http://data.europa.eu/it6/methodOfDistribution> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/MachineLearningModel> .
+<http://data.europa.eu/it6/methodOfDistribution> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/mitigation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/mitigation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/mitigation> <http://www.w3.org/2000/01/rdf-schema#label> "mitigation"@en .
+<http://data.europa.eu/it6/mitigation> <http://www.w3.org/2000/01/rdf-schema#comment> "The action of reducing the likelihood or severity of the risk."@en .
+<http://data.europa.eu/it6/mitigation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/HarmRisk> .
+<http://data.europa.eu/it6/mitigation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/modelArchitecture> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/modelArchitecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/modelArchitecture> <http://www.w3.org/2000/01/rdf-schema#label> "model architecture"@en .
+<http://data.europa.eu/it6/modelArchitecture> <http://www.w3.org/2000/01/rdf-schema#comment> "A general description of the model architecture, e.g. a transformer architecture."@en .
+<http://data.europa.eu/it6/modelArchitecture> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/MachineLearningModel> .
+<http://data.europa.eu/it6/modelArchitecture> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/nature> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/nature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.europa.eu/it6/nature> <http://www.w3.org/2000/01/rdf-schema#label> "nature"@en .
+<http://data.europa.eu/it6/nature> <http://www.w3.org/2000/01/rdf-schema#comment> "The inherent characteristics of the risk."@en .
+<http://data.europa.eu/it6/nature> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/HarmRisk> .
+<http://data.europa.eu/it6/nature> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.europa.eu/it6/numberOfDatapoints> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/numberOfDatapoints> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/numberOfDatapoints> <http://www.w3.org/2000/01/rdf-schema#label> "number of datapoints"@en .
+<http://data.europa.eu/it6/numberOfDatapoints> <http://www.w3.org/2000/01/rdf-schema#comment> "The total count of individual data entries or observations contained."@en .
+<http://data.europa.eu/it6/numberOfDatapoints> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution> .
+<http://data.europa.eu/it6/numberOfDatapoints> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://data.europa.eu/it6/placedOnMarketDate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/placedOnMarketDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/placedOnMarketDate> <http://www.w3.org/2000/01/rdf-schema#label> "placed on market date"@en .
+<http://data.europa.eu/it6/placedOnMarketDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Date when the model was placed on the Union market."@en .
+<http://data.europa.eu/it6/placedOnMarketDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/MachineLearningModel> .
+<http://data.europa.eu/it6/placedOnMarketDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/powerConsumption> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/powerConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/powerConsumption> <http://www.w3.org/2000/01/rdf-schema#label> "power consumption"@en .
+<http://data.europa.eu/it6/powerConsumption> <http://www.w3.org/2000/01/rdf-schema#comment> "The consumed power."@en .
+<http://data.europa.eu/it6/powerConsumption> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/EnvironmentalImpact> .
+<http://data.europa.eu/it6/powerConsumption> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/probability> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/probability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/probability> <http://www.w3.org/2000/01/rdf-schema#label> "probability"@en .
+<http://data.europa.eu/it6/probability> <http://www.w3.org/2000/01/rdf-schema#comment> "The likelihood that a given event will occur."@en .
+<http://data.europa.eu/it6/probability> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/HarmRisk> .
+<http://data.europa.eu/it6/probability> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/processingDate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/processingDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/processingDate> <http://www.w3.org/2000/01/rdf-schema#label> "processing date"@en .
+<http://data.europa.eu/it6/processingDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Date of processing."@en .
+<http://data.europa.eu/it6/processingDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution> .
+<http://data.europa.eu/it6/processingDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/processingError> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/processingError> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/processingError> <http://www.w3.org/2000/01/rdf-schema#label> "processing error"@en .
+<http://data.europa.eu/it6/processingError> <http://www.w3.org/2000/01/rdf-schema#comment> "Errors discovered while processing the dataset."@en .
+<http://data.europa.eu/it6/processingError> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution> .
+<http://data.europa.eu/it6/processingError> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/processingWarning> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/processingWarning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/processingWarning> <http://www.w3.org/2000/01/rdf-schema#label> "processing warning"@en .
+<http://data.europa.eu/it6/processingWarning> <http://www.w3.org/2000/01/rdf-schema#comment> "Warnings while processing the dataset."@en .
+<http://data.europa.eu/it6/processingWarning> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution> .
+<http://data.europa.eu/it6/processingWarning> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/recommendedRange> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/recommendedRange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/recommendedRange> <http://www.w3.org/2000/01/rdf-schema#label> "recommended range"@en .
+<http://data.europa.eu/it6/recommendedRange> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/FlowParameter> .
+<http://data.europa.eu/it6/recommendedRange> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/releaseDate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/releaseDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/releaseDate> <http://www.w3.org/2000/01/rdf-schema#label> "release date"@en .
+<http://data.europa.eu/it6/releaseDate> <http://www.w3.org/2000/01/rdf-schema#comment> "The date a model is released."@en .
+<http://data.europa.eu/it6/releaseDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/MachineLearningModel> .
+<http://data.europa.eu/it6/releaseDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/repeat> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/repeat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/repeat> <http://www.w3.org/2000/01/rdf-schema#label> "repeat"@en .
+<http://data.europa.eu/it6/repeat> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of the repeat in the outer cross-validation."@en .
+<http://data.europa.eu/it6/repeat> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Evaluation> .
+<http://data.europa.eu/it6/repeat> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/rowIDAttribute> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/rowIDAttribute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/rowIDAttribute> <http://www.w3.org/2000/01/rdf-schema#label> "row ID attribute"@en .
+<http://data.europa.eu/it6/rowIDAttribute> <http://www.w3.org/2000/01/rdf-schema#comment> "The attribute that represents the row-id column, if present in the dataset."@en .
+<http://data.europa.eu/it6/rowIDAttribute> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution> .
+<http://data.europa.eu/it6/rowIDAttribute> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/runDetails> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/runDetails> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/runDetails> <http://www.w3.org/2000/01/rdf-schema#label> "run details"@en .
+<http://data.europa.eu/it6/runDetails> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Run> .
+<http://data.europa.eu/it6/runDetails> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/sample> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/sample> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/sample> <http://www.w3.org/2000/01/rdf-schema#label> "sample"@en .
+<http://data.europa.eu/it6/sample> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Evaluation> .
+<http://data.europa.eu/it6/sample> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/sampleSize> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/sampleSize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/sampleSize> <http://www.w3.org/2000/01/rdf-schema#label> "sample size"@en .
+<http://data.europa.eu/it6/sampleSize> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Evaluation> .
+<http://data.europa.eu/it6/sampleSize> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/setupId> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/setupId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/setupId> <http://www.w3.org/2000/01/rdf-schema#label> "setup Id"@en .
+<http://data.europa.eu/it6/setupId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Run> .
+<http://data.europa.eu/it6/setupId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/setupString> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/setupString> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/setupString> <http://www.w3.org/2000/01/rdf-schema#label> "setup string"@en .
+<http://data.europa.eu/it6/setupString> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Run> .
+<http://data.europa.eu/it6/setupString> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/severity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/severity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/severity> <http://www.w3.org/2000/01/rdf-schema#label> "severity"@en .
+<http://data.europa.eu/it6/severity> <http://www.w3.org/2000/01/rdf-schema#comment> "The extent of the damage resulting from an event occurring."@en .
+<http://data.europa.eu/it6/severity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/HarmRisk> .
+<http://data.europa.eu/it6/severity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/shortDescription> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/shortDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/shortDescription> <http://www.w3.org/2000/01/rdf-schema#label> "short description"@en .
+<http://data.europa.eu/it6/shortDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "A short description of a machine learning model."@en .
+<http://data.europa.eu/it6/shortDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/MachineLearningModel> .
+<http://data.europa.eu/it6/shortDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/size> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/size> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/size> <http://www.w3.org/2000/01/rdf-schema#label> "size"@en .
+<http://data.europa.eu/it6/size> <http://www.w3.org/2000/01/rdf-schema#comment> "The maximum size of the modality."@en .
+<http://data.europa.eu/it6/size> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Modality> .
+<http://data.europa.eu/it6/size> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/source> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.europa.eu/it6/source> <http://www.w3.org/2000/01/rdf-schema#label> "source"@en .
+<http://data.europa.eu/it6/source> <http://www.w3.org/2000/01/rdf-schema#comment> "The origin or cause of the risk."@en .
+<http://data.europa.eu/it6/source> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/HarmRisk> .
+<http://data.europa.eu/it6/source> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.europa.eu/it6/stdev> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/stdev> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/stdev> <http://www.w3.org/2000/01/rdf-schema#label> "stdev"@en .
+<http://data.europa.eu/it6/stdev> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Evaluation> .
+<http://data.europa.eu/it6/stdev> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/testingDescription> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/testingDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/testingDescription> <http://www.w3.org/2000/01/rdf-schema#label> "testing description"@en .
+<http://data.europa.eu/it6/testingDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "A detailed description of the measures put in place for the purpose of conducting internal and/or external adversarial testing (e.g. red teaming), model adaptations, including alignment and fine-tuning."@en .
+<http://data.europa.eu/it6/testingDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/MachineLearningModel> .
+<http://data.europa.eu/it6/testingDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/totalNumberOfParameters> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/totalNumberOfParameters> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/totalNumberOfParameters> <http://www.w3.org/2000/01/rdf-schema#label> "total number of parameters"@en .
+<http://data.europa.eu/it6/totalNumberOfParameters> <http://www.w3.org/2000/01/rdf-schema#comment> "The total number of parameters of the model."@en .
+<http://data.europa.eu/it6/totalNumberOfParameters> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/MachineLearningModel> .
+<http://data.europa.eu/it6/totalNumberOfParameters> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://data.europa.eu/it6/trainingMethodologies> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/trainingMethodologies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/trainingMethodologies> <http://www.w3.org/2000/01/rdf-schema#label> "training methodologies"@en .
+<http://data.europa.eu/it6/trainingMethodologies> <http://www.w3.org/2000/01/rdf-schema#comment> "A description of the methodologies used."@en .
+<http://data.europa.eu/it6/trainingMethodologies> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/MachineLearningModel> .
+<http://data.europa.eu/it6/trainingMethodologies> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/trainingProcess> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/trainingProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/trainingProcess> <http://www.w3.org/2000/01/rdf-schema#label> "training process"@en .
+<http://data.europa.eu/it6/trainingProcess> <http://www.w3.org/2000/01/rdf-schema#comment> "A description of the training process."@en .
+<http://data.europa.eu/it6/trainingProcess> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/MachineLearningModel> .
+<http://data.europa.eu/it6/trainingProcess> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/trainingTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/trainingTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/trainingTime> <http://www.w3.org/2000/01/rdf-schema#label> "training time"@en .
+<http://data.europa.eu/it6/trainingTime> <http://www.w3.org/2000/01/rdf-schema#comment> "A description of the training time."@en .
+<http://data.europa.eu/it6/trainingTime> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Run> .
+<http://data.europa.eu/it6/trainingTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/unsuitabilityMethod> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/unsuitabilityMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/unsuitabilityMethod> <http://www.w3.org/2000/01/rdf-schema#label> "unsuitability method"@en .
+<http://data.europa.eu/it6/unsuitabilityMethod> <http://www.w3.org/2000/01/rdf-schema#comment> "A description of any methods implemented in data acquisition or processing, if any, to detect the presence of unsuitable data sources considering the model's intended uses, including but not limited to illegal content, child sexual abuse material (CSAM), non-consensual intimate imagery (NCII), and personal data leading to its unlawful processing."@en .
+<http://data.europa.eu/it6/unsuitabilityMethod> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> .
+<http://data.europa.eu/it6/unsuitabilityMethod> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/uploaded> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/uploaded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/uploaded> <http://www.w3.org/2000/01/rdf-schema#label> "uploaded"@en .
+<http://data.europa.eu/it6/uploaded> <http://www.w3.org/2000/01/rdf-schema#comment> "The time that the flow was uploaded."@en .
+<http://data.europa.eu/it6/uploaded> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Flow> .
+<http://data.europa.eu/it6/uploaded> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/url> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/url> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.europa.eu/it6/url> <http://www.w3.org/2000/01/rdf-schema#label> "url"@en .
+<http://data.europa.eu/it6/url> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/OutputFileDescription> .
+<http://data.europa.eu/it6/url> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/File> .
+<http://data.europa.eu/it6/url> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#Resource> .
+<http://data.europa.eu/it6/url> <http://www.w3.org/2000/01/rdf-schema#comment> "The url of the file to be downloaded."@en .
 <http://data.europa.eu/it6/value> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
 <http://data.europa.eu/it6/value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/value> <http://www.w3.org/2000/01/rdf-schema#label> "value"@en .
 <http://data.europa.eu/it6/value> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/EvaluationMeasure> .
 <http://data.europa.eu/it6/value> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Parameter> .
 <http://data.europa.eu/it6/value> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Evaluation> .
 <http://data.europa.eu/it6/value> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/url> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/url> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.europa.eu/it6/url> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/OutputFileDescription> .
-<http://data.europa.eu/it6/url> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/File> .
-<http://data.europa.eu/it6/url> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#Resource> .
-<http://data.europa.eu/it6/uploaded> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/uploaded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/uploaded> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Flow> .
-<http://data.europa.eu/it6/uploaded> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/unsuitabilityMethod> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/unsuitabilityMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/unsuitabilityMethod> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> .
-<http://data.europa.eu/it6/unsuitabilityMethod> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/trainingTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/trainingTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/trainingTime> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Run> .
-<http://data.europa.eu/it6/trainingTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/trainingProcess> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/trainingProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/trainingProcess> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/MachineLearningModel> .
-<http://data.europa.eu/it6/trainingProcess> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/trainingMethodologies> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/trainingMethodologies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/trainingMethodologies> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/MachineLearningModel> .
-<http://data.europa.eu/it6/trainingMethodologies> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/totalNumberOfParameters> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/totalNumberOfParameters> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/totalNumberOfParameters> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/MachineLearningModel> .
-<http://data.europa.eu/it6/totalNumberOfParameters> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://data.europa.eu/it6/testingDescription> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/testingDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/testingDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/MachineLearningModel> .
-<http://data.europa.eu/it6/testingDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/stdev> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/stdev> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/stdev> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Evaluation> .
-<http://data.europa.eu/it6/stdev> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/source> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.europa.eu/it6/source> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/HarmRisk> .
-<http://data.europa.eu/it6/source> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://data.europa.eu/it6/size> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/size> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/size> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Modality> .
-<http://data.europa.eu/it6/size> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/shortDescription> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/shortDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/shortDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/MachineLearningModel> .
-<http://data.europa.eu/it6/shortDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/severity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/severity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/severity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/HarmRisk> .
-<http://data.europa.eu/it6/severity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/setupString> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/setupString> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/setupString> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Run> .
-<http://data.europa.eu/it6/setupString> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/setupId> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/setupId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/setupId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Run> .
-<http://data.europa.eu/it6/setupId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/sampleSize> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/sampleSize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/sampleSize> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Evaluation> .
-<http://data.europa.eu/it6/sampleSize> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/sample> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/sample> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/sample> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Evaluation> .
-<http://data.europa.eu/it6/sample> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/runDetails> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/runDetails> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/runDetails> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Run> .
-<http://data.europa.eu/it6/runDetails> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/rowIDAttribute> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/rowIDAttribute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/rowIDAttribute> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution> .
-<http://data.europa.eu/it6/rowIDAttribute> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/repeat> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/repeat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/repeat> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Evaluation> .
-<http://data.europa.eu/it6/repeat> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/releaseDate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/releaseDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/releaseDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/MachineLearningModel> .
-<http://data.europa.eu/it6/releaseDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/recommendedRange> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/recommendedRange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/recommendedRange> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/FlowParameter> .
-<http://data.europa.eu/it6/recommendedRange> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/processingWarning> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/processingWarning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/processingWarning> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution> .
-<http://data.europa.eu/it6/processingWarning> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/processingError> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/processingError> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/processingError> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution> .
-<http://data.europa.eu/it6/processingError> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/processingDate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/processingDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/processingDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution> .
-<http://data.europa.eu/it6/processingDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/probability> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/probability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/probability> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/HarmRisk> .
-<http://data.europa.eu/it6/probability> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/powerConsumption> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/powerConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/powerConsumption> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/EnvironmentalImpact> .
-<http://data.europa.eu/it6/powerConsumption> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/placedOnMarketDate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/placedOnMarketDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/placedOnMarketDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/MachineLearningModel> .
-<http://data.europa.eu/it6/placedOnMarketDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/numberOfDatapoints> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/numberOfDatapoints> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/numberOfDatapoints> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution> .
-<http://data.europa.eu/it6/numberOfDatapoints> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://data.europa.eu/it6/nature> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/nature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.europa.eu/it6/nature> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/HarmRisk> .
-<http://data.europa.eu/it6/nature> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://data.europa.eu/it6/modelArchitecture> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/modelArchitecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/modelArchitecture> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/MachineLearningModel> .
-<http://data.europa.eu/it6/modelArchitecture> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/mitigation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/mitigation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/mitigation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/HarmRisk> .
-<http://data.europa.eu/it6/mitigation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/methodOfDistribution> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/methodOfDistribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/methodOfDistribution> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/MachineLearningModel> .
-<http://data.europa.eu/it6/methodOfDistribution> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/measurementMethodology> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/measurementMethodology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/measurementMethodology> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/EnvironmentalImpact> .
-<http://data.europa.eu/it6/measurementMethodology> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/limitations> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/limitations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/limitations> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/MachineLearningModel> .
-<http://data.europa.eu/it6/limitations> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/like> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/like> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/like> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Engagement> .
-<http://data.europa.eu/it6/like> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://data.europa.eu/it6/intervalStart> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/intervalStart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/intervalStart> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dqv#QualityMeasurement> .
-<http://data.europa.eu/it6/intervalStart> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Evaluation> .
-<http://data.europa.eu/it6/intervalStart> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/intervalEnd> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/intervalEnd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/intervalEnd> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dqv#QualityMeasurement> .
-<http://data.europa.eu/it6/intervalEnd> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Evaluation> .
-<http://data.europa.eu/it6/intervalEnd> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/intendedUse> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/intendedUse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/intendedUse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/MachineLearningModel> .
-<http://data.europa.eu/it6/intendedUse> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/implementation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/implementation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/implementation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/EvaluationMeasure> .
-<http://data.europa.eu/it6/implementation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/ignoreAttribute> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/ignoreAttribute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/ignoreAttribute> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution> .
-<http://data.europa.eu/it6/ignoreAttribute> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/howToUse> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/howToUse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/howToUse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/MachineLearningModel> .
-<http://data.europa.eu/it6/howToUse> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/hasDocument> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/hasDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.europa.eu/it6/hasDocument> <http://www.w3.org/2000/01/rdf-schema#domain> <https://linkedpaperswithcode.com/class/paper> .
-<http://data.europa.eu/it6/hasDocument> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Document> .
-<http://data.europa.eu/it6/fold> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/fold> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/fold> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Evaluation> .
-<http://data.europa.eu/it6/fold> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/externalVersion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/externalVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/externalVersion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Flow> .
-<http://data.europa.eu/it6/externalVersion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/evaluationStrategies> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/evaluationStrategies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/evaluationStrategies> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/MachineLearningModel> .
-<http://data.europa.eu/it6/evaluationStrategies> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/evaluationResults> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/evaluationResults> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/evaluationResults> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/MachineLearningModel> .
-<http://data.europa.eu/it6/evaluationResults> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/evaluationEngine> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/evaluationEngine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/evaluationEngine> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dqv#QualityMeasurementDataset> .
-<http://data.europa.eu/it6/evaluationEngine> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/errorMessage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/errorMessage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/errorMessage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Run> .
-<http://data.europa.eu/it6/errorMessage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/download> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/download> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/download> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Engagement> .
-<http://data.europa.eu/it6/download> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://data.europa.eu/it6/designSpecifications> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/designSpecifications> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/designSpecifications> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/MachineLearningModel> .
-<http://data.europa.eu/it6/designSpecifications> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/descriptionVersion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/descriptionVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/descriptionVersion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#CatalogRecord> .
-<http://data.europa.eu/it6/descriptionVersion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/defaultValue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/defaultValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/defaultValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/FlowParameter> .
-<http://data.europa.eu/it6/defaultValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/defaultTargetAttribute> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/defaultTargetAttribute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/defaultTargetAttribute> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution> .
-<http://data.europa.eu/it6/defaultTargetAttribute> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/dataProvenance> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/dataProvenance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/dataProvenance> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> .
-<http://data.europa.eu/it6/dataProvenance> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/customName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/customName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/customName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Flow> .
-<http://data.europa.eu/it6/customName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/curationMethod> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/curationMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/curationMethod> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> .
-<http://data.europa.eu/it6/curationMethod> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/creationDate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/creationDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/creationDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Collection> .
-<http://data.europa.eu/it6/creationDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/component> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/component> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/component> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Parameter> .
-<http://data.europa.eu/it6/component> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/collectionMethod> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/collectionMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/collectionMethod> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> .
-<http://data.europa.eu/it6/collectionMethod> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/collectionDate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/collectionDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/collectionDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> .
-<http://data.europa.eu/it6/collectionDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/classification> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/classification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.europa.eu/it6/classification> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Modality> .
-<http://data.europa.eu/it6/classification> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://data.europa.eu/it6/className> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/className> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/className> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Flow> .
-<http://data.europa.eu/it6/className> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/carbonEmitted> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/carbonEmitted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/carbonEmitted> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/EnvironmentalImpact> .
-<http://data.europa.eu/it6/carbonEmitted> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/biasMethod> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/biasMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/biasMethod> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> .
-<http://data.europa.eu/it6/biasMethod> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/bias> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/bias> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/MachineLearningModel> .
-<http://data.europa.eu/it6/bias> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.europa.eu/it6/arrayData> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
-<http://data.europa.eu/it6/arrayData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.europa.eu/it6/arrayData> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Evaluation> .
-<http://data.europa.eu/it6/arrayData> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/value> <http://www.w3.org/2000/01/rdf-schema#comment> "The result of evaluation."@en .
+<http://data.europa.eu/it6/valueBad> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/valueBad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/valueBad> <http://www.w3.org/2000/01/rdf-schema#label> "value bad"@en .
+<http://data.europa.eu/it6/valueBad> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/EvaluationMeasure> .
+<http://data.europa.eu/it6/valueBad> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/valueGood> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/valueGood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/valueGood> <http://www.w3.org/2000/01/rdf-schema#label> "value good"@en .
+<http://data.europa.eu/it6/valueGood> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/EvaluationMeasure> .
+<http://data.europa.eu/it6/valueGood> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/version> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/version> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/version> <http://www.w3.org/2000/01/rdf-schema#label> "version"@en .
+<http://data.europa.eu/it6/version> <http://www.w3.org/2000/01/rdf-schema#comment> "The version of the flow."@en .
+<http://data.europa.eu/it6/version> <http://www.w3.org/2000/01/rdf-schema#comment> "Version of the resource."@en .
+<http://data.europa.eu/it6/version> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Flow> .
+<http://data.europa.eu/it6/version> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Library> .
+<http://data.europa.eu/it6/version> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/versionLabel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/versionLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/it6/versionLabel> <http://www.w3.org/2000/01/rdf-schema#label> "version label"@en .
+<http://data.europa.eu/it6/versionLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "User-provided version label, which can be a date, hash, or other identifier relevant to the user."@en .
+<http://data.europa.eu/it6/versionLabel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> .
+<http://data.europa.eu/it6/versionLabel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://data.europa.eu/it6/visibility> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/it6> .
+<http://data.europa.eu/it6/visibility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.europa.eu/it6/visibility> <http://www.w3.org/2000/01/rdf-schema#label> "visibility"@en .
+<http://data.europa.eu/it6/visibility> <http://www.w3.org/2000/01/rdf-schema#comment> "Settings for a dataset that determine who can access or view it. Options typically include 'Everyone', 'All my friends', 'Only me', or specific user-defined circles."@en .
+<http://data.europa.eu/it6/visibility> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> .
+<http://data.europa.eu/it6/visibility> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.europa.eu/it6/Collection> .
+<http://data.europa.eu/it6/visibility> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
 _:g462560 <http://xmlns.com/foaf/0.1/homepage> <https://semic.eu> .
 _:g462560 <http://xmlns.com/foaf/0.1/name> "Semantic Interoperability Community (SEMIC)" .
 _:g462580 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
