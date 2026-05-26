@@ -1,0 +1,5 @@
+<http://data.europa.eu/m8g/scopeOfAttorney> <http://www.w3.org/2000/01/rdf-schema#comment> "The context in which the power of attorney can be applied."@en .
+<http://data.europa.eu/m8g/scopeOfAttorney> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.europa.eu/m8g/scopeOfAttorney> <http://www.w3.org/2000/01/rdf-schema#label> "scope of attorney"@en .
+<http://data.europa.eu/m8g/scopeOfAttorney> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.europa.eu/m8g/scopeOfAttorney> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g/> .

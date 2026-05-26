@@ -1,0 +1,5 @@
+<http://data.europa.eu/m8g/hasPowerOfAttorney> <http://www.w3.org/2000/01/rdf-schema#comment> "The person authorised, pursuant to law or by appointment, to act on behalf of the legal entity in dealings with third parties and in legal proceedings."@en .
+<http://data.europa.eu/m8g/hasPowerOfAttorney> <http://www.w3.org/2000/01/rdf-schema#label> "has power of attorney"@en .
+<http://data.europa.eu/m8g/hasPowerOfAttorney> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.europa.eu/m8g/hasPowerOfAttorney> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g/> .
+<http://data.europa.eu/m8g/hasPowerOfAttorney> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
