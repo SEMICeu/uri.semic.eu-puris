@@ -37,7 +37,7 @@ _:n3c4580523ad94832ad8767af80d4a4b0b16 <http://xmlns.com/foaf/0.1/lastName> "Skl
 <http://data.europa.eu/930> <http://purl.org/dc/terms/contributor> _:n3c4580523ad94832ad8767af80d4a4b0b8 .
 <http://data.europa.eu/930> <http://purl.org/dc/terms/contributor> _:n3c4580523ad94832ad8767af80d4a4b0b16 .
 _:n3c4580523ad94832ad8767af80d4a4b0b71 <https://schema.org/affiliation> _:n3c4580523ad94832ad8767af80d4a4b0b72 .
-<http://data.europa.eu/930/resourceProvider> <http://www.w3.org/2000/01/rdf-schema#comment> "\r\nParty that supplies the resource [[ISO-19115]]."@en .
+<http://data.europa.eu/930/resourceProvider> <http://www.w3.org/2000/01/rdf-schema#comment> "Party that supplies the resource [[ISO-19115]]."@en .
 _:n3c4580523ad94832ad8767af80d4a4b0b55 <http://xmlns.com/foaf/0.1/firstName> "Peter" .
 <http://data.europa.eu/930/distributor> <http://www.w3.org/2000/01/rdf-schema#label> "distributor"@en .
 <http://data.europa.eu/930> <http://www.w3.org/2001/02pd/rec54#editor> _:n3c4580523ad94832ad8767af80d4a4b0b68 .
@@ -96,7 +96,7 @@ _:n3c4580523ad94832ad8767af80d4a4b0b65 <http://www.w3.org/1999/02/22-rdf-syntax-
 <http://data.europa.eu/930> <http://purl.org/dc/terms/contributor> _:n3c4580523ad94832ad8767af80d4a4b0b42 .
 <http://data.europa.eu/930/serviceType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
 _:n3c4580523ad94832ad8767af80d4a4b0b10 <http://xmlns.com/foaf/0.1/firstName> "Kristine" .
-<http://data.europa.eu/930/originator> <http://www.w3.org/2000/01/rdf-schema#comment> "\r\nParty who created the resource [[ISO-19115]]."@en .
+<http://data.europa.eu/930/originator> <http://www.w3.org/2000/01/rdf-schema#comment> "Party who created the resource [[ISO-19115]]."@en .
 _:n3c4580523ad94832ad8767af80d4a4b0b58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 _:n3c4580523ad94832ad8767af80d4a4b0b23 <http://xmlns.com/foaf/0.1/firstName> "Taavi" .
 <http://data.europa.eu/930> <http://purl.org/dc/terms/contributor> _:n3c4580523ad94832ad8767af80d4a4b0b24 .
@@ -137,7 +137,7 @@ _:n3c4580523ad94832ad8767af80d4a4b0b9 <http://xmlns.com/foaf/0.1/firstName> "San
 _:n3c4580523ad94832ad8767af80d4a4b0b71 <http://xmlns.com/foaf/0.1/mbox> <mailto:jakub@cuit.cz> .
 <http://data.europa.eu/930/referenceSystem> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/930> .
 _:n3c4580523ad94832ad8767af80d4a4b0b19 <http://xmlns.com/foaf/0.1/firstName> "Fabian" .
-<http://data.europa.eu/930/processor> <http://www.w3.org/2000/01/rdf-schema#comment> "\r\nParty who has processed the data in a manner such that the resource has been modified [[ISO-19115]]."@en .
+<http://data.europa.eu/930/processor> <http://www.w3.org/2000/01/rdf-schema#comment> "Party who has processed the data in a manner such that the resource has been modified [[ISO-19115]]."@en .
 _:n3c4580523ad94832ad8767af80d4a4b0b60 <http://xmlns.com/foaf/0.1/lastName> "Alic" .
 <http://data.europa.eu/930/resourceProvider> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
 <http://data.europa.eu/930/serviceType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#DataService> .

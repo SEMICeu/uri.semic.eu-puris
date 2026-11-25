@@ -9,7 +9,6 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/930"/>
     <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
-    <rdfs:comment xml:lang="en">&#13;
-Party who created the resource [[ISO-19115]].</rdfs:comment>
+    <rdfs:comment xml:lang="en">Party who created the resource [[ISO-19115]].</rdfs:comment>
   </rdf:Description>
 </rdf:RDF>

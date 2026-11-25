@@ -15,7 +15,7 @@
   "@type": "owl:ObjectProperty",
   "rdfs:comment": {
     "@language": "en",
-    "@value": "\r\nParty who created the resource [[ISO-19115]]."
+    "@value": "Party who created the resource [[ISO-19115]]."
   },
   "rdfs:domain": {
     "@id": "rdfs:Resource"

@@ -17,7 +17,7 @@
       "@type": "owl:ObjectProperty",
       "rdfs:comment": {
         "@language": "en",
-        "@value": "\r\nParty who created the resource [[ISO-19115]]."
+        "@value": "Party who created the resource [[ISO-19115]]."
       },
       "rdfs:domain": {
         "@id": "rdfs:Resource"
@@ -799,7 +799,7 @@
       "@type": "owl:ObjectProperty",
       "rdfs:comment": {
         "@language": "en",
-        "@value": "\r\nParty who has processed the data in a manner such that the resource has been modified [[ISO-19115]]."
+        "@value": "Party who has processed the data in a manner such that the resource has been modified [[ISO-19115]]."
       },
       "rdfs:domain": {
         "@id": "rdfs:Resource"
@@ -868,7 +868,7 @@
       "@type": "owl:ObjectProperty",
       "rdfs:comment": {
         "@language": "en",
-        "@value": "\r\nParty that supplies the resource [[ISO-19115]]."
+        "@value": "Party that supplies the resource [[ISO-19115]]."
       },
       "rdfs:domain": {
         "@id": "rdfs:Resource"

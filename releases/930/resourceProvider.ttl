@@ -4,8 +4,7 @@
 
 <http://data.europa.eu/930/resourceProvider> a owl:ObjectProperty ;
     rdfs:label "resource provider"@en ;
-    rdfs:comment """\r
-Party that supplies the resource [[ISO-19115]]."""@en ;
+    rdfs:comment "Party that supplies the resource [[ISO-19115]]."@en ;
     rdfs:domain rdfs:Resource ;
     rdfs:isDefinedBy <http://data.europa.eu/930> ;
     rdfs:range foaf:Agent .

@@ -164,8 +164,7 @@
   <rdf:Description rdf:about="http://data.europa.eu/930/processor">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:label xml:lang="en">processor</rdfs:label>
-    <rdfs:comment xml:lang="en">&#13;
-Party who has processed the data in a manner such that the resource has been modified [[ISO-19115]].</rdfs:comment>
+    <rdfs:comment xml:lang="en">Party who has processed the data in a manner such that the resource has been modified [[ISO-19115]].</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/930"/>
     <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
@@ -258,8 +257,7 @@ Party who has processed the data in a manner such that the resource has been mod
   <rdf:Description rdf:about="http://data.europa.eu/930/resourceProvider">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:label xml:lang="en">resource provider</rdfs:label>
-    <rdfs:comment xml:lang="en">&#13;
-Party that supplies the resource [[ISO-19115]].</rdfs:comment>
+    <rdfs:comment xml:lang="en">Party that supplies the resource [[ISO-19115]].</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/930"/>
     <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
@@ -387,8 +385,7 @@ Party that supplies the resource [[ISO-19115]].</rdfs:comment>
   <rdf:Description rdf:about="http://data.europa.eu/930/originator">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:label xml:lang="en">originator</rdfs:label>
-    <rdfs:comment xml:lang="en">&#13;
-Party who created the resource [[ISO-19115]].</rdfs:comment>
+    <rdfs:comment xml:lang="en">Party who created the resource [[ISO-19115]].</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/930"/>
     <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>

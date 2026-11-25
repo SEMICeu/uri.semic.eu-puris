@@ -15,7 +15,7 @@
   "@type": "owl:ObjectProperty",
   "rdfs:comment": {
     "@language": "en",
-    "@value": "\r\nParty who has processed the data in a manner such that the resource has been modified [[ISO-19115]]."
+    "@value": "Party who has processed the data in a manner such that the resource has been modified [[ISO-19115]]."
   },
   "rdfs:domain": {
     "@id": "rdfs:Resource"
