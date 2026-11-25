@@ -4,12 +4,12 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://data.europa.eu/930/referenceSystem">
-    <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:label xml:lang="en">reference system</rdfs:label>
-    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/930"/>
-    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/conformsTo"/>
-    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
-    <rdfs:comment xml:lang="en">The reference system used in accordance with OGC EPSG Coordinate Reference Systems Register [[OGC-EPSG]].</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/conformsTo"/>
+    <rdfs:comment xml:lang="en">The reference system used in accordance with OGC EPSG Coordinate Reference Systems Register [[OGC-EPSG]].</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/930"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
   </rdf:Description>
 </rdf:RDF>

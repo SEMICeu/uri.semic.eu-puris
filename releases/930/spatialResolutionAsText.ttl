@@ -1,7 +1,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://data.europa.eu/930/spatialResolutionAsText> a owl:ObjectProperty ;
+<http://data.europa.eu/930/spatialResolutionAsText> a owl:DatatypeProperty ;
     rdfs:label "spatial resolution as text"@en ;
     rdfs:comment "Textual description of spatial resolution."@en ;
     rdfs:domain rdfs:Resource ;

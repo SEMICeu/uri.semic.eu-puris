@@ -12,7 +12,7 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#"
   },
   "@id": "http://data.europa.eu/930/spatialResolutionAsText",
-  "@type": "owl:ObjectProperty",
+  "@type": "owl:DatatypeProperty",
   "rdfs:comment": {
     "@language": "en",
     "@value": "Textual description of spatial resolution."

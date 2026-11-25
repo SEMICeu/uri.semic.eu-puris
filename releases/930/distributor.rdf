@@ -5,10 +5,10 @@
 >
   <rdf:Description rdf:about="http://data.europa.eu/930/distributor">
     <rdfs:comment xml:lang="en">Party who distributes the resource [[ISO-19115]].</rdfs:comment>
-    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
-    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/930"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:label xml:lang="en">distributor</rdfs:label>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/930"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
   </rdf:Description>
 </rdf:RDF>

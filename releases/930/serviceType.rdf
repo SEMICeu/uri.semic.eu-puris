@@ -4,12 +4,12 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://data.europa.eu/930/serviceType">
+    <rdfs:comment xml:lang="en">Service type in accordance with INSPIRE Spatial Data Service Types [[INSPIRE-SDST]].</rdfs:comment>
+    <rdfs:label xml:lang="en">service type</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/type"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/930"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#DataService"/>
-    <rdfs:label xml:lang="en">service type</rdfs:label>
-    <rdfs:comment xml:lang="en">Service type in accordance with INSPIRE Spatial Data Service Types [[INSPIRE-SDST]].</rdfs:comment>
   </rdf:Description>
 </rdf:RDF>

@@ -4,12 +4,12 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://data.europa.eu/930/processor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:label xml:lang="en">processor</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
     <rdfs:comment xml:lang="en">&#13;
 Party who has processed the data in a manner such that the resource has been modified [[ISO-19115]].</rdfs:comment>
-    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/930"/>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
   </rdf:Description>
 </rdf:RDF>

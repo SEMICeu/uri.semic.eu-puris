@@ -5,10 +5,10 @@
 >
   <rdf:Description rdf:about="http://data.europa.eu/930/spatialResolutionAsText">
     <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/930"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:label xml:lang="en">spatial resolution as text</rdfs:label>
-    <rdfs:comment xml:lang="en">Textual description of spatial resolution.</rdfs:comment>
-    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:label xml:lang="en">spatial resolution as text</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:comment xml:lang="en">Textual description of spatial resolution.</rdfs:comment>
   </rdf:Description>
 </rdf:RDF>

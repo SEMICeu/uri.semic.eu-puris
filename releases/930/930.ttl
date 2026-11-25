@@ -92,7 +92,7 @@ Party that supplies the resource [[ISO-19115]]."""@en ;
     rdfs:range skos:Concept ;
     rdfs:subPropertyOf dc:type .
 
-<http://data.europa.eu/930/spatialResolutionAsText> a owl:ObjectProperty ;
+<http://data.europa.eu/930/spatialResolutionAsText> a owl:DatatypeProperty ;
     rdfs:label "spatial resolution as text"@en ;
     rdfs:comment "Textual description of spatial resolution."@en ;
     rdfs:domain rdfs:Resource ;

@@ -1,7 +1,7 @@
-<http://data.europa.eu/930/serviceType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.europa.eu/930/serviceType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/type> .
-<http://data.europa.eu/930/serviceType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://data.europa.eu/930/serviceType> <http://www.w3.org/2000/01/rdf-schema#label> "service type"@en .
 <http://data.europa.eu/930/serviceType> <http://www.w3.org/2000/01/rdf-schema#comment> "Service type in accordance with INSPIRE Spatial Data Service Types [[INSPIRE-SDST]]."@en .
+<http://data.europa.eu/930/serviceType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/type> .
 <http://data.europa.eu/930/serviceType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/930> .
+<http://data.europa.eu/930/serviceType> <http://www.w3.org/2000/01/rdf-schema#label> "service type"@en .
+<http://data.europa.eu/930/serviceType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.europa.eu/930/serviceType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://data.europa.eu/930/serviceType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#DataService> .
