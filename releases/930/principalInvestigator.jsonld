@@ -1,0 +1,33 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/terms/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "ns1": "http://www.w3.org/2001/02pd/rec54#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schemas": "https://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "http://data.europa.eu/930/principalInvestigator",
+  "@type": "owl:ObjectProperty",
+  "rdfs:comment": {
+    "@language": "en",
+    "@value": "Key party responsible for gathering information and conducting research [[ISO-19115]]."
+  },
+  "rdfs:domain": {
+    "@id": "rdfs:Resource"
+  },
+  "rdfs:isDefinedBy": {
+    "@id": "http://data.europa.eu/930"
+  },
+  "rdfs:label": {
+    "@language": "en",
+    "@value": "principal investigator"
+  },
+  "rdfs:range": {
+    "@id": "foaf:Agent"
+  }
+}

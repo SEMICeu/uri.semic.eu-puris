@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/930/resourceType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/type"/>
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/930"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label xml:lang="en">resource type</rdfs:label>
+    <rdfs:comment xml:lang="en">Resource type in accordance with INSPIRE Resource Types [[INSPIRE-RT]].</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Resource"/>
+  </rdf:Description>
+</rdf:RDF>

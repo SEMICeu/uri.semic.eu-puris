@@ -1,0 +1,999 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/terms/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "ns1": "http://www.w3.org/2001/02pd/rec54#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schemas": "https://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.europa.eu/930/distributor",
+      "@type": "owl:ObjectProperty",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "Party who distributes the resource [[ISO-19115]]."
+      },
+      "rdfs:domain": {
+        "@id": "rdfs:Resource"
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://data.europa.eu/930"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "distributor"
+      },
+      "rdfs:range": {
+        "@id": "foaf:Agent"
+      }
+    },
+    {
+      "@id": "http://data.europa.eu/930/referenceSystem",
+      "@type": "owl:ObjectProperty",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "The reference system used in accordance with OGC EPSG Coordinate Reference Systems Register [[OGC-EPSG]]."
+      },
+      "rdfs:domain": {
+        "@id": "rdfs:Resource"
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://data.europa.eu/930"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "reference system"
+      },
+      "rdfs:range": {
+        "@id": "skos:Concept"
+      },
+      "rdfs:subPropertyOf": {
+        "@id": "dc:conformsTo"
+      }
+    },
+    {
+      "@id": "http://data.europa.eu/930/spatialResolutionAsText",
+      "@type": "owl:ObjectProperty",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "Textual description of spatial resolution."
+      },
+      "rdfs:domain": {
+        "@id": "rdfs:Resource"
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://data.europa.eu/930"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "spatial resolution as text"
+      },
+      "rdfs:range": {
+        "@id": "rdfs:Literal"
+      }
+    },
+    {
+      "@id": "http://data.europa.eu/930/user",
+      "@type": "owl:ObjectProperty",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "Party who uses the resource [[ISO-19115]]."
+      },
+      "rdfs:domain": {
+        "@id": "rdfs:Resource"
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://data.europa.eu/930"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "user"
+      },
+      "rdfs:range": {
+        "@id": "foaf:Agent"
+      }
+    },
+    {
+      "@id": "http://data.europa.eu/930/topicCategory",
+      "@type": "owl:ObjectProperty",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "Topic category in accordance with ISO-19115 [[INSPIRE-TC]]."
+      },
+      "rdfs:domain": {
+        "@id": "dcat:Resource"
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://data.europa.eu/930"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "topic category"
+      },
+      "rdfs:range": {
+        "@id": "skos:Concept"
+      },
+      "rdfs:subPropertyOf": {
+        "@id": "dc:subject"
+      }
+    },
+    {
+      "@id": "http://data.europa.eu/930/resourceType",
+      "@type": "owl:ObjectProperty",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "Resource type in accordance with INSPIRE Resource Types [[INSPIRE-RT]]."
+      },
+      "rdfs:domain": {
+        "@id": "dcat:Resource"
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://data.europa.eu/930"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "resource type"
+      },
+      "rdfs:range": {
+        "@id": "skos:Concept"
+      },
+      "rdfs:subPropertyOf": {
+        "@id": "dc:type"
+      }
+    },
+    {
+      "@id": "http://data.europa.eu/930/originator",
+      "@type": "owl:ObjectProperty",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "\r\nParty who created the resource [[ISO-19115]]."
+      },
+      "rdfs:domain": {
+        "@id": "rdfs:Resource"
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://data.europa.eu/930"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "originator"
+      },
+      "rdfs:range": {
+        "@id": "foaf:Agent"
+      }
+    },
+    {
+      "@id": "http://data.europa.eu/930/resourceProvider",
+      "@type": "owl:ObjectProperty",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "\r\nParty that supplies the resource [[ISO-19115]]."
+      },
+      "rdfs:domain": {
+        "@id": "rdfs:Resource"
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://data.europa.eu/930"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "resource provider"
+      },
+      "rdfs:range": {
+        "@id": "foaf:Agent"
+      }
+    },
+    {
+      "@id": "http://data.europa.eu/930/custodian",
+      "@type": "owl:ObjectProperty",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "Party that accepts accountability and responsibility for the data and ensures appropriate care and maintenance of the resource [[ISO-19115]]."
+      },
+      "rdfs:domain": {
+        "@id": "rdfs:Resource"
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://data.europa.eu/930"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "custodian"
+      },
+      "rdfs:range": {
+        "@id": "foaf:Agent"
+      }
+    },
+    {
+      "@id": "http://data.europa.eu/930",
+      "@type": "owl:Ontology",
+      "dc:contributor": [
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b1"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b2"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b3"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b4"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b5"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b6"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b7"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b8"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b9"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b10"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b11"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b12"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b13"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b14"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b15"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b16"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b17"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b18"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b19"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b20"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b21"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b22"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b23"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b24"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b25"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b26"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b27"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b28"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b29"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b30"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b31"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b32"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b33"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b34"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b35"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b36"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b37"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b38"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b39"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b40"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b41"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b42"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b43"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b44"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b45"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b46"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b48"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b49"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b50"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b51"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b52"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b53"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b54"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b55"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b56"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b57"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b58"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b59"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b60"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b61"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b62"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b63"
+        }
+      ],
+      "dc:issued": "2024-06-26",
+      "dc:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "dc:mediator": {
+        "@id": "_:n86bc3427309d484cb12d5d5b31032326b64"
+      },
+      "foaf:maker": [
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b69"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b71"
+        }
+      ],
+      "ns1:editor": [
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b65"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b66"
+        },
+        {
+          "@id": "_:n86bc3427309d484cb12d5d5b31032326b68"
+        }
+      ],
+      "rdfs:label": [
+        {
+          "@language": "en",
+          "@value": "930"
+        },
+        {
+          "@language": "nl",
+          "@value": "930"
+        }
+      ]
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b1",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Øystein",
+      "foaf:lastName": "Åsnes"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b2",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Joeri",
+      "foaf:lastName": "van der Velde"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b3",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Agnieszka",
+      "foaf:lastName": "Zajac"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b4",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Christian",
+      "foaf:lastName": "Wittig"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b5",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Suzanne",
+      "foaf:lastName": "Wigard"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b6",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Thomas",
+      "foaf:lastName": "Weber"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b7",
+      "@type": "foaf:Person",
+      "foaf:firstName": "William",
+      "foaf:lastName": "Verbeeck"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b8",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Bert",
+      "foaf:lastName": "Van Nuffelen"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b9",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Sander",
+      "foaf:lastName": "Van Dooren"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b10",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Kristine",
+      "foaf:lastName": "Ulander"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b11",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Thomas",
+      "foaf:lastName": "Tursics"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b12",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Kees",
+      "foaf:lastName": "Trautwein"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b13",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Igor",
+      "foaf:lastName": "Stefelin"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b14",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Emidio",
+      "foaf:lastName": "Stani"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b15",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Michele",
+      "foaf:lastName": "Spichtig"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b16",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Sebastian",
+      "foaf:lastName": "Sklarß"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b17",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Maxime",
+      "foaf:lastName": "Servais"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b18",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Giampaolo",
+      "foaf:lastName": "Sellitto"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b19",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Fabian",
+      "foaf:lastName": "Santi"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b20",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Maik",
+      "foaf:lastName": "Roth"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b21",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Daniele",
+      "foaf:lastName": "Rizzi"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b22",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Ludger",
+      "foaf:lastName": "Rinsche"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b23",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Taavi",
+      "foaf:lastName": "Ploompuu"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b24",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Andrea",
+      "foaf:lastName": "Perego"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b25",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Matthias",
+      "foaf:lastName": "Palmer"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b26",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Frederik",
+      "foaf:lastName": "Nordlander"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b27",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Geraldine",
+      "foaf:lastName": "Nolf"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b28",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Anastasija",
+      "foaf:lastName": "Nikiforova"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b29",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Lina",
+      "foaf:lastName": "Molinas Comet"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b30",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Peter",
+      "foaf:lastName": "Lubrich"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b31",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Giorgia",
+      "foaf:lastName": "Lodi"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b32",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Anja",
+      "foaf:lastName": "Loddenkemper"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b33",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Petros",
+      "foaf:lastName": "Likidis"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b34",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Christoph",
+      "foaf:lastName": "Lange"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b35",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Christine",
+      "foaf:lastName": "Laaboudi-Spoiden"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b36",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Andreas",
+      "foaf:lastName": "Kuckartz"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b37",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Nataliia",
+      "foaf:lastName": "Kovalchuk"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b38",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Jakub",
+      "foaf:lastName": "Klímek"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b39",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Fabian",
+      "foaf:lastName": "Kirstein"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b40",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Agnieszka",
+      "foaf:lastName": "Jasiczek"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b41",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Bart",
+      "foaf:lastName": "Hanssens"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b42",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Bart",
+      "foaf:lastName": "Hanssens"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b43",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Casper",
+      "foaf:lastName": "Gras"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b44",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Stijn",
+      "foaf:lastName": "Goedertier"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b45",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Dietmar",
+      "foaf:lastName": "Gattwinkel"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b46",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Pavlina",
+      "foaf:lastName": "Fragkou",
+      "schemas:affiliation": {
+        "@id": "_:n86bc3427309d484cb12d5d5b31032326b47"
+      }
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b47",
+      "foaf:name": "SEMIC EU"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b48",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Adina",
+      "foaf:lastName": "Dragan"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b49",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Ulrika",
+      "foaf:lastName": "Domellöf Mattsson"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b50",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Jean",
+      "foaf:lastName": "Delahousse"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b51",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Makx",
+      "foaf:lastName": "Dekkers"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b52",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Ine",
+      "foaf:lastName": "De Visser"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b53",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Jitse",
+      "foaf:lastName": "De Cock"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b54",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Luis",
+      "foaf:lastName": "Daniel Ibáñez"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b55",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Peter",
+      "foaf:lastName": "Burian"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b56",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Oystein",
+      "foaf:lastName": "Asnes"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b57",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Stefano",
+      "foaf:lastName": "Ambrogio"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b58",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Martin",
+      "foaf:lastName": "Alvarez-Espinar"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b59",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Miguel",
+      "foaf:lastName": "Alvarez"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b60",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Matej",
+      "foaf:lastName": "Alic"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b61",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Anssi",
+      "foaf:lastName": "Ahlberg"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b62",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Kuldar",
+      "foaf:lastName": "Aasaga"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b63",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Ludger",
+      "foaf:lastName": "A. Rinsche"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b64",
+      "foaf:homepage": {
+        "@id": "https://semic.eu"
+      },
+      "foaf:name": "Semantic Interoperability Community (SEMIC)"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b65",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Natasa",
+      "foaf:lastName": "Sofou"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b66",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Pavlina",
+      "foaf:lastName": "Fragkou",
+      "schemas:affiliation": {
+        "@id": "_:n86bc3427309d484cb12d5d5b31032326b67"
+      }
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b67",
+      "foaf:name": "SEMIC EU"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b68",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Makx",
+      "foaf:lastName": "Dekkers"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b69",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Bert",
+      "foaf:lastName": "Van Nuffelen",
+      "foaf:mbox": {
+        "@id": "mailto:bert.vannuffelen@vlaanderen.be"
+      },
+      "schemas:affiliation": {
+        "@id": "_:n86bc3427309d484cb12d5d5b31032326b70"
+      }
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b70",
+      "foaf:name": "Digitaal Vlaanderen"
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b71",
+      "@type": "foaf:Person",
+      "foaf:firstName": "Jakub",
+      "foaf:lastName": "Klímek",
+      "foaf:mbox": {
+        "@id": "mailto:jakub@cuit.cz"
+      },
+      "schemas:affiliation": {
+        "@id": "_:n86bc3427309d484cb12d5d5b31032326b72"
+      }
+    },
+    {
+      "@id": "_:n86bc3427309d484cb12d5d5b31032326b72",
+      "foaf:name": "CUIT"
+    },
+    {
+      "@id": "http://data.europa.eu/930/serviceCategory",
+      "@type": "owl:ObjectProperty",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "Service category in accordance with INSPIRE Spatial Data Service Categories [[INSPIRE-SDSC]]."
+      },
+      "rdfs:domain": {
+        "@id": "dcat:DataService"
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://data.europa.eu/930"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "service category"
+      },
+      "rdfs:range": {
+        "@id": "skos:Concept"
+      },
+      "rdfs:subPropertyOf": {
+        "@id": "dc:type"
+      }
+    },
+    {
+      "@id": "http://data.europa.eu/930/serviceType",
+      "@type": "owl:ObjectProperty",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "Service type in accordance with INSPIRE Spatial Data Service Types [[INSPIRE-SDST]]."
+      },
+      "rdfs:domain": {
+        "@id": "dcat:DataService"
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://data.europa.eu/930"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "service type"
+      },
+      "rdfs:range": {
+        "@id": "skos:Concept"
+      },
+      "rdfs:subPropertyOf": {
+        "@id": "dc:type"
+      }
+    },
+    {
+      "@id": "http://data.europa.eu/930/processor",
+      "@type": "owl:ObjectProperty",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "\r\nParty who has processed the data in a manner such that the resource has been modified [[ISO-19115]]."
+      },
+      "rdfs:domain": {
+        "@id": "rdfs:Resource"
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://data.europa.eu/930"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "processor"
+      },
+      "rdfs:range": {
+        "@id": "foaf:Agent"
+      }
+    },
+    {
+      "@id": "http://data.europa.eu/930/serviceProtocol",
+      "@type": "owl:ObjectProperty",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "Protocol value in accordance with INSPIRE Protocol Values [[INSPIRE-PV]]."
+      },
+      "rdfs:domain": {
+        "@id": "dcat:DataService"
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://data.europa.eu/930"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "service protocol"
+      },
+      "rdfs:range": {
+        "@id": "skos:Concept"
+      },
+      "rdfs:subPropertyOf": {
+        "@id": "dc:conformsTo"
+      }
+    },
+    {
+      "@id": "http://data.europa.eu/930/principalInvestigator",
+      "@type": "owl:ObjectProperty",
+      "rdfs:comment": {
+        "@language": "en",
+        "@value": "Key party responsible for gathering information and conducting research [[ISO-19115]]."
+      },
+      "rdfs:domain": {
+        "@id": "rdfs:Resource"
+      },
+      "rdfs:isDefinedBy": {
+        "@id": "http://data.europa.eu/930"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "principal investigator"
+      },
+      "rdfs:range": {
+        "@id": "foaf:Agent"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.europa.eu/930/originator> a owl:ObjectProperty ;
+    rdfs:label "originator"@en ;
+    rdfs:comment """\r
+Party who created the resource [[ISO-19115]]."""@en ;
+    rdfs:domain rdfs:Resource ;
+    rdfs:isDefinedBy <http://data.europa.eu/930> ;
+    rdfs:range foaf:Agent .
+

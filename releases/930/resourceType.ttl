@@ -1,0 +1,14 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.europa.eu/930/resourceType> a owl:ObjectProperty ;
+    rdfs:label "resource type"@en ;
+    rdfs:comment "Resource type in accordance with INSPIRE Resource Types [[INSPIRE-RT]]."@en ;
+    rdfs:domain dcat:Resource ;
+    rdfs:isDefinedBy <http://data.europa.eu/930> ;
+    rdfs:range skos:Concept ;
+    rdfs:subPropertyOf dc:type .
+

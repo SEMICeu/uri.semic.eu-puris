@@ -1,0 +1,13 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.europa.eu/930/referenceSystem> a owl:ObjectProperty ;
+    rdfs:label "reference system"@en ;
+    rdfs:comment "The reference system used in accordance with OGC EPSG Coordinate Reference Systems Register [[OGC-EPSG]]."@en ;
+    rdfs:domain rdfs:Resource ;
+    rdfs:isDefinedBy <http://data.europa.eu/930> ;
+    rdfs:range skos:Concept ;
+    rdfs:subPropertyOf dc:conformsTo .
+
